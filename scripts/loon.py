@@ -265,7 +265,7 @@ def main():
         f"# 类型分布: DOMAIN: {type_counts['DOMAIN']} | DOMAIN-SUFFIX: {type_counts['DOMAIN-SUFFIX']} | IP-CIDR: {type_counts['IP-CIDR']}",
         f"# 压缩分析: 完全相同去重 {exact_dup} | 域名包含去重 {domain_covered} | IP网段包含去重 {ip_covered}",
         "# ==========================================================",
-        "# 名称                    原始规模     有效提取       无效/丢弃",
+        "# 名称                   原始规模     有效提取        无效/丢弃",
         "# ----------------------------------------------------------",
     ]
     
