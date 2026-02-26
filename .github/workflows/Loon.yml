@@ -1,0 +1,35 @@
+name: Loon_定时更新
+
+on:
+  schedule:
+    - cron: '49 5 * * *'   # 北京时间 13:49
+  workflow_dispatch:       # 手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库代码
+        uses: actions/checkout@v4
+
+      - name: 设置 Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: pip install requests urllib3
+
+      - name: 执行合并脚本
+        run: python scripts/loon.py
+
+      - name: 提交并推送到仓库
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add Loon.lsr Loon.log
+          git commit -m "$(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M:%S')" --allow-empty
+          git push
