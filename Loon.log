@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-02-27 14:35:01
+# 规则合并审计日志 - 2026-02-28 14:01:47
 # ----------------------------------------------------------
-# 最终规则总数: 186058
-# 逻辑精简总数: 3011
+# 最终规则总数: 186388
+# 逻辑精简总数: 3012
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1003,6 +1003,7 @@
 [包含去重] DOMAIN-SUFFIX,collector.cint.com                   # 溯源: DOMAIN-SUFFIX,cint.com
 [包含去重] DOMAIN-SUFFIX,t.cometlytrack.com                   # 溯源: DOMAIN-SUFFIX,cometlytrack.com
 [包含去重] DOMAIN-SUFFIX,app.convertful.com                   # 溯源: DOMAIN-SUFFIX,convertful.com
+[包含去重] DOMAIN-SUFFIX,tp.convertiser.com                   # 溯源: DOMAIN-SUFFIX,convertiser.com
 [包含去重] DOMAIN-SUFFIX,browser.covatic.io                   # 溯源: DOMAIN-SUFFIX,covatic.io
 [包含去重] DOMAIN-SUFFIX,bundle.dyn-rev.app                   # 溯源: DOMAIN-SUFFIX,dyn-rev.app
 [包含去重] DOMAIN-SUFFIX,applets.ebxcdn.com                   # 溯源: DOMAIN-SUFFIX,ebxcdn.com
