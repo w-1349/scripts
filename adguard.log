@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-02-27 14:33:10
+# AGH 过滤明细日志 - 2026-02-28 14:00:25
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -1962,6 +1962,7 @@
 [黑名单] ||discover.conversantmedia.com^               # 父域覆盖: conversantmedia.com
 [黑名单] ||gw.conversionsapigateway.com^               # 父域覆盖: conversionsapigateway.com
 [黑名单] ||app.convertful.com^                         # 父域覆盖: convertful.com
+[黑名单] ||tp.convertiser.com^                         # 父域覆盖: convertiser.com
 [黑名单] ||browser.covatic.io^                         # 父域覆盖: covatic.io
 [黑名单] ||p.cquotient.com^                            # 父域覆盖: cquotient.com
 [黑名单] ||cdn1.crispadvertising.com^                  # 父域覆盖: crispadvertising.com
