@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-02-28 14:00:25
+# AGH 过滤明细日志 - 2026-03-01 14:27:50
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -2042,6 +2042,7 @@
 [黑名单] ||container.pepperjam.com^                    # 父域覆盖: pepperjam.com
 [黑名单] ||nojscontainer.pepperjam.com^                # 父域覆盖: pepperjam.com
 [黑名单] ||client.perimeterx.net^                      # 父域覆盖: perimeterx.net
+[黑名单] ||fst-ec.perimeterx.net^                      # 父域覆盖: perimeterx.net
 [黑名单] ||query1.petametrics.com^                     # 父域覆盖: petametrics.com
 [黑名单] ||s3.phluant.com^                             # 父域覆盖: phluant.com
 [黑名单] ||cdn.polarbyte.com^                          # 父域覆盖: polarbyte.com
