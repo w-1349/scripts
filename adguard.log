@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-02 14:36:47
+# AGH 过滤明细日志 - 2026-03-03 14:30:40
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -420,6 +420,7 @@
 [黑名单] ||events.apester.com^                         # 父域覆盖: apester.com
 [黑名单] ||events.shoplytics.com^                      # 父域覆盖: shoplytics.com
 [黑名单] ||events.splash-screen.net^                   # 父域覆盖: splash-screen.net
+[黑名单] ||exchange.nativeads.com^                     # 父域覆盖: nativeads.com
 [黑名单] ||experience.comcastbiz.com^                  # 父域覆盖: comcastbiz.com
 [黑名单] ||experience.contextly.com^                   # 父域覆盖: contextly.com
 [黑名单] ||expertsender.branch.rocks^                  # 父域覆盖: branch.rocks
@@ -771,6 +772,7 @@
 [黑名单] ||rt.rtoaster.jp^                             # 父域覆盖: rtoaster.jp
 [黑名单] ||rtb-apac.foremedia.net^                     # 父域覆盖: foremedia.net
 [黑名单] ||rtb-eu-v4.revbid.net^                       # 父域覆盖: revbid.net
+[黑名单] ||rtb-eu-v4.vistarsagency.com^                # 父域覆盖: vistarsagency.com
 [黑名单] ||rtb-eu.foremedia.net^                       # 父域覆盖: foremedia.net
 [黑名单] ||rtb-eu.nativeads.com^                       # 父域覆盖: nativeads.com
 [黑名单] ||rtb-eu.vistarsagency.com^                   # 父域覆盖: vistarsagency.com
@@ -1062,6 +1064,7 @@
 [黑名单] ||secure.yeld9auto.com^                       # 父域覆盖: yeld9auto.com
 [黑名单] ||secure.yirr5frog.com^                       # 父域覆盖: yirr5frog.com
 [黑名单] ||seibli.oewabox.at^                          # 父域覆盖: oewabox.at
+[黑名单] ||selfservice.adoptim.com^                    # 父域覆盖: adoptim.com
 [黑名单] ||sendpulsenewtest.branch.rocks^              # 父域覆盖: branch.rocks
 [黑名单] ||sendpulsetest.branch.rocks^                 # 父域覆盖: branch.rocks
 [黑名单] ||sephora-qa.branch.rocks^                    # 父域覆盖: branch.rocks
@@ -2499,6 +2502,7 @@
 [黑名单] ||marketing.net.elogia.net^                   # 父域覆盖: net.elogia.net
 [黑名单] ||webpushstat.api.engagelab.cc^               # 父域覆盖: engagelab.cc
 [黑名单] ||static.cdn.gtsmobi.com^                     # 父域覆盖: gtsmobi.com
+[黑名单] ||lets.go.haymarketmedicalnetwork.com^        # 父域覆盖: go.haymarketmedicalnetwork.com
 [黑名单] ||marketing.net.home24.at^                    # 父域覆盖: net.home24.at
 [黑名单] ||marketing.net.home24.be^                    # 父域覆盖: net.home24.be
 [黑名单] ||api.newad.ifeng.com^                        # 父域覆盖: newad.ifeng.com
