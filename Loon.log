@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-03-04 14:29:40
+# 规则合并审计日志 - 2026-03-05 14:33:40
 # ----------------------------------------------------------
-# 最终规则总数: 190088
-# 逻辑精简总数: 3018
+# 最终规则总数: 186552
+# 逻辑精简总数: 3017
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -105,7 +105,6 @@
 [包含去重] DOMAIN-SUFFIX,c.plerdy.com                         # 溯源: DOMAIN-SUFFIX,plerdy.com
 [包含去重] DOMAIN-SUFFIX,cdn1.pebx.pl                         # 溯源: DOMAIN-SUFFIX,pebx.pl
 [包含去重] DOMAIN-SUFFIX,data.mob.com                         # 溯源: DOMAIN-SUFFIX,mob.com
-[包含去重] DOMAIN-SUFFIX,dmp.vihub.ru                         # 溯源: DOMAIN-SUFFIX,vihub.ru
 [包含去重] DOMAIN-SUFFIX,eb.trbas.com                         # 溯源: DOMAIN-SUFFIX,trbas.com
 [包含去重] DOMAIN-SUFFIX,hits.puls.lv                         # 溯源: DOMAIN-SUFFIX,puls.lv
 [包含去重] DOMAIN-SUFFIX,i.trkjmp.com                         # 溯源: DOMAIN-SUFFIX,trkjmp.com
@@ -156,7 +155,6 @@
 [包含去重] DOMAIN-SUFFIX,c.lomadee.com                        # 溯源: DOMAIN-SUFFIX,lomadee.com
 [包含去重] DOMAIN-SUFFIX,cb.alimama.cn                        # 溯源: DOMAIN-SUFFIX,alimama.cn
 [包含去重] DOMAIN-SUFFIX,cdn.rlets.com                        # 溯源: DOMAIN-SUFFIX,rlets.com
-[包含去重] DOMAIN-SUFFIX,code.vihub.ru                        # 溯源: DOMAIN-SUFFIX,vihub.ru
 [包含去重] DOMAIN-SUFFIX,d.adtriba.com                        # 溯源: DOMAIN-SUFFIX,adtriba.com
 [包含去重] DOMAIN-SUFFIX,esca.mno.link                        # 溯源: DOMAIN-SUFFIX,mno.link
 [包含去重] DOMAIN-SUFFIX,gcdn.2mdn.net                        # 溯源: DOMAIN-SUFFIX,2mdn.net
@@ -462,6 +460,7 @@
 [包含去重] DOMAIN-SUFFIX,api.appodeal.com                     # 溯源: DOMAIN-SUFFIX,appodeal.com
 [包含去重] DOMAIN-SUFFIX,aa.birdgesdk.com                     # 溯源: DOMAIN-SUFFIX,birdgesdk.com
 [包含去重] DOMAIN-SUFFIX,blip.bizrate.com                     # 溯源: DOMAIN-SUFFIX,bizrate.com
+[包含去重] DOMAIN-SUFFIX,ctx.citiservi.es                     # 溯源: DOMAIN-SUFFIX,citiservi.es
 [包含去重] DOMAIN-SUFFIX,ins.connatix.com                     # 溯源: DOMAIN-SUFFIX,connatix.com
 [包含去重] DOMAIN-SUFFIX,lit.connatix.com                     # 溯源: DOMAIN-SUFFIX,connatix.com
 [包含去重] DOMAIN-SUFFIX,tt.douyaobuy.com                     # 溯源: DOMAIN-SUFFIX,douyaobuy.com
