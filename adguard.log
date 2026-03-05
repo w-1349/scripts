@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-04 14:27:57
+# AGH 过滤明细日志 - 2026-03-05 14:31:04
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -274,7 +274,6 @@
 [黑名单] ||cnt.statistic.date^                         # 父域覆盖: statistic.date
 [黑名单] ||code.acstat.com^                            # 父域覆盖: acstat.com
 [黑名单] ||code.ainsyndication.com^                    # 父域覆盖: ainsyndication.com
-[黑名单] ||code.vihub.ru^                              # 父域覆盖: vihub.ru
 [黑名单] ||collect-ap2.attraqt.io^                     # 父域覆盖: attraqt.io
 [黑名单] ||collect-eu.attraqt.io^                      # 父域覆盖: attraqt.io
 [黑名单] ||collect-v*.51.la^                           # 父域覆盖: 51.la
@@ -348,7 +347,6 @@
 [黑名单] ||dmp.adviad.com^                             # 父域覆盖: adviad.com
 [黑名单] ||dmp.eland-tech.com^                         # 父域覆盖: eland-tech.com
 [黑名单] ||dmp.sbermarketing.ru^                       # 父域覆盖: sbermarketing.ru
-[黑名单] ||dmp.vihub.ru^                               # 父域覆盖: vihub.ru
 [黑名单] ||dns.0pengl.com^                             # 父域覆盖: 0pengl.com
 [黑名单] ||docfind.oewabox.at^                         # 父域覆盖: oewabox.at
 [黑名单] ||doodle.oewabox.at^                          # 父域覆盖: oewabox.at
@@ -1955,6 +1953,7 @@
 [黑名单] ||t.cfjump.com^                               # 父域覆盖: cfjump.com
 [黑名单] ||dns.chuzushijian.cn^                        # 父域覆盖: chuzushijian.cn
 [黑名单] ||collector.cint.com^                         # 父域覆盖: cint.com
+[黑名单] ||ctx.citiservi.es^                           # 父域覆盖: citiservi.es
 [黑名单] ||t.cometlytrack.com^                         # 父域覆盖: cometlytrack.com
 [黑名单] ||bids.concert.io^                            # 父域覆盖: concert.io
 [黑名单] ||ads-static.conde.digital^                   # 父域覆盖: conde.digital
