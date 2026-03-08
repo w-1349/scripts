@@ -1,18 +1,17 @@
-#!name = 百度首页极简重写 (内联版)
-#!desc = 极致精简百度首页。拦截请求头即返回，不下载原网页数据。
+#!name = 百度首页极简重写 (本地版)
+#!desc = 极致精简百度首页。直接将代码写入配置，不产生外部脚本请求。
 #!author = User
 #!icon = https://raw.githubusercontent.com/luestr/Icon-set/master/App/Baidu.png
-#!date = 2024-03-09 11:30:00
 
 [Rule]
-# 确保搜索请求正常直连
+# 确保搜索请求走直连
 DOMAIN, m.baidu.com, DIRECT
 DOMAIN, www.baidu.com, DIRECT
 
 [Script]
-# 使用 http-response 模式
-# requires-body=false 表示不下载原网页，直接由脚本接管响应
-http-response ^https?:\/\/(www|m)\.baidu\.com\/($|\?from=) script-path=https://raw.githubusercontent.com/LoonProject/Loon/master/Script/Common/dummy.js, requires-body=false, tag=百度重写极速版, argument=`const html = '<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>百度一下</title><style>:root{--bg:#f5f5f7;--c:#fff;--t:#1d1d1f;--a:#007aff}@media(prefers-color-scheme:dark){:root{--bg:#000;--c:#1c1c1e;--t:#f5f5f7;--a:#0a84ff}}body{margin:0;background:var(--bg);height:100vh;display:flex;justify-content:center;font-family:-apple-system,sans-serif}.s{width:92%;max-width:500px;margin-top:15vh;text-align:center}h1{font-size:48px;font-weight:800;color:var(--a);margin-bottom:30px;letter-spacing:-2px}.b{background:var(--c);border-radius:18px;padding:5px;display:flex;box-shadow:0 8px 24px rgba(0,0,0,.08)}input{flex:1;border:none;background:0 0;padding:12px 15px;font-size:17px;color:var(--t);outline:0;-webkit-appearance:none}button{background:var(--a);color:#fff;border:none;border-radius:14px;padding:0 22px;font-size:16px;font-weight:600}button:active{opacity:.7}</style></head><body><div class="s"><h1>Baidu</h1><form action="https://m.baidu.com/s" method="GET"><div class="b"><input type="search" name="word" placeholder="搜索..." required autocomplete="off" autofocus><button type="submit">搜索</button></div></form></div></body></html>'; $done({ response: { status: 200, headers: { "Content-Type": "text/html;charset=UTF-8", "Cache-Control": "max-age=31536000" }, body: html } });`
+# 直接定义脚本，不需要 script-path。Loon 会在匹配到 URL 时执行 argument 中的内容。
+# requires-body=false 保证拦截即返回。
+http-response ^https?:\/\/(www|m)\.baidu\.com\/($|\?from=) script-path=baidu_lite.js, requires-body=false, tag=百度极简, argument=`const html = '<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>百度一下</title><style>:root{--bg:#f5f5f7;--c:#fff;--t:#1d1d1f;--a:#007aff}@media(prefers-color-scheme:dark){:root{--bg:#000;--c:#1c1c1e;--t:#f5f5f7;--a:#0a84ff}}body{margin:0;background:var(--bg);height:100vh;display:flex;justify-content:center;font-family:-apple-system,sans-serif}.s{width:92%;max-width:500px;margin-top:15vh;text-align:center}h1{font-size:48px;font-weight:800;color:var(--a);margin-bottom:30px;letter-spacing:-2px}.b{background:var(--c);border-radius:18px;padding:5px;display:flex;box-shadow:0 8px 24px rgba(0,0,0,.08)}input{flex:1;border:none;background:0 0;padding:12px 15px;font-size:17px;color:var(--t);outline:0;-webkit-appearance:none}button{background:var(--a);color:#fff;border:none;border-radius:14px;padding:0 22px;font-size:16px;font-weight:600}button:active{opacity:.7}</style></head><body><div class="s"><h1>Baidu</h1><form action="https://m.baidu.com/s" method="GET"><div class="b"><input type="search" name="word" placeholder="搜索..." required autocomplete="off" autofocus><button type="submit">搜索</button></div></form></div></body></html>'; $done({ response: { status: 200, headers: { "Content-Type": "text/html;charset=UTF-8", "Cache-Control": "max-age=31536000" }, body: html } });`
 
 [MITM]
 hostname = www.baidu.com, m.baidu.com
