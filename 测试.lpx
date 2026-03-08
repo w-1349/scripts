@@ -1,0 +1,15 @@
+[General]
+# 确保你已经安装并信任了 CA 证书
+
+[Header Rewrite]
+# 1. 伪装 User-Agent 绕过拦截
+https://kelee\.one header-replace User-Agent "StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0"
+
+# 2. 强制浏览器内联显示（不弹出下载）
+https://kelee\.one header-add Content-Disposition "inline"
+
+# 3. 强制指定文本格式和编码（防止乱码）
+https://kelee\.one header-replace Content-Type "text/plain;charset=utf-8"
+
+[MITM]
+hostname = kelee.one
