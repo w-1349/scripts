@@ -1,17 +1,16 @@
 #!name = 可莉资源浏览器访问修复
-#!desc = 绕过 Kelee.one 的 WAF 拦截，并优化浏览器内的文本显示（防止乱码和强制下载）。
-#!author = yaowuliu
+#!desc = 解决 Kelee.one 的 WAF 拦截、乱码及强制下载问题。
+#!author = 阿豪
 #!icon = https://raw.githubusercontent.com/luestr/IconCenter/master/Apps/Kelee.png
-#!date = 2024-05-20
 
-[Header Rewrite]
-# 1. 修改请求头：伪装 UA 绕过 WAF
+[Rewrite]
+# 1. 伪装 UA (请求头)
 ^https?:\/\/kelee\.one header-replace User-Agent "StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0"
 
-# 2. 修改响应头：强制内联显示，防止浏览器弹出下载
+# 2. 强制内联显示 (响应头)
 ^https?:\/\/kelee\.one header-replace Content-Disposition "inline"
 
-# 3. 修改响应头：强制指定 UTF-8 文本格式，解决乱码
+# 3. 强制 UTF-8 (响应头)
 ^https?:\/\/kelee\.one header-replace Content-Type "text/plain;charset=utf-8"
 
 [MITM]
