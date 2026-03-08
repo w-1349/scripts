@@ -1,17 +1,18 @@
-#!name = 可莉资源浏览器访问修复
-#!desc = 解决 Kelee.one 的 WAF 拦截、乱码及强制下载问题。
-#!author = 阿豪
+#!name = 可莉资源浏览器访问修复 (终极版)
+#!desc = 针对 Loon 优化。伪装 Loon 官方资源请求 UA 以绕过 WAF，并解决网页预览乱码与强制下载问题。
+#!author = 插件
 #!icon = https://raw.githubusercontent.com/luestr/IconCenter/master/Apps/Kelee.png
+#!date = 2026.01.21
 
 [Rewrite]
-# 1. 伪装 UA (请求头)
-^https?:\/\/kelee\.one header-replace User-Agent "StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0"
+# 1. 修改请求头：伪装为 Loon 官方下载引擎（最强兼容性）
+^https?:\/\/kelee\.one header-replace User-Agent "Loon/642 CFNetwork/1494.0.7 Darwin/23.4.0"
 
-# 2. 强制内联显示 (响应头)
+# 2. 修改响应头：强制内联预览，防止跳出下载弹窗
 ^https?:\/\/kelee\.one header-replace Content-Disposition "inline"
 
-# 3. 强制 UTF-8 (响应头)
+# 3. 修改响应头：强制 UTF-8 编码，防止脚本代码乱码
 ^https?:\/\/kelee\.one header-replace Content-Type "text/plain;charset=utf-8"
 
 [MITM]
-hostname = kelee.one
+hostname = kelee.one, *.kelee.one
