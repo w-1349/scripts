@@ -1,17 +1,17 @@
-#!name = 可莉资源浏览器访问修复 (终极版)
-#!desc = 针对 Loon 优化。伪装 Loon 官方资源请求 UA 以绕过 WAF，并解决网页预览乱码与强制下载问题。
-#!author = 插件
+#!name = 可莉资源 (Cloudflare 穿透版)
+#!desc = 专门针对 Kelee.one 的 Cloudflare 拦截进行优化。
+#!author = yaowuliu
 #!icon = https://raw.githubusercontent.com/luestr/IconCenter/master/Apps/Kelee.png
-#!date = 2026.01.21
 
 [Rewrite]
-# 1. 修改请求头：伪装为 Loon 官方下载引擎（最强兼容性）
-^https?:\/\/kelee\.one header-replace User-Agent "Loon/642 CFNetwork/1494.0.7 Darwin/23.4.0"
+# 1. 深度伪装：模拟 Loon 下载托管插件时的真实 UA
+^https?:\/\/kelee\.one header-replace User-Agent "Loon/642 (iPhone; iOS 17.4.1; Scale/3.00)"
 
-# 2. 修改响应头：强制内联预览，防止跳出下载弹窗
+# 2. 模拟请求头：增加 Accept 字段，让请求看起来更像资源下载而非网页访问
+^https?:\/\/kelee\.one header-add Accept "text/plain, */*; q=0.01"
+
+# 3. 响应头优化（保持不变）
 ^https?:\/\/kelee\.one header-replace Content-Disposition "inline"
-
-# 3. 修改响应头：强制 UTF-8 编码，防止脚本代码乱码
 ^https?:\/\/kelee\.one header-replace Content-Type "text/plain;charset=utf-8"
 
 [MITM]
