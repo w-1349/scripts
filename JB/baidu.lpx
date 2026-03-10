@@ -1,21 +1,16 @@
-[Name]
-可莉资源浏览器访问
-
-[Desc]
-支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截，通过修改请求和响应头适配特定客户端需求。
-
-[Author]
-yaowuliu
-
-[Rewrite]
-# 1. 伪造请求头 User-Agent，欺骗 WAF 防火墙
-http-request ^https?:\/\/kelee\.one header-replace User-Agent "StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0"
-
-# 2. 修改响应头，强制浏览器预览文件而非下载
-http-response ^https?:\/\/kelee\.one header-add Content-Disposition "inline"
-
-# 3. 修改响应头，指定内容格式为文本，防止乱码或下载
-http-response ^https?:\/\/kelee\.one header-replace Content-Type "text/plain;charset=utf-8"
+#!name = 可莉资源浏览器访问
+#!desc = 支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截
+#!author = yaowuliu
 
 [MITM]
 hostname = kelee.one
+
+[Header Rewrite]
+# 替换请求头 User-Agent
+^https://kelee\.one header-replace User-Agent StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0
+
+# 添加响应头 Content-Disposition
+^https://kelee\.one header-add Content-Disposition inline
+
+# 替换响应头 Content-Type
+^https://kelee\.one header-replace-dict response Content-Type text/plain;charset=utf-8
