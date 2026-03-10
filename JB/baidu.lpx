@@ -1,17 +1,16 @@
 #!name = 可莉资源浏览器访问
-#!desc = 支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截，通过修改请求和响应头适配特定客户端需求。
+#!desc = 支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截
 #!author = yaowuliu
-#!icon = https://kelee.one/favicon.ico
 
 [MITM]
 hostname = kelee.one
 
-[Header Rewrite]
-# 替换请求头 User-Agent
-^https://kelee\.one header-replace User-Agent StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0
+[Script]
+# 请求头重写：替换 User-Agent
+http-request ^https://kelee\.one script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/Header-Rewrite/replace-request-header.js, tag=Kelee-UA, argument="User-Agent=StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0", enable=true
 
-# 添加响应头 Content-Disposition
-^https://kelee\.one header-add Content-Disposition inline
+# 响应头重写：添加 Content-Disposition
+http-response ^https://kelee\.one script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/Header-Rewrite/add-response-header.js, tag=Kelee-Disposition, argument="Content-Disposition=inline", enable=true
 
-# 替换响应头 Content-Type（仅当存在时替换）
-^https://kelee\.one header-replace Content-Type text/plain;charset=utf-8
+# 响应头重写：替换 Content-Type
+http-response ^https://kelee\.one script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/Header-Rewrite/replace-response-header.js, tag=Kelee-Type, argument="Content-Type=text/plain;charset=utf-8", enable=true
