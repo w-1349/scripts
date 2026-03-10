@@ -5,7 +5,13 @@
 [MITM]
 hostname = kelee.one
 
-[Header Rewrite]
+[Rewrite]
+# 1. 替换请求头 User-Agent（伪装成 Stash 客户端）
 ^https://kelee\.one header-replace User-Agent StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0
-^https://kelee\.one header-add Content-Disposition inline
-^https://kelee\.one header-replace Content-Type text/plain;charset=utf-8
+
+# 2. 添加响应头 Content-Disposition: inline
+^https://kelee\.one response-header-add Content-Disposition inline
+
+# 3. 替换响应头 Content-Type 为 text/plain;charset=utf-8
+^https://kelee\.one response-header-replace Content-Type text/plain;charset=utf-8
+
