@@ -1,20 +1,17 @@
-name: 通用Loon插件转Egern
+name: 103516专用一键转Egern
 description: |
-  支持 kelee.one 和 103516.xyz 插件库
-  自动将网页中的 Loon 导入链接替换为经由 ScriptHub 转换后的 Egern 链接
-  使用前必须确保已安装并启用 ScriptHub 模块
-author: Gemini Modified
+  专门适配 loon.103516.xyz 路径结构。
+  支持 .lpx 和 .plugin 后缀。
+author: Gemini Custom
 body_rewrites:
 - response_regex:
-    # 匹配这两个网站的列表数据或 HTML 页面
-    match: ^https?:\/\/(pluginhub|hub)\.kelee\.one\/.*|https?:\/\/loonlab\.103516\.xyz\/.*
-    # 寻找 Loon 的导入协议链接
-    find: loon:\/\/import\?plugin=(https?:\/\/.*?\.(lpx|plugin))
-    # 替换为通过 ScriptHub 转换的 Egern 模块安装链接
+    # 匹配你提供的 loon.103516.xyz 域名（移除了 lab 字符以匹配真实链接）
+    match: ^https?:\/\/loon\.103516\.xyz\/.*
+    # 寻找以 .lpx 或 .plugin 结尾的完整链接
+    find: (https?:\/\/loon\.103516\.xyz\/Plugin\/.*?\.(lpx|plugin))
+    # 转换为 Egern + ScriptHub 链接
     replace: egern:///modules/new?url=http://script.hub/file/_start_/$1/_end_/converted.sgmodule%3Ftype%3Dloon-plugin%26target%3Dsurge-module%26del%3Dtrue%26jqEnabled%3Dtrue
 mitm:
   hostnames:
     includes:
-    - pluginhub.kelee.one
-    - hub.kelee.one
-    - loonlab.103516.xyz
+    - loon.103516.xyz
