@@ -1,0 +1,13 @@
+#!name = 百度首页净化
+#!desc = 移除百度首页冗余内容，仅保留极简搜索框逻辑。
+#!author = w-1349
+#!icon = https://raw.githubusercontent.com/lige47/Loon-Gallery/main/Icon/Baidu.png
+#!date = 2026.03.10
+
+[Script]
+# 匹配百度移动端与 PC 端首页，替换为极简 HTML
+# 已转换 Raw 链接：https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js
+http-response ^https?:\/\/(www|m)\.baidu\.com\/(\?|\$|\?from) script-path=https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js, requires-body=true, tag=百度首页净化, timeout=20
+
+[MITM]
+hostname = www.baidu.com, m.baidu.com
