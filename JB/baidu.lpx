@@ -6,11 +6,11 @@
 hostname = kelee.one
 
 [Rewrite]
-# type: request, replace（单引号包裹）
-^https://kelee\.one header-replace User-Agent 'StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0'
+# type: request, replace User-Agent
+^https://kelee\.one header-replace User-Agent StashCore/2.7.1%20Stash/2.7.1%20Clash/1.11.0
 
-# type: response, add
+# type: response, add Content-Disposition
 ^https://kelee\.one response-header-add Content-Disposition inline
 
-# type: response, replace
+# type: response, replace Content-Type
 ^https://kelee\.one response-header-replace Content-Type text/plain;charset=utf-8
