@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-09 14:41:08
+# AGH 过滤明细日志 - 2026-03-10 14:29:22
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -176,6 +176,7 @@
 [黑名单] ||banners.idolbucks.com^                      # 父域覆盖: idolbucks.com
 [黑名单] ||banners.virtuagirlhd.com^                   # 父域覆盖: virtuagirlhd.com
 [黑名单] ||banners3.spacash.com^                       # 父域覆盖: spacash.com
+[黑名单] ||bapi-*.moengage.com^                        # 父域覆盖: moengage.com
 [黑名单] ||bazar.oewabox.at^                           # 父域覆盖: oewabox.at
 [黑名单] ||bd-js.duote.com^                            # 父域覆盖: duote.com
 [黑名单] ||bd-js1.2345.com^                            # 父域覆盖: 2345.com
@@ -1100,6 +1101,7 @@
 [黑名单] ||spxl.socy.es^                               # 父域覆盖: socy.es
 [黑名单] ||sr-client-cfg.amplitude.com^                # 父域覆盖: amplitude.com
 [黑名单] ||sr.studiostack.com^                         # 父域覆盖: studiostack.com
+[黑名单] ||srepdata.bnqt.com^                          # 父域覆盖: bnqt.com
 [黑名单] ||srv.sayyac.com^                             # 父域覆盖: sayyac.com
 [黑名单] ||ss.musthird.com^                            # 父域覆盖: musthird.com
 [黑名单] ||ssl-compass.oewabox.at^                     # 父域覆盖: oewabox.at
@@ -2353,6 +2355,7 @@
 [黑名单] ||link.info.livejasmin.com^                   # 父域覆盖: livejasmin.com
 [黑名单] ||links.silverpop-email.branch.rocks^         # 父域覆盖: branch.rocks
 [黑名单] ||links.sparkmail.branch.rocks^               # 父域覆盖: branch.rocks
+[黑名单] ||load.g.stape.io^                            # 父域覆盖: stape.io
 [黑名单] ||load.gtm.moengage.com^                      # 父域覆盖: moengage.com
 [黑名单] ||load.sst.baremetrics.com^                   # 父域覆盖: baremetrics.com
 [黑名单] ||log.api.useinsider.com^                     # 父域覆盖: useinsider.com
