@@ -5,12 +5,7 @@
 [MITM]
 hostname = kelee.one
 
-[Script]
-# 请求头重写：替换 User-Agent
-http-request ^https://kelee\.one script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/Header-Rewrite/replace-request-header.js, tag=Kelee-UA, argument="User-Agent=StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0", enable=true
-
-# 响应头重写：添加 Content-Disposition
-http-response ^https://kelee\.one script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/Header-Rewrite/add-response-header.js, tag=Kelee-Disposition, argument="Content-Disposition=inline", enable=true
-
-# 响应头重写：替换 Content-Type
-http-response ^https://kelee\.one script-path=https://raw.githubusercontent.com/Loon0x00/LoonScript/main/Header-Rewrite/replace-response-header.js, tag=Kelee-Type, argument="Content-Type=text/plain;charset=utf-8", enable=true
+[Header Rewrite]
+^https://kelee\.one header-replace User-Agent StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0
+^https://kelee\.one header-add Content-Disposition inline
+^https://kelee\.one header-replace Content-Type text/plain;charset=utf-8
