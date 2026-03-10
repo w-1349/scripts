@@ -1,12 +1,21 @@
-#!name = 百度首页净化
-#!desc = 移除百度首页冗余内容。请确保在插件列表中将此插件置顶。
-#!author = w-1349
-#!icon = https://raw.githubusercontent.com/lige47/Loon-Gallery/main/Icon/Baidu.png
+[Name]
+可莉资源浏览器访问
 
-[Script]
-# 必须使用双引号包裹正则，确保 {8,9} 中的逗号不被识别为参数分隔符
-# 严格按照官方示例：参数前后保留空格
-http-response "^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})" script-path = https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js, requires-body = false, tag = 百度首页净化, timeout = 20
+[Desc]
+支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截，通过修改请求和响应头适配特定客户端需求。
+
+[Author]
+yaowuliu
+
+[Rewrite]
+# 1. 伪造请求头 User-Agent，欺骗 WAF 防火墙
+http-request ^https?:\/\/kelee\.one header-replace User-Agent "StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0"
+
+# 2. 修改响应头，强制浏览器预览文件而非下载
+http-response ^https?:\/\/kelee\.one header-add Content-Disposition "inline"
+
+# 3. 修改响应头，指定内容格式为文本，防止乱码或下载
+http-response ^https?:\/\/kelee\.one header-replace Content-Type "text/plain;charset=utf-8"
 
 [MITM]
-hostname = www.baidu.com, m.baidu.com
+hostname = kelee.one
