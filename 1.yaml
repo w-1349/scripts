@@ -1,18 +1,24 @@
-#!name = 103516插件转Egern(全能版)
-#!desc = 专门适配 103516 网站。拦截 Loon:// 协议并自动通过 ScriptHub 转换为 Egern 模块。
-#!author = Gemini
+name: 103516插件库转Egern(正式版)
+desc: 拦截 loon:// 协议并自动通过 ScriptHub 转换为 Egern 模块。
+author: Gemini
 
-[MITM]
-hostname = %APPEND% loon.103516.xyz, loonlab.103516.xyz, *103516.xyz
+# 第一部分：网页内容修改 (让网页上的按钮变色/变跳转目标)
+body_rewrites:
+  - match: ^https?:\/\/.*103516\.xyz\/.*
+    response_regex:
+      # 匹配原本的 Loon 导入链接
+      find: loon:\/\/import\?plugin=(https?:\/\/.*?\.(lpx|plugin))
+      # 替换为经 ScriptHub 处理后的安装链接
+      replace: egern:///modules/new?url=http://script.hub/file/_start_/$1/_end_/converted.sgmodule%3Ftype%3Dloon-plugin%26target%3Dsurge-module%26del%3Dtrue%26jqEnabled%3Dtrue
 
-[Rewrite]
-# 【逻辑 1】协议强行拦截：当你“点下去”的一瞬间，把 Loon 协议拦截并重定向
-# 匹配 loon://import?plugin=https://... 格式并提取后面的 URL
-^loon:\/\/import\?plugin=(https?:\/\/.*103516\.xyz\/.*?\.(lpx|plugin)) egern:///modules/new?url=http://script.hub/file/_start_/$1/_end_/converted.sgmodule?type=loon-plugin&target=surge-module&del=true&jqEnabled=true 302
+# 第二部分：点击瞬间劫持 (万一网页没改成功，点击时强行跳转)
+url_rewrites:
+  - match: ^loon:\/\/import\?plugin=(https?:\/\/.*103516\.xyz\/.*?\.(lpx|plugin))
+    location: egern:///modules/new?url=http://script.hub/file/_start_/$1/_end_/converted.sgmodule%3Ftype%3Dloon-plugin%26target%3Dsurge-module%26del%3Dtrue%26jqEnabled%3Dtrue
+    status_code: 302
 
-[Body Rewrite]
-# 【逻辑 2】网页实时修改：在网页加载时，直接把源码里的链接改掉
-- http-response:
-    match: ^https?:\/\/.*103516\.xyz\/.*
-    find: loon:\/\/import\?plugin=(https?:\/\/.*?\.(lpx|plugin))
-    replace: egern:///modules/new?url=http://script.hub/file/_start_/$1/_end_/converted.sgmodule%3Ftype%3Dloon-plugin%26target%3Dsurge-module%26del%3Dtrue%26jqEnabled%3Dtrue
+# 第三部分：解密域名 (不加这个，Egern 看不见加密网页的内容)
+mitm:
+  hostnames:
+    includes:
+      - "*.103516.xyz"
