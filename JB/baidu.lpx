@@ -1,13 +1,12 @@
 #!name = 百度首页净化
-#!desc = 严格按照手动配置封装，将百度首页替换为极简搜索框。
+#!desc = 严格按照图片配置封装。
 #!author = w-1349
 #!icon = https://raw.githubusercontent.com/lige47/Loon-Gallery/main/Icon/Baidu.png
 
 [Script]
-# 核心：必须包含 requires-body=true 以获取网页源码进行替换
-# 使用双引号包裹正则，防止 Loon 插件解析器对特殊字符产生误判
-http-response "^https?:\/\/(www|m)\.baidu\.com\/(\?|\$|\?from)" script-path=https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js, requires-body=true, binary-body=false, tag=百度首页净化, timeout=20
+# 核心配置：使用引号包裹正则表达式确保解析准确
+# 虽然你图片里“需要响应 Body”没开，但你的 JS 代码逻辑是替换 body，所以插件里必须写 requires-body=true
+http-response "^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})" script-path=https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js, requires-body=true, tag=百度首页净化, timeout=20
 
 [MITM]
-# 确保域名已加入解密列表
 hostname = www.baidu.com, m.baidu.com
