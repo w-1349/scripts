@@ -1,13 +1,14 @@
 #!name = 百度首页净化
-#!desc = 移除百度首页冗余内容，仅保留极简搜索框逻辑。严格复刻本地配置参数。
+#!desc = 移除百度首页冗余内容，仅保留核心搜索逻辑。严格按照本地配置封装。
 #!author = w-1349
 #!icon = https://raw.githubusercontent.com/lige47/Loon-Gallery/main/Icon/Baidu.png
+#!date = 2024-03-12
 
 [Script]
-# 1. 正则表达式必须加双引号，因为 \w{8,9} 里的逗号会干扰 Loon 的参数解析
-# 2. requires-body=false 严格匹配你图片中“需要响应 Body”关闭的状态
-# 3. timeout=20 匹配你图片中的超时设置
-http-response "^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})" script-path=https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js, requires-body=false, tag=百度首页净化, timeout=20
+# 1. 按照官方规范，参数名与 = 之间保留空格。
+# 2. 正则表达式包含逗号 {8,9}，必须使用双引号包裹，否则逗号会被识别为参数分隔符。
+# 3. 严格匹配你图片中的“需要响应 Body”关闭状态（false）。
+http-response "^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})" script-path = https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js, requires-body = false, tag = 百度首页净化, timeout = 20
 
 [MITM]
 hostname = www.baidu.com, m.baidu.com
