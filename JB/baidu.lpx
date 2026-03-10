@@ -1,17 +1,16 @@
 #!name = 可莉资源浏览器访问
-#!desc = 支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截
+#!desc = 可莉资源绕过浏览器访问 WAF 拦截
 #!author = w-1349
 
 [MITM]
 hostname = kelee.one
 
 [Rewrite]
-# 伪装 Stash 客户端
+# type: request, replace
 ^https://kelee\.one header-replace User-Agent StashCore/2.7.1 Stash/2.7.1 Clash/1.11.0
 
-# 先删后加，避免重复 header 导致下载
-^https://kelee\.one response-header-del Content-Disposition
+# type: response, add
 ^https://kelee\.one response-header-add Content-Disposition inline
 
-# 强制文本显示
+# type: response, replace
 ^https://kelee\.one response-header-replace Content-Type text/plain;charset=utf-8
