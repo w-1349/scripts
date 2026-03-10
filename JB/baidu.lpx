@@ -1,12 +1,11 @@
 #!name = 百度首页净化
-#!desc = 移除百度首页冗余内容，仅保留极简搜索框逻辑。已将脚本内置，解决远程链接不生效问题。
+#!desc = 移除百度首页冗余内容。请确保在插件列表中将此插件置顶。
 #!author = w-1349
 #!icon = https://raw.githubusercontent.com/lige47/Loon-Gallery/main/Icon/Baidu.png
-#!date = 2024-03-12
 
 [Script]
-# 使用引号包裹正则，确保 \w{8,9} 里的逗号不被误判。
-# 严格匹配你图片中的 requires-body = false 和 timeout = 20。
+# 必须使用双引号包裹正则，确保 {8,9} 中的逗号不被识别为参数分隔符
+# 严格按照官方示例：参数前后保留空格
 http-response "^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})" script-path = https://raw.githubusercontent.com/w-1349/scripts/main/JS/baidu.js, requires-body = false, tag = 百度首页净化, timeout = 20
 
 [MITM]
