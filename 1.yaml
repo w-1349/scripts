@@ -1,17 +1,18 @@
-name: 103516专用一键转Egern
-description: |
-  专门适配 loon.103516.xyz 路径结构。
-  支持 .lpx 和 .plugin 后缀。
-author: Gemini Custom
-body_rewrites:
-- response_regex:
-    # 匹配你提供的 loon.103516.xyz 域名（移除了 lab 字符以匹配真实链接）
-    match: ^https?:\/\/loon\.103516\.xyz\/.*
-    # 寻找以 .lpx 或 .plugin 结尾的完整链接
-    find: (https?:\/\/loon\.103516\.xyz\/Plugin\/.*?\.(lpx|plugin))
-    # 转换为 Egern + ScriptHub 链接
+#!name = 103516插件转Egern(全能版)
+#!desc = 专门适配 103516 网站。拦截 Loon:// 协议并自动通过 ScriptHub 转换为 Egern 模块。
+#!author = Gemini
+
+[MITM]
+hostname = %APPEND% loon.103516.xyz, loonlab.103516.xyz, *103516.xyz
+
+[Rewrite]
+# 【逻辑 1】协议强行拦截：当你“点下去”的一瞬间，把 Loon 协议拦截并重定向
+# 匹配 loon://import?plugin=https://... 格式并提取后面的 URL
+^loon:\/\/import\?plugin=(https?:\/\/.*103516\.xyz\/.*?\.(lpx|plugin)) egern:///modules/new?url=http://script.hub/file/_start_/$1/_end_/converted.sgmodule?type=loon-plugin&target=surge-module&del=true&jqEnabled=true 302
+
+[Body Rewrite]
+# 【逻辑 2】网页实时修改：在网页加载时，直接把源码里的链接改掉
+- http-response:
+    match: ^https?:\/\/.*103516\.xyz\/.*
+    find: loon:\/\/import\?plugin=(https?:\/\/.*?\.(lpx|plugin))
     replace: egern:///modules/new?url=http://script.hub/file/_start_/$1/_end_/converted.sgmodule%3Ftype%3Dloon-plugin%26target%3Dsurge-module%26del%3Dtrue%26jqEnabled%3Dtrue
-mitm:
-  hostnames:
-    includes:
-    - loon.103516.xyz
