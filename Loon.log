@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-03-09 14:42:42
+# 规则合并审计日志 - 2026-03-10 14:31:22
 # ----------------------------------------------------------
-# 最终规则总数: 187881
-# 逻辑精简总数: 3017
+# 最终规则总数: 189973
+# 逻辑精简总数: 3019
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -375,6 +375,7 @@
 [包含去重] DOMAIN-SUFFIX,grf.easyhash.io                      # 溯源: DOMAIN-SUFFIX,easyhash.io
 [包含去重] DOMAIN-SUFFIX,iia1.pikacn.com                      # 溯源: DOMAIN-SUFFIX,pikacn.com
 [包含去重] DOMAIN-SUFFIX,l.linkpulse.com                      # 溯源: DOMAIN-SUFFIX,linkpulse.com
+[包含去重] DOMAIN-SUFFIX,load.g.stape.io                      # 溯源: DOMAIN-SUFFIX,stape.io
 [包含去重] DOMAIN-SUFFIX,login.adqva.com                      # 溯源: DOMAIN-SUFFIX,adqva.com
 [包含去重] DOMAIN-SUFFIX,m.yap.yahoo.com                      # 溯源: DOMAIN-SUFFIX,yap.yahoo.com
 [包含去重] DOMAIN-SUFFIX,mgntat.mno.link                      # 溯源: DOMAIN-SUFFIX,mno.link
@@ -727,6 +728,7 @@
 [包含去重] DOMAIN-SUFFIX,s.optidigital.com                    # 溯源: DOMAIN-SUFFIX,optidigital.com
 [包含去重] DOMAIN-SUFFIX,seibli.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,service.minute.ly                    # 溯源: DOMAIN-SUFFIX,minute.ly
+[包含去重] DOMAIN-SUFFIX,srepdata.bnqt.com                    # 溯源: DOMAIN-SUFFIX,bnqt.com
 [包含去重] DOMAIN-SUFFIX,static.virgul.com                    # 溯源: DOMAIN-SUFFIX,virgul.com
 [包含去重] DOMAIN-SUFFIX,static.wjxcdn.com                    # 溯源: DOMAIN-SUFFIX,wjxcdn.com
 [包含去重] DOMAIN-SUFFIX,stats.apester.com                    # 溯源: DOMAIN-SUFFIX,apester.com
