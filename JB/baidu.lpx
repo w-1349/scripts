@@ -1,6 +1,7 @@
 #!name = 可莉资源浏览器访问
-#!desc = 支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截
+#!desc = 支持可莉资源浏览器的访问，绕过浏览器访问 WAF 拦截，通过修改请求和响应头适配特定客户端需求。
 #!author = yaowuliu
+#!icon = https://kelee.one/favicon.ico
 
 [MITM]
 hostname = kelee.one
@@ -12,5 +13,5 @@ hostname = kelee.one
 # 添加响应头 Content-Disposition
 ^https://kelee\.one header-add Content-Disposition inline
 
-# 替换响应头 Content-Type
-^https://kelee\.one header-replace-dict response Content-Type text/plain;charset=utf-8
+# 替换响应头 Content-Type（仅当存在时替换）
+^https://kelee\.one header-replace Content-Type text/plain;charset=utf-8
