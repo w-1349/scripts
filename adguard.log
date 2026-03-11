@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-10 14:29:22
+# AGH 过滤明细日志 - 2026-03-11 14:32:14
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -1297,6 +1297,7 @@
 [黑名单] ||view.binlayer.com^                          # 父域覆盖: binlayer.com
 [黑名单] ||views.2222.ro^                              # 父域覆盖: 2222.ro
 [黑名单] ||vmo2uk.mno.link^                            # 父域覆盖: mno.link
+[黑名单] ||vsv-val.looksmart.com^                      # 父域覆盖: looksmart.com
 [黑名单] ||vu.veoxa.com^                               # 父域覆盖: veoxa.com
 [黑名单] ||w.nativery.com^                             # 父域覆盖: nativery.com
 [黑名单] ||warda.oewabox.at^                           # 父域覆盖: oewabox.at
