@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-03-10 14:31:22
+# 规则合并审计日志 - 2026-03-11 14:34:06
 # ----------------------------------------------------------
-# 最终规则总数: 189973
-# 逻辑精简总数: 3019
+# 最终规则总数: 191079
+# 逻辑精简总数: 3020
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1888,6 +1888,7 @@
 [包含去重] DOMAIN-SUFFIX,tracker.metricool.com                # 溯源: DOMAIN-SUFFIX,metricool.com
 [包含去重] DOMAIN-SUFFIX,tracking.aws.judge.me                # 溯源: DOMAIN-SUFFIX,judge.me
 [包含去重] DOMAIN-SUFFIX,tracking.netvigie.com                # 溯源: DOMAIN-SUFFIX,netvigie.com
+[包含去重] DOMAIN-SUFFIX,vsv-val.looksmart.com                # 溯源: DOMAIN-SUFFIX,looksmart.com
 [包含去重] DOMAIN-SUFFIX,www.200-rockergod.com                # 溯源: DOMAIN-SUFFIX,200-rockergod.com
 [包含去重] DOMAIN-SUFFIX,www.33infra-strat.com                # 溯源: DOMAIN-SUFFIX,33infra-strat.com
 [包含去重] DOMAIN-SUFFIX,www.66infra-strat.com                # 溯源: DOMAIN-SUFFIX,66infra-strat.com
