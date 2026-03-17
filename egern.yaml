@@ -1,0 +1,16 @@
+name: Loon → Egern 转换 Hub（本地版）
+description: 在 Egern 内一键转换 Loon 插件为 Egern 模块。使用方式：Safari 打开 http://convert.loon?raw=Loon插件链接 或 http://convert.loon?text=Base64编码的Loon内容
+author: 自定义 Hub by Grok
+icon: https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/icon.png  # 可换成自己的
+
+scriptings:
+  - http_request:
+      name: Loon 转 Egern 核心处理器
+      match: ^http://convert\.loon
+      script_url: https://raw.githubusercontent.com/w-1349/scripts/main/egern.js
+      timeout: 60
+
+mitm:
+  hostnames:
+    includes:
+      - convert.loon  # 虚拟域名拦截
