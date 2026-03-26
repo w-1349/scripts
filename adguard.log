@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-25 14:43:04
+# AGH 过滤明细日志 - 2026-03-26 14:48:42
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -248,6 +248,7 @@
 [黑名单] ||cdn.nativery.com^                           # 父域覆盖: nativery.com
 [黑名单] ||cdn.odoscope.cloud^                         # 父域覆盖: odoscope.cloud
 [黑名单] ||cdn.onesignal.com^                          # 父域覆盖: onesignal.com
+[黑名单] ||cdn.optoutadvertising.com^                  # 父域覆盖: optoutadvertising.com
 [黑名单] ||cdn.popupsmart.com^                         # 父域覆盖: popupsmart.com
 [黑名单] ||cdn.pranmcpkx.com^                          # 父域覆盖: pranmcpkx.com
 [黑名单] ||cdn.retailads.net^                          # 父域覆盖: retailads.net
@@ -739,6 +740,7 @@
 [黑名单] ||profile-update.healthgrades.com^            # 父域覆盖: healthgrades.com
 [黑名单] ||promotion.partnercash.com^                  # 父域覆盖: partnercash.com
 [黑名单] ||protected-by.clarium.io^                    # 父域覆盖: clarium.io
+[黑名单] ||proxy.optoutadvertising.com^                # 父域覆盖: optoutadvertising.com
 [黑名单] ||psmastersendgrid.branch.rocks^              # 父域覆盖: branch.rocks
 [黑名单] ||public.gdtimg.com^                          # 父域覆盖: gdtimg.com
 [黑名单] ||push.esputnik.com^                          # 父域覆盖: esputnik.com
@@ -796,6 +798,7 @@
 [黑名单] ||rtl.oewabox.at^                             # 父域覆盖: oewabox.at
 [黑名单] ||rubylife.go2cloud.org^                      # 父域覆盖: go2cloud.org
 [黑名单] ||s.adsession.com^                            # 父域覆盖: adsession.com
+[黑名单] ||s.dc-tag.jp^                                # 父域覆盖: dc-tag.jp
 [黑名单] ||s.dynad.net^                                # 父域覆盖: dynad.net
 [黑名单] ||s.etology.com^                              # 父域覆盖: etology.com
 [黑名单] ||s.nitropay.com^                             # 父域覆盖: nitropay.com
@@ -1944,6 +1947,11 @@
 [黑名单] ||jbdch1.appmobile.cn^                        # 父域覆盖: appmobile.cn
 [黑名单] ||cpm.appocean.media^                         # 父域覆盖: appocean.media
 [黑名单] ||api.appodeal.com^                           # 父域覆盖: appodeal.com
+[黑名单] ||banner.appsflyersdk.com^                    # 父域覆盖: appsflyersdk.com
+[黑名单] ||fvalid.appsflyersdk.com^                    # 父域覆盖: appsflyersdk.com
+[黑名单] ||onelinksmartscript.appsflyersdk.com^        # 父域覆盖: appsflyersdk.com
+[黑名单] ||wa.appsflyersdk.com^                        # 父域覆盖: appsflyersdk.com
+[黑名单] ||websdk.appsflyersdk.com^                    # 父域覆盖: appsflyersdk.com
 [黑名单] ||s.axon.ai^                                  # 父域覆盖: axon.ai
 [黑名单] ||android.bcfads.com^                         # 父域覆盖: bcfads.com
 [黑名单] ||aa.birdgesdk.com^                           # 父域覆盖: birdgesdk.com
