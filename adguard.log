@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-28 14:38:18
+# AGH 过滤明细日志 - 2026-03-29 14:45:46
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -755,7 +755,6 @@
 [黑名单] ||r.moshimo.com^                              # 父域覆盖: moshimo.com
 [黑名单] ||r.skimresources.com^                        # 父域覆盖: skimresources.com
 [黑名单] ||radioat.oewabox.at^                         # 父域覆盖: oewabox.at
-[黑名单] ||rainbow-prod-jdlog.ldoverseas.com^          # 父域覆盖: ldoverseas.com
 [黑名单] ||receive.wmcdp.io^                           # 父域覆盖: wmcdp.io
 [黑名单] ||regionconfig.amplitude.com^                 # 父域覆盖: amplitude.com
 [黑名单] ||relay.livejasmin.com^                       # 父域覆盖: livejasmin.com
