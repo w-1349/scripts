@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-03-28 14:39:47
+# 规则合并审计日志 - 2026-03-29 14:46:35
 # ----------------------------------------------------------
-# 最终规则总数: 193425
-# 逻辑精简总数: 3029
+# 最终规则总数: 193763
+# 逻辑精简总数: 3028
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2800,7 +2800,6 @@
 [包含去重] DOMAIN-SUFFIX,email-activecampaign.branch.rocks    # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,log-v4-insight.kaizenplatform.net    # 溯源: DOMAIN-SUFFIX,kaizenplatform.net
 [包含去重] DOMAIN-SUFFIX,pcgameshardware.de.intellitxt.com    # 溯源: DOMAIN-SUFFIX,intellitxt.com
-[包含去重] DOMAIN-SUFFIX,rainbow-prod-jdlog.ldoverseas.com    # 溯源: DOMAIN-SUFFIX,ldoverseas.com
 [包含去重] DOMAIN-SUFFIX,secure.24-visionaryenterprise.com    # 溯源: DOMAIN-SUFFIX,24-visionaryenterprise.com
 [包含去重] DOMAIN-SUFFIX,secure.enterpriseforesight247.com    # 溯源: DOMAIN-SUFFIX,enterpriseforesight247.com
 [包含去重] DOMAIN-SUFFIX,secure.visionary365enterprise.com    # 溯源: DOMAIN-SUFFIX,visionary365enterprise.com
