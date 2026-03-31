@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-30 15:10:08
+# AGH 过滤明细日志 - 2026-03-31 14:54:54
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -38,6 +38,7 @@
 [黑名单] ||ad.adpon.jp^                                # 父域覆盖: adpon.jp
 [黑名单] ||ad.afy11.net^                               # 父域覆盖: afy11.net
 [黑名单] ||ad.bannerbank.ru^                           # 父域覆盖: bannerbank.ru
+[黑名单] ||ad.broadstreetads.com^                      # 父域覆盖: broadstreetads.com
 [黑名单] ||ad.lomadee.com^                             # 父域覆盖: lomadee.com
 [黑名单] ||ad.yieldmanager.com^                        # 父域覆盖: yieldmanager.com
 [黑名单] ||ad0.bigmir.net^                             # 父域覆盖: bigmir.net
@@ -783,6 +784,7 @@
 [黑名单] ||rtb-useast-v4.vistarsagency.com^            # 父域覆盖: vistarsagency.com
 [黑名单] ||rtb-useast.anyclip-media.com^               # 父域覆盖: anyclip-media.com
 [黑名单] ||rtb-useast.denakop.com^                     # 父域覆盖: denakop.com
+[黑名单] ||rtb-useast.vistarsagency.com^               # 父域覆盖: vistarsagency.com
 [黑名单] ||rtb-uswest-v4.revbid.net^                   # 父域覆盖: revbid.net
 [黑名单] ||rtb-uswest-v4.vistarsagency.com^            # 父域覆盖: vistarsagency.com
 [黑名单] ||rtb-uswest.adventurefeeds.com^              # 父域覆盖: adventurefeeds.com
@@ -1219,6 +1221,7 @@
 [黑名单] ||top.oewabox.at^                             # 父域覆盖: oewabox.at
 [黑名单] ||tour.xxxblackbook.com^                      # 父域覆盖: xxxblackbook.com
 [黑名单] ||tpc.googlesyndication-cn.com^               # 父域覆盖: googlesyndication-cn.com
+[黑名单] ||tq.adventurefeeds.com^                      # 父域覆盖: adventurefeeds.com
 [黑名单] ||tr1.admeira.ch^                             # 父域覆盖: admeira.ch
 [黑名单] ||track-aws.notsy.io^                         # 父域覆盖: notsy.io
 [黑名单] ||track-events.membrana.media^                # 父域覆盖: membrana.media
@@ -2502,6 +2505,7 @@
 [黑名单] ||match.c8.net.ua^                            # 父域覆盖: c8.net.ua
 [黑名单] ||trk.living.chartwell.com^                   # 父域覆盖: living.chartwell.com
 [黑名单] ||ssp.qc.coccoc.com^                          # 父域覆盖: qc.coccoc.com
+[黑名单] ||marketing.net.daraz.pk^                     # 父域覆盖: net.daraz.pk
 [黑名单] ||tr.actiflip.devisdirect.com^                # 父域覆盖: devisdirect.com
 [黑名单] ||tr.bodet.devisdirect.com^                   # 父域覆盖: devisdirect.com
 [黑名单] ||tr.leyravaud.devisdirect.com^               # 父域覆盖: devisdirect.com
