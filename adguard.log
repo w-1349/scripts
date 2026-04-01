@@ -1,4 +1,4 @@
-# AGH 过滤明细日志 - 2026-03-31 14:54:54
+# AGH 过滤明细日志 - 2026-04-01 15:03:32
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
@@ -282,6 +282,7 @@
 [黑名单] ||collect-v*.51.la^                           # 父域覆盖: 51.la
 [黑名单] ||collect.mxapis.com^                         # 父域覆盖: mxapis.com
 [黑名单] ||collector-*.perimeterx.net^                 # 父域覆盖: perimeterx.net
+[黑名单] ||collector-*.protechts.net^                  # 父域覆盖: protechts.net
 [黑名单] ||collector-*.tvsquared.com^                  # 父域覆盖: tvsquared.com
 [黑名单] ||collector.bunchbox.co^                      # 父域覆盖: bunchbox.co
 [黑名单] ||collector.leaddyno.com^                     # 父域覆盖: leaddyno.com
