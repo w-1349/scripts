@@ -1,19 +1,36 @@
-# AGH 过滤明细日志 - 2026-04-04 14:39:40
+# AGH 过滤明细日志 - 2026-04-05 14:47:29
 ================================================================================
 [白名单] @@||ui.ads.microsoft.com^                     # 父域覆盖: ads.microsoft.com
 [黑名单] ||*cdn-settings.appsflyersdk.com^             # 父域覆盖: appsflyersdk.com
 [黑名单] ||*conversions.appsflyersdk.com^              # 父域覆盖: appsflyersdk.com
 [黑名单] ||*launches.appsflyersdk.com^                 # 父域覆盖: appsflyersdk.com
 [黑名单] ||*register.appsflyersdk.com^                 # 父域覆盖: appsflyersdk.com
+[黑名单] ||0715c69091.e5f1418a7a.com^                  # 父域覆盖: e5f1418a7a.com
 [黑名单] ||1.lishibu.com^                              # 父域覆盖: lishibu.com
 [黑名单] ||100.admin5.com^                             # 父域覆盖: admin5.com
 [黑名单] ||1000ps.oewabox.at^                          # 父域覆盖: oewabox.at
 [黑名单] ||13js1lbtbj3.sparkloop.app^                  # 父域覆盖: sparkloop.app
+[黑名单] ||1ab931c90c.d77155313b.com^                  # 父域覆盖: d77155313b.com
+[黑名单] ||1b9cec84d7.e5a0add388.com^                  # 父域覆盖: e5a0add388.com
+[黑名单] ||1c0ec60324.e7d783f480.com^                  # 父域覆盖: e7d783f480.com
 [黑名单] ||2.livejasmin.com^                           # 父域覆盖: livejasmin.com
 [黑名单] ||22153974.branch.rocks^                      # 父域覆盖: branch.rocks
 [黑名单] ||2468.go2cloud.org^                          # 父域覆盖: go2cloud.org
+[黑名单] ||24fc187db5.e25b585b36.com^                  # 父域覆盖: e25b585b36.com
+[黑名单] ||375ba732b4.e3a9997095.com^                  # 父域覆盖: e3a9997095.com
+[黑名单] ||38dd778a3c.d333f13060.com^                  # 父域覆盖: d333f13060.com
+[黑名单] ||3936321270.d3d30ac9d4.com^                  # 父域覆盖: d3d30ac9d4.com
+[黑名单] ||63ee42cec8.d79dcdbf0a.com^                  # 父域覆盖: d79dcdbf0a.com
+[黑名单] ||64898181df.d1f6bb22dc.com^                  # 父域覆盖: d1f6bb22dc.com
+[黑名单] ||7b455af0a3.dba1bc1fdf.com^                  # 父域覆盖: dba1bc1fdf.com
+[黑名单] ||7ea02e2ab2.e55a2001b9.com^                  # 父域覆盖: e55a2001b9.com
+[黑名单] ||9f0a9a8621.effe2f62ae.com^                  # 父域覆盖: effe2f62ae.com
 [黑名单] ||a.adsession.com^                            # 父域覆盖: adsession.com
+[黑名单] ||a.cigore.xyz^                               # 父域覆盖: cigore.xyz
+[黑名单] ||a.cilon.site^                               # 父域覆盖: cilon.site
 [黑名单] ||a.deadlinefunnel.com^                       # 父域覆盖: deadlinefunnel.com
+[黑名单] ||a.degore.xyz^                               # 父域覆盖: degore.xyz
+[黑名单] ||a.dtrem.site^                               # 父域覆盖: dtrem.site
 [黑名单] ||a.dynad.net^                                # 父域覆盖: dynad.net
 [黑名单] ||a.etology.com^                              # 父域覆盖: etology.com
 [黑名单] ||a.fapcat.com^                               # 父域覆盖: fapcat.com
@@ -27,6 +44,7 @@
 [黑名单] ||a.wifi33.com^                               # 父域覆盖: wifi33.com
 [黑名单] ||a1at.mno.link^                              # 父域覆盖: mno.link
 [黑名单] ||a3.ogt.jp^                                  # 父域覆盖: ogt.jp
+[黑名单] ||a821e6aefc.e578f839f9.com^                  # 父域覆盖: e578f839f9.com
 [黑名单] ||ab.cnbanbao.com^                            # 父域覆盖: cnbanbao.com
 [黑名单] ||ac.atpanel.com^                             # 父域覆盖: atpanel.com
 [黑名单] ||acbp0020171456.page.tl^                     # 父域覆盖: page.tl
@@ -141,6 +159,7 @@
 [黑名单] ||app.adviad.com^                             # 父域覆盖: adviad.com
 [黑名单] ||app.ardalio.com^                            # 父域覆盖: ardalio.com
 [黑名单] ||app.bugsnag.com^                            # 父域覆盖: bugsnag.com
+[黑名单] ||app.dlsite123.online^                       # 父域覆盖: dlsite123.online
 [黑名单] ||app.leadsrx.com^                            # 父域覆盖: leadsrx.com
 [黑名单] ||apps.livejasmin.com^                        # 父域覆盖: livejasmin.com
 [黑名单] ||apv-launcher.minute.ly^                     # 父域覆盖: minute.ly
@@ -219,6 +238,7 @@
 [黑名单] ||c.lomadee.com^                              # 父域覆盖: lomadee.com
 [黑名单] ||c.plerdy.com^                               # 父域覆盖: plerdy.com
 [黑名单] ||c.tbex.ru^                                  # 父域覆盖: tbex.ru
+[黑名单] ||c9e4993a63.e8656a9f30.com^                  # 父域覆盖: e8656a9f30.com
 [黑名单] ||cam2cam.xlovecam.com^                       # 父域覆盖: xlovecam.com
 [黑名单] ||capture.norm0care.com^                      # 父域覆盖: norm0care.com
 [黑名单] ||car4you.oewabox.at^                         # 父域覆盖: oewabox.at
@@ -237,6 +257,9 @@
 [黑名单] ||cdn.adviad.com^                             # 父域覆盖: adviad.com
 [黑名单] ||cdn.amplitude.com^                          # 父域覆盖: amplitude.com
 [黑名单] ||cdn.braun634.com^                           # 父域覆盖: braun634.com
+[黑名单] ||cdn.crsope.com^                             # 父域覆盖: crsope.com
+[黑名单] ||cdn.cryjun.com^                             # 父域覆盖: cryjun.com
+[黑名单] ||cdn.dawplm.com^                             # 父域覆盖: dawplm.com
 [黑名单] ||cdn.decibelinsight.net^                     # 父域覆盖: decibelinsight.net
 [黑名单] ||cdn.exmarketplace.com^                      # 父域覆盖: exmarketplace.com
 [黑名单] ||cdn.faspox.com^                             # 父域覆盖: faspox.com
@@ -326,6 +349,7 @@
 [黑名单] ||d-collector.jennifersoft.com^               # 父域覆盖: jennifersoft.com
 [黑名单] ||d.adtriba.com^                              # 父域覆盖: adtriba.com
 [黑名单] ||d.otaserve.net^                             # 父域覆盖: otaserve.net
+[黑名单] ||d022c32c2f.ded7094b01.com^                  # 父域覆盖: ded7094b01.com
 [黑名单] ||da.newstogram.com^                          # 父域覆盖: newstogram.com
 [黑名单] ||dashboard.adcalls.nl^                       # 父域覆盖: adcalls.nl
 [黑名单] ||dashboard.viewtraff.com^                    # 父域覆盖: viewtraff.com
@@ -338,6 +362,7 @@
 [黑名单] ||data.reactandshare.com^                     # 父域覆盖: reactandshare.com
 [黑名单] ||data.thoughtmetric.io^                      # 父域覆盖: thoughtmetric.io
 [黑名单] ||datacollect*.abtasty.com^                   # 父域覆盖: abtasty.com
+[黑名单] ||dc29ad7002.eb5882aef0.com^                  # 父域覆盖: eb5882aef0.com
 [黑名单] ||dealabs.digidip.net^                        # 父域覆盖: digidip.net
 [黑名单] ||deliver.vkcdnservice.com^                   # 父域覆盖: vkcdnservice.com
 [黑名单] ||delivery.consentmanager.net^                # 父域覆盖: consentmanager.net
@@ -367,6 +392,8 @@
 [黑名单] ||dtpen.mno.link^                             # 父域覆盖: mno.link
 [黑名单] ||dyn.emetriq.de^                             # 父域覆盖: emetriq.de
 [黑名单] ||e.metarouter.io^                            # 父域覆盖: metarouter.io
+[黑名单] ||e0dc0c0e85.e8853962d1.com^                  # 父域覆盖: e8853962d1.com
+[黑名单] ||e696432950.e6c84e5378.com^                  # 父域覆盖: e6c84e5378.com
 [黑名单] ||eb.trbas.com^                               # 父域覆盖: trbas.com
 [黑名单] ||ed1.comcastbiz.com^                         # 父域覆盖: comcastbiz.com
 [黑名单] ||ehk.trenhdg.com^                            # 父域覆盖: trenhdg.com
@@ -429,6 +456,8 @@
 [黑名单] ||experience.contextly.com^                   # 父域覆盖: contextly.com
 [黑名单] ||expertsender.branch.rocks^                  # 父域覆盖: branch.rocks
 [黑名单] ||ext.host-tracker.com^                       # 父域覆盖: host-tracker.com
+[黑名单] ||f1d5c57c50.d980ffe9b6.com^                  # 父域覆盖: d980ffe9b6.com
+[黑名单] ||f3737ec16b.d57b6d1e63.com^                  # 父域覆盖: d57b6d1e63.com
 [黑名单] ||fairfaxmedia.sharedcount.com^               # 父域覆盖: sharedcount.com
 [黑名单] ||fakexa-post.mno.link^                       # 父域覆盖: mno.link
 [黑名单] ||falcon.useinsider.com^                      # 父域覆盖: useinsider.com
@@ -1300,6 +1329,7 @@
 [黑名单] ||vfuk.mno.link^                              # 父域覆盖: mno.link
 [黑名单] ||via.oewabox.at^                             # 父域覆盖: oewabox.at
 [黑名单] ||viacom.oewabox.at^                          # 父域覆盖: oewabox.at
+[黑名单] ||video.dmmjp.cc^                             # 父域覆盖: dmmjp.cc
 [黑名单] ||view.binlayer.com^                          # 父域覆盖: binlayer.com
 [黑名单] ||views.2222.ro^                              # 父域覆盖: 2222.ro
 [黑名单] ||vmo2uk.mno.link^                            # 父域覆盖: mno.link
