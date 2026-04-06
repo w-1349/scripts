@@ -5,7 +5,7 @@ on:
     - cron: '49 5 * * *'   # 北京时间每天 13:49
   workflow_dispatch:
 
-# 防止与另一个 workflow 同时运行冲突
+# 单独的 concurrency group，防止与 Loon workflow 互相取消
 concurrency:
   group: agh-update-workflow
   cancel-in-progress: true
@@ -40,7 +40,7 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
 
-          # 只添加 AGH 相关的文件（避免误加其他文件）
+          # 只添加 AGH 相关文件
           git add Loon.lsr Loon.log adguard-home*.txt *.conf rules*.txt || true
 
           if git diff --staged --quiet; then
@@ -52,6 +52,5 @@ jobs:
 
           git pull --rebase origin main || true
 
-          # 强制推送，保证 AGH 最新规则覆盖上去
+          # 强制推送（保证 AGH 最新规则覆盖上去）
           git push origin main --force-with-lease
-          # git push origin main --force   # 如果你想更硬核，可以改用这行
