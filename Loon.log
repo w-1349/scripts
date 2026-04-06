@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-06 15:11:52
+# 规则合并审计日志 - 2026-04-06 22:04:05
 # ----------------------------------------------------------
-# 最终规则总数: 197086
-# 逻辑精简总数: 3062
+# 最终规则总数: 198864
+# 逻辑精简总数: 3063
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2238,6 +2238,7 @@
 [包含去重] DOMAIN-SUFFIX,telegraf.detmir-stats.ru             # 溯源: DOMAIN-SUFFIX,detmir-stats.ru
 [包含去重] DOMAIN-SUFFIX,tracking.feedperfect.com             # 溯源: DOMAIN-SUFFIX,feedperfect.com
 [包含去重] DOMAIN-SUFFIX,tracking.service.just.nl             # 溯源: DOMAIN-SUFFIX,service.just.nl
+[包含去重] DOMAIN-SUFFIX,u.yourplanprovisions.com             # 溯源: DOMAIN-SUFFIX,yourplanprovisions.com
 [包含去重] DOMAIN-SUFFIX,www.7-companycompany.com             # 溯源: DOMAIN-SUFFIX,7-companycompany.com
 [包含去重] DOMAIN-SUFFIX,www.business-path-55.com             # 溯源: DOMAIN-SUFFIX,business-path-55.com
 [包含去重] DOMAIN-SUFFIX,www.completatusdatos.com             # 溯源: DOMAIN-SUFFIX,completatusdatos.com
@@ -2464,6 +2465,7 @@
 [包含去重] DOMAIN-SUFFIX,www.infos-experts.adp.com            # 溯源: DOMAIN-SUFFIX,infos-experts.adp.com
 [包含去重] DOMAIN-SUFFIX,www.intuition-agile-7.com            # 溯源: DOMAIN-SUFFIX,intuition-agile-7.com
 [包含去重] DOMAIN-SUFFIX,www.registrocofinavit.com            # 溯源: DOMAIN-SUFFIX,registrocofinavit.com
+[包含去重] DOMAIN-SUFFIX,www.science.dunnhumby.com            # 溯源: DOMAIN-SUFFIX,science.dunnhumby.com
 [包含去重] DOMAIN-SUFFIX,www.send.hollandcasino.nl            # 溯源: DOMAIN-SUFFIX,send.hollandcasino.nl
 [包含去重] DOMAIN-SUFFIX,www.smart-company-365.com            # 溯源: DOMAIN-SUFFIX,smart-company-365.com
 [包含去重] DOMAIN-SUFFIX,oasc04012.247realmedia.com           # 溯源: DOMAIN-SUFFIX,247realmedia.com
@@ -2695,7 +2697,6 @@
 [包含去重] DOMAIN-SUFFIX,spolecznosci.mgr.consensu.org        # 溯源: DOMAIN-SUFFIX,consensu.org
 [包含去重] DOMAIN-SUFFIX,trackv-test.esearchvision.com        # 溯源: DOMAIN-SUFFIX,esearchvision.com
 [包含去重] DOMAIN-SUFFIX,www.chronischepancreatitis.nl        # 溯源: DOMAIN-SUFFIX,chronischepancreatitis.nl
-[包含去重] DOMAIN-SUFFIX,www.ciscenje.net.jumia.com.ng        # 溯源: DOMAIN-SUFFIX,ciscenje.net.jumia.com.ng
 [包含去重] DOMAIN-SUFFIX,www.insightful-company-52.com        # 溯源: DOMAIN-SUFFIX,insightful-company-52.com
 [包含去重] DOMAIN-SUFFIX,www.intelligentdatawisdom.com        # 溯源: DOMAIN-SUFFIX,intelligentdatawisdom.com
 [包含去重] DOMAIN-SUFFIX,www.newscatalanaoccidente.com        # 溯源: DOMAIN-SUFFIX,newscatalanaoccidente.com
