@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-09 15:05:04
+# 规则合并审计日志 - 2026-04-10 15:09:47
 # ----------------------------------------------------------
-# 最终规则总数: 195991
-# 逻辑精简总数: 3039
+# 最终规则总数: 196282
+# 逻辑精简总数: 3037
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2387,7 +2387,6 @@
 [包含去重] DOMAIN-SUFFIX,api-pixels.easyadsapp.com            # 溯源: DOMAIN-SUFFIX,easyadsapp.com
 [包含去重] DOMAIN-SUFFIX,bvoffers-elb.go2cloud.org            # 溯源: DOMAIN-SUFFIX,go2cloud.org
 [包含去重] DOMAIN-SUFFIX,cbanners.virtuagirlhd.com            # 溯源: DOMAIN-SUFFIX,virtuagirlhd.com
-[包含去重] DOMAIN-SUFFIX,cdn.optoutadvertising.com            # 溯源: DOMAIN-SUFFIX,optoutadvertising.com
 [包含去重] DOMAIN-SUFFIX,clickserver.googleads.com            # 溯源: DOMAIN-SUFFIX,googleads.com
 [包含去重] DOMAIN-SUFFIX,cmp.dmgmediaprivacy.co.uk            # 溯源: DOMAIN-SUFFIX,dmgmediaprivacy.co.uk
 [包含去重] DOMAIN-SUFFIX,communication.adpinfo.com            # 溯源: DOMAIN-SUFFIX,adpinfo.com
@@ -2545,7 +2544,6 @@
 [包含去重] DOMAIN-SUFFIX,o209266.ingest.us.sentry.io          # 溯源: DOMAIN-SUFFIX,sentry.io
 [包含去重] DOMAIN-SUFFIX,pcadvisor.uk.intellitxt.com          # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,pixel.pointmediatracker.com          # 溯源: DOMAIN-SUFFIX,pointmediatracker.com
-[包含去重] DOMAIN-SUFFIX,proxy.optoutadvertising.com          # 溯源: DOMAIN-SUFFIX,optoutadvertising.com
 [包含去重] DOMAIN-SUFFIX,rtb-eu-v4.vistarsagency.com          # 溯源: DOMAIN-SUFFIX,vistarsagency.com
 [包含去重] DOMAIN-SUFFIX,secure.7-companycompany.com          # 溯源: DOMAIN-SUFFIX,7-companycompany.com
 [包含去重] DOMAIN-SUFFIX,secure.netscope.marktest.pt          # 溯源: DOMAIN-SUFFIX,marktest.pt
