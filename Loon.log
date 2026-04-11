@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-10 15:09:47
+# 规则合并审计日志 - 2026-04-11 14:43:05
 # ----------------------------------------------------------
-# 最终规则总数: 196282
-# 逻辑精简总数: 3037
+# 最终规则总数: 196650
+# 逻辑精简总数: 3034
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2179,7 +2179,6 @@
 [包含去重] DOMAIN-SUFFIX,metrics.sjo.omniture.com             # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,beacon.securestudies.com             # 溯源: DOMAIN-SUFFIX,securestudies.com
 [包含去重] DOMAIN-SUFFIX,abtest.mistat.xiaomi.com             # 溯源: DOMAIN-SUFFIX,mistat.xiaomi.com
-[包含去重] DOMAIN-SUFFIX,api.appmetrica.yandex.ru             # 溯源: DOMAIN-SUFFIX,appmetrica.yandex.ru
 [包含去重] DOMAIN-SUFFIX,analytics.yollamedia.com             # 溯源: DOMAIN-SUFFIX,yollamedia.com
 [包含去重] DOMAIN-SUFFIX,adpia.client.adpinfo.com             # 溯源: DOMAIN-SUFFIX,adpinfo.com
 [包含去重] DOMAIN-SUFFIX,ads.asiafriendfinder.com             # 溯源: DOMAIN-SUFFIX,asiafriendfinder.com
@@ -2567,7 +2566,6 @@
 [包含去重] DOMAIN-SUFFIX,tr.livrephoto.espmp-aufr.net         # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,natdetection.onethingpcs.com         # 溯源: DOMAIN-SUFFIX,onethingpcs.com
 [包含去重] DOMAIN-SUFFIX,tracking.searchmarketing.com         # 溯源: DOMAIN-SUFFIX,searchmarketing.com
-[包含去重] DOMAIN-SUFFIX,report.appmetrica.yandex.net         # 溯源: DOMAIN-SUFFIX,appmetrica.yandex.net
 [包含去重] DOMAIN-SUFFIX,ads4.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,ads5.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,ads7.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
@@ -2853,7 +2851,6 @@
 [包含去重] DOMAIN-SUFFIX,freedownloadcenter.uk.intellitxt.com # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,mobile-production.content-square.net # 溯源: DOMAIN-SUFFIX,content-square.net
 [包含去重] DOMAIN-SUFFIX,monstersandcritics.uk.intellitxt.com # 溯源: DOMAIN-SUFFIX,intellitxt.com
-[包含去重] DOMAIN-SUFFIX,report-partners.appmetrica.yandex.net # 溯源: DOMAIN-SUFFIX,appmetrica.yandex.net
 [包含去重] DOMAIN-SUFFIX,beacons.digital.disneyadvertising.com # 溯源: DOMAIN-SUFFIX,disneyadvertising.com
 [包含去重] DOMAIN-SUFFIX,msa-uki.secureforms.partnermcafee.com # 溯源: DOMAIN-SUFFIX,partnermcafee.com
 [包含去重] DOMAIN-SUFFIX,nw-umwatson.events.data.microsoft.com # 溯源: DOMAIN-SUFFIX,events.data.microsoft.com
