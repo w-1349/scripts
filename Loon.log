@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-13 15:29:18
+# 规则合并审计日志 - 2026-04-14 15:11:09
 # ----------------------------------------------------------
-# 最终规则总数: 197190
-# 逻辑精简总数: 3034
+# 最终规则总数: 197520
+# 逻辑精简总数: 3037
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2104,10 +2104,12 @@
 [包含去重] DOMAIN-SUFFIX,analytics.myfinance.com              # 溯源: DOMAIN-SUFFIX,myfinance.com
 [包含去重] DOMAIN-SUFFIX,api.ibeat-analytics.com              # 溯源: DOMAIN-SUFFIX,ibeat-analytics.com
 [包含去重] DOMAIN-SUFFIX,apiadapter.ad5track.com              # 溯源: DOMAIN-SUFFIX,ad5track.com
+[包含去重] DOMAIN-SUFFIX,apihorizon.nnmtools.com              # 溯源: DOMAIN-SUFFIX,nnmtools.com
 [包含去重] DOMAIN-SUFFIX,banners.direction-x.com              # 溯源: DOMAIN-SUFFIX,direction-x.com
 [包含去重] DOMAIN-SUFFIX,bigbangads.go2cloud.org              # 溯源: DOMAIN-SUFFIX,go2cloud.org
 [包含去重] DOMAIN-SUFFIX,cdn.getsmartcontent.com              # 溯源: DOMAIN-SUFFIX,getsmartcontent.com
 [包含去重] DOMAIN-SUFFIX,cdn2.sales-frontier.com              # 溯源: DOMAIN-SUFFIX,sales-frontier.com
+[包含去重] DOMAIN-SUFFIX,cdnhorizon.nnmtools.com              # 溯源: DOMAIN-SUFFIX,nnmtools.com
 [包含去重] DOMAIN-SUFFIX,clicks.virtuagirlhd.com              # 溯源: DOMAIN-SUFFIX,virtuagirlhd.com
 [包含去重] DOMAIN-SUFFIX,code.ainsyndication.com              # 溯源: DOMAIN-SUFFIX,ainsyndication.com
 [包含去重] DOMAIN-SUFFIX,consent.cookiefirst.com              # 溯源: DOMAIN-SUFFIX,cookiefirst.com
@@ -2426,6 +2428,7 @@
 [包含去重] DOMAIN-SUFFIX,streamdiag.livejasmin.com            # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,tg1.premiumimpression.com            # 溯源: DOMAIN-SUFFIX,premiumimpression.com
 [包含去重] DOMAIN-SUFFIX,track.hg.healthgrades.com            # 溯源: DOMAIN-SUFFIX,healthgrades.com
+[包含去重] DOMAIN-SUFFIX,trackhorizon.nnmtools.com            # 溯源: DOMAIN-SUFFIX,nnmtools.com
 [包含去重] DOMAIN-SUFFIX,trk.cf.labanquepostale.fr            # 溯源: DOMAIN-SUFFIX,cf.labanquepostale.fr
 [包含去重] DOMAIN-SUFFIX,wp-log.api.useinsider.com            # 溯源: DOMAIN-SUFFIX,useinsider.com
 [包含去重] DOMAIN-SUFFIX,www.agile-company-247.com            # 溯源: DOMAIN-SUFFIX,agile-company-247.com
