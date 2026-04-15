@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-14 15:11:09
+# 规则合并审计日志 - 2026-04-15 15:11:52
 # ----------------------------------------------------------
-# 最终规则总数: 197520
-# 逻辑精简总数: 3037
+# 最终规则总数: 197895
+# 逻辑精简总数: 3039
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -369,6 +369,7 @@
 [包含去重] DOMAIN-SUFFIX,e.metarouter.io                      # 溯源: DOMAIN-SUFFIX,metarouter.io
 [包含去重] DOMAIN-SUFFIX,ehk.trenhdg.com                      # 溯源: DOMAIN-SUFFIX,trenhdg.com
 [包含去重] DOMAIN-SUFFIX,event.tagtoo.co                      # 溯源: DOMAIN-SUFFIX,tagtoo.co
+[包含去重] DOMAIN-SUFFIX,fakexa.mno.link                      # 溯源: DOMAIN-SUFFIX,mno.link
 [包含去重] DOMAIN-SUFFIX,ga.clearbit.com                      # 溯源: DOMAIN-SUFFIX,clearbit.com
 [包含去重] DOMAIN-SUFFIX,ggcode.2345.com                      # 溯源: DOMAIN-SUFFIX,2345.com
 [包含去重] DOMAIN-SUFFIX,go.getone.today                      # 溯源: DOMAIN-SUFFIX,getone.today
@@ -1495,7 +1496,6 @@
 [包含去重] DOMAIN-SUFFIX,jp-axia.m0mentum.net                 # 溯源: DOMAIN-SUFFIX,m0mentum.net
 [包含去重] DOMAIN-SUFFIX,js.pulseinsights.com                 # 溯源: DOMAIN-SUFFIX,pulseinsights.com
 [包含去重] DOMAIN-SUFFIX,logger-test.mno.link                 # 溯源: DOMAIN-SUFFIX,mno.link
-[包含去重] DOMAIN-SUFFIX,login.pop.adacts.com                 # 溯源: DOMAIN-SUFFIX,adacts.com
 [包含去重] DOMAIN-SUFFIX,login.showcasead.com                 # 溯源: DOMAIN-SUFFIX,showcasead.com
 [包含去重] DOMAIN-SUFFIX,marketing.sojern.com                 # 溯源: DOMAIN-SUFFIX,sojern.com
 [包含去重] DOMAIN-SUFFIX,media.adrevolver.com                 # 溯源: DOMAIN-SUFFIX,adrevolver.com
@@ -1853,7 +1853,6 @@
 [包含去重] DOMAIN-SUFFIX,events.shoplytics.com                # 溯源: DOMAIN-SUFFIX,shoplytics.com
 [包含去重] DOMAIN-SUFFIX,falcon.useinsider.com                # 溯源: DOMAIN-SUFFIX,useinsider.com
 [包含去重] DOMAIN-SUFFIX,feedads.feedblitz.com                # 溯源: DOMAIN-SUFFIX,feedblitz.com
-[包含去重] DOMAIN-SUFFIX,filter.pop.adacts.com                # 溯源: DOMAIN-SUFFIX,adacts.com
 [包含去重] DOMAIN-SUFFIX,filter.showcasead.com                # 溯源: DOMAIN-SUFFIX,showcasead.com
 [包含去重] DOMAIN-SUFFIX,freefr-fixed.mno.link                # 溯源: DOMAIN-SUFFIX,mno.link
 [包含去重] DOMAIN-SUFFIX,gate.datacaciques.com                # 溯源: DOMAIN-SUFFIX,datacaciques.com
@@ -1871,6 +1870,7 @@
 [包含去重] DOMAIN-SUFFIX,login.xmlmonetize.com                # 溯源: DOMAIN-SUFFIX,xmlmonetize.com
 [包含去重] DOMAIN-SUFFIX,mail.shaferglazer.com                # 溯源: DOMAIN-SUFFIX,shaferglazer.com
 [包含去重] DOMAIN-SUFFIX,mailer.livejasmin.com                # 溯源: DOMAIN-SUFFIX,livejasmin.com
+[包含去重] DOMAIN-SUFFIX,marketing.wescam.info                # 溯源: DOMAIN-SUFFIX,wescam.info
 [包含去重] DOMAIN-SUFFIX,netshelter.adtrix.com                # 溯源: DOMAIN-SUFFIX,adtrix.com
 [包含去重] DOMAIN-SUFFIX,networksdk.ssacdn.com                # 溯源: DOMAIN-SUFFIX,ssacdn.com
 [包含去重] DOMAIN-SUFFIX,observe.metarouter.io                # 溯源: DOMAIN-SUFFIX,metarouter.io
@@ -2180,6 +2180,7 @@
 [包含去重] DOMAIN-SUFFIX,metrics.sj1.omniture.com             # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,metrics.sjo.omniture.com             # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,beacon.securestudies.com             # 溯源: DOMAIN-SUFFIX,securestudies.com
+[包含去重] DOMAIN-SUFFIX,a.smetrics.sovereign.com             # 溯源: DOMAIN-SUFFIX,smetrics.sovereign.com
 [包含去重] DOMAIN-SUFFIX,abtest.mistat.xiaomi.com             # 溯源: DOMAIN-SUFFIX,mistat.xiaomi.com
 [包含去重] DOMAIN-SUFFIX,analytics.yollamedia.com             # 溯源: DOMAIN-SUFFIX,yollamedia.com
 [包含去重] DOMAIN-SUFFIX,adpia.client.adpinfo.com             # 溯源: DOMAIN-SUFFIX,adpinfo.com
@@ -2623,6 +2624,7 @@
 [包含去重] DOMAIN-SUFFIX,analytics.analytics-egain.com        # 溯源: DOMAIN-SUFFIX,analytics-egain.com
 [包含去重] DOMAIN-SUFFIX,a8.track.entry.dokoyorimo.com        # 溯源: DOMAIN-SUFFIX,track.entry.dokoyorimo.com
 [包含去重] DOMAIN-SUFFIX,targeting.washpost.nile.works        # 溯源: DOMAIN-SUFFIX,washpost.nile.works
+[包含去重] DOMAIN-SUFFIX,s.metrics.skyandtelescope.com        # 溯源: DOMAIN-SUFFIX,metrics.skyandtelescope.com
 [包含去重] DOMAIN-SUFFIX,bidder.mediams.mb.softbank.jp        # 溯源: DOMAIN-SUFFIX,mediams.mb.softbank.jp
 [包含去重] DOMAIN-SUFFIX,ads10.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,ads11.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
