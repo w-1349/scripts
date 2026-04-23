@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-04-22 15:14:40
+# 规则合并审计日志 - 2026-04-23 15:17:02
 # ----------------------------------------------------------
-# 最终规则总数: 195403
+# 最终规则总数: 194321
 # 逻辑精简总数: 3038
 # ----------------------------------------------------------
 
@@ -260,6 +260,7 @@
 [包含去重] DOMAIN-SUFFIX,hlog.hiido.com                       # 溯源: DOMAIN-SUFFIX,hiido.com
 [包含去重] DOMAIN-SUFFIX,huis.istats.nl                       # 溯源: DOMAIN-SUFFIX,istats.nl
 [包含去重] DOMAIN-SUFFIX,j.northbeam.io                       # 溯源: DOMAIN-SUFFIX,northbeam.io
+[包含去重] DOMAIN-SUFFIX,js.verisoul.ai                       # 溯源: DOMAIN-SUFFIX,verisoul.ai
 [包含去重] DOMAIN-SUFFIX,klog.hiido.com                       # 溯源: DOMAIN-SUFFIX,hiido.com
 [包含去重] DOMAIN-SUFFIX,log.ablyft.com                       # 溯源: DOMAIN-SUFFIX,ablyft.com
 [包含去重] DOMAIN-SUFFIX,m.adtiming.com                       # 溯源: DOMAIN-SUFFIX,adtiming.com
@@ -1362,7 +1363,6 @@
 [包含去重] DOMAIN-SUFFIX,tripwolf.oewabox.at                  # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,tv2no.linkpulse.com                  # 溯源: DOMAIN-SUFFIX,linkpulse.com
 [包含去重] DOMAIN-SUFFIX,vfde-fixed.mno.link                  # 溯源: DOMAIN-SUFFIX,mno.link
-[包含去重] DOMAIN-SUFFIX,video.missav001.lol                  # 溯源: DOMAIN-SUFFIX,missav001.lol
 [包含去重] DOMAIN-SUFFIX,widget.manychat.com                  # 溯源: DOMAIN-SUFFIX,manychat.com
 [包含去重] DOMAIN-SUFFIX,wiengvat.oewabox.at                  # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,www.123-tracker.com                  # 溯源: DOMAIN-SUFFIX,123-tracker.com
