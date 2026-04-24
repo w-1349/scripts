@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-23 15:17:02
+# 规则合并审计日志 - 2026-04-24 15:26:01
 # ----------------------------------------------------------
-# 最终规则总数: 194321
-# 逻辑精简总数: 3038
+# 最终规则总数: 194699
+# 逻辑精简总数: 3041
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -470,6 +470,7 @@
 [包含去重] DOMAIN-SUFFIX,tt.douyaobuy.com                     # 溯源: DOMAIN-SUFFIX,douyaobuy.com
 [包含去重] DOMAIN-SUFFIX,track.emerse.com                     # 溯源: DOMAIN-SUFFIX,emerse.com
 [包含去重] DOMAIN-SUFFIX,176.net.jumia.ma                     # 溯源: DOMAIN-SUFFIX,net.jumia.ma
+[包含去重] DOMAIN-SUFFIX,click.kataweb.it                     # 溯源: DOMAIN-SUFFIX,kataweb.it
 [包含去重] DOMAIN-SUFFIX,tag.leadplace.fr                     # 溯源: DOMAIN-SUFFIX,leadplace.fr
 [包含去重] DOMAIN-SUFFIX,events.medio.com                     # 溯源: DOMAIN-SUFFIX,medio.com
 [包含去重] DOMAIN-SUFFIX,dc.meitustat.com                     # 溯源: DOMAIN-SUFFIX,meitustat.com
@@ -632,6 +633,7 @@
 [包含去重] DOMAIN-SUFFIX,pl.elements.video                    # 溯源: DOMAIN-SUFFIX,elements.video
 [包含去重] DOMAIN-SUFFIX,tr.espmp-agfr.net                    # 溯源: DOMAIN-SUFFIX,espmp-agfr.net
 [包含去重] DOMAIN-SUFFIX,kitchen.juicer.cc                    # 溯源: DOMAIN-SUFFIX,juicer.cc
+[包含去重] DOMAIN-SUFFIX,logger.kataweb.it                    # 溯源: DOMAIN-SUFFIX,kataweb.it
 [包含去重] DOMAIN-SUFFIX,adui.tg.meitu.com                    # 溯源: DOMAIN-SUFFIX,tg.meitu.com
 [包含去重] DOMAIN-SUFFIX,mdc.meitustat.com                    # 溯源: DOMAIN-SUFFIX,meitustat.com
 [包含去重] DOMAIN-SUFFIX,video.da.mgtv.com                    # 溯源: DOMAIN-SUFFIX,da.mgtv.com
@@ -1414,6 +1416,7 @@
 [包含去重] DOMAIN-SUFFIX,tr.ps.espmp-agfr.net                 # 溯源: DOMAIN-SUFFIX,espmp-agfr.net
 [包含去重] DOMAIN-SUFFIX,rtg-adroute.focas.jp                 # 溯源: DOMAIN-SUFFIX,focas.jp
 [包含去重] DOMAIN-SUFFIX,dptkdh.joinhoney.com                 # 溯源: DOMAIN-SUFFIX,joinhoney.com
+[包含去重] DOMAIN-SUFFIX,videosynd.kataweb.it                 # 溯源: DOMAIN-SUFFIX,kataweb.it
 [包含去重] DOMAIN-SUFFIX,cookies.leadplace.fr                 # 溯源: DOMAIN-SUFFIX,leadplace.fr
 [包含去重] DOMAIN-SUFFIX,analytics.logsss.com                 # 溯源: DOMAIN-SUFFIX,logsss.com
 [包含去重] DOMAIN-SUFFIX,rabbit.meitustat.com                 # 溯源: DOMAIN-SUFFIX,meitustat.com
