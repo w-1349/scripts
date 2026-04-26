@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-25 14:58:39
+# 规则合并审计日志 - 2026-04-26 15:12:00
 # ----------------------------------------------------------
-# 最终规则总数: 194924
-# 逻辑精简总数: 3041
+# 最终规则总数: 195210
+# 逻辑精简总数: 3042
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2861,6 +2861,7 @@
 [包含去重] DOMAIN-SUFFIX,beacons.digital.disneyadvertising.com # 溯源: DOMAIN-SUFFIX,disneyadvertising.com
 [包含去重] DOMAIN-SUFFIX,msa-uki.secureforms.partnermcafee.com # 溯源: DOMAIN-SUFFIX,partnermcafee.com
 [包含去重] DOMAIN-SUFFIX,nw-umwatson.events.data.microsoft.com # 溯源: DOMAIN-SUFFIX,events.data.microsoft.com
+[包含去重] DOMAIN-SUFFIX,privacy-analytics-proxy.cookiebot.com # 溯源: DOMAIN-SUFFIX,cookiebot.com
 [包含去重] DOMAIN-SUFFIX,www.intelligent-company-foresight.com # 溯源: DOMAIN-SUFFIX,intelligent-company-foresight.com
 [包含去重] DOMAIN-SUFFIX,tr.envie-de-bien-manger.espmp-aufr.net # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,e-2dj6wfk4ehd5afq.stats.esomniture.com # 溯源: DOMAIN-SUFFIX,esomniture.com
