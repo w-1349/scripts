@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-04-27 15:56:56
+# 规则合并审计日志 - 2026-04-28 15:56:01
 # ----------------------------------------------------------
-# 最终规则总数: 195501
-# 逻辑精简总数: 3042
+# 最终规则总数: 195781
+# 逻辑精简总数: 3044
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2217,6 +2217,7 @@
 [包含去重] DOMAIN-SUFFIX,lubet.www.livejasmin.com             # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,metrics.data.hicloud.com             # 溯源: DOMAIN-SUFFIX,data.hicloud.com
 [包含去重] DOMAIN-SUFFIX,oascentral.looksmart.com             # 溯源: DOMAIN-SUFFIX,looksmart.com
+[包含去重] DOMAIN-SUFFIX,onsitestats.bluecore.com             # 溯源: DOMAIN-SUFFIX,bluecore.com
 [包含去重] DOMAIN-SUFFIX,paleoleap.usesfathom.com             # 溯源: DOMAIN-SUFFIX,usesfathom.com
 [包含去重] DOMAIN-SUFFIX,partnerads.ysm.yahoo.com             # 溯源: DOMAIN-SUFFIX,ysm.yahoo.com
 [包含去重] DOMAIN-SUFFIX,ph-query-1.looksmart.com             # 溯源: DOMAIN-SUFFIX,looksmart.com
@@ -2407,6 +2408,7 @@
 [包含去重] DOMAIN-SUFFIX,filter.adventurefeeds.com            # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
 [包含去重] DOMAIN-SUFFIX,groups.heatexperience.com            # 溯源: DOMAIN-SUFFIX,heatexperience.com
 [包含去重] DOMAIN-SUFFIX,info.paydashboardinfo.com            # 溯源: DOMAIN-SUFFIX,paydashboardinfo.com
+[包含去重] DOMAIN-SUFFIX,leadsandmore.go2cloud.org            # 溯源: DOMAIN-SUFFIX,go2cloud.org
 [包含去重] DOMAIN-SUFFIX,maccity.it.intellitxt.com            # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,macuser.uk.intellitxt.com            # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,metrics2.data.hicloud.com            # 溯源: DOMAIN-SUFFIX,data.hicloud.com
