@@ -1,0 +1,4 @@
+#!name=w-1349
+#!desc=w-1349 自用规则
+[Rule]
+PROTOCOL,STUN,,REJECT-NO-DROP
