@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-05-26 16:57:10
+# 规则合并审计日志 - 2026-05-27 16:53:34
 # ----------------------------------------------------------
-# 最终规则总数: 195605
-# 逻辑精简总数: 3042
+# 最终规则总数: 195881
+# 逻辑精简总数: 3040
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2018,7 +2018,6 @@
 [包含去重] DOMAIN-SUFFIX,lhe-beacon.team-rec.jp               # 溯源: DOMAIN-SUFFIX,team-rec.jp
 [包含去重] DOMAIN-SUFFIX,loc1.hitsprocessor.com               # 溯源: DOMAIN-SUFFIX,hitsprocessor.com
 [包含去重] DOMAIN-SUFFIX,log.api.useinsider.com               # 溯源: DOMAIN-SUFFIX,useinsider.com
-[包含去重] DOMAIN-SUFFIX,magnetrack.klangoo.com               # 溯源: DOMAIN-SUFFIX,klangoo.com
 [包含去重] DOMAIN-SUFFIX,mail.ghmproperties.com               # 溯源: DOMAIN-SUFFIX,ghmproperties.com
 [包含去重] DOMAIN-SUFFIX,mail.techniservinc.com               # 溯源: DOMAIN-SUFFIX,techniservinc.com
 [包含去重] DOMAIN-SUFFIX,media.markethealth.com               # 溯源: DOMAIN-SUFFIX,markethealth.com
@@ -2524,7 +2523,6 @@
 [包含去重] DOMAIN-SUFFIX,nojscontainer.pepperjam.com          # 溯源: DOMAIN-SUFFIX,pepperjam.com
 [包含去重] DOMAIN-SUFFIX,tracker-rec.smart-bdash.com          # 溯源: DOMAIN-SUFFIX,smart-bdash.com
 [包含去重] DOMAIN-SUFFIX,o-sdk.mediation.unity3d.com          # 溯源: DOMAIN-SUFFIX,mediation.unity3d.com
-[包含去重] DOMAIN-SUFFIX,ad-specs.guoshipartners.com          # 溯源: DOMAIN-SUFFIX,guoshipartners.com
 [包含去重] DOMAIN-SUFFIX,adsatt.abcnews.starwave.com          # 溯源: DOMAIN-SUFFIX,starwave.com
 [包含去重] DOMAIN-SUFFIX,alpha.easy-hit-counters.com          # 溯源: DOMAIN-SUFFIX,easy-hit-counters.com
 [包含去重] DOMAIN-SUFFIX,autodiscover.livejasmin.com          # 溯源: DOMAIN-SUFFIX,livejasmin.com
