@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-03 18:25:21
+# 规则合并审计日志 - 2026-06-04 17:36:19
 # ----------------------------------------------------------
-# 最终规则总数: 194845
-# 逻辑精简总数: 3042
+# 最终规则总数: 195170
+# 逻辑精简总数: 3043
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -721,6 +721,7 @@
 [包含去重] DOMAIN-SUFFIX,mpc.nicequest.com                    # 溯源: DOMAIN-SUFFIX,nicequest.com
 [包含去重] DOMAIN-SUFFIX,nickde.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,notori.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
+[包含去重] DOMAIN-SUFFIX,ocdn.adsterra.com                    # 溯源: DOMAIN-SUFFIX,adsterra.com
 [包含去重] DOMAIN-SUFFIX,oeamtc.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,orangefr.mno.link                    # 溯源: DOMAIN-SUFFIX,mno.link
 [包含去重] DOMAIN-SUFFIX,p.tencentmind.com                    # 溯源: DOMAIN-SUFFIX,tencentmind.com
