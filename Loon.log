@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-07 16:39:12
+# 规则合并审计日志 - 2026-06-08 18:08:24
 # ----------------------------------------------------------
-# 最终规则总数: 193465
-# 逻辑精简总数: 3044
+# 最终规则总数: 193828
+# 逻辑精简总数: 3040
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -333,6 +333,7 @@
 [包含去重] DOMAIN-SUFFIX,t.douyaobuy.com                      # 溯源: DOMAIN-SUFFIX,douyaobuy.com
 [包含去重] DOMAIN-SUFFIX,yoke.jyhlo0.com                      # 溯源: DOMAIN-SUFFIX,jyhlo0.com
 [包含去重] DOMAIN-SUFFIX,dat1.jzjxmj.com                      # 溯源: DOMAIN-SUFFIX,jzjxmj.com
+[包含去重] DOMAIN-SUFFIX,inini.kesug.com                      # 溯源: DOMAIN-SUFFIX,kesug.com
 [包含去重] DOMAIN-SUFFIX,tracking.lqm.io                      # 溯源: DOMAIN-SUFFIX,lqm.io
 [包含去重] DOMAIN-SUFFIX,ott.da.mgtv.com                      # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,pc1.da.mgtv.com                      # 溯源: DOMAIN-SUFFIX,da.mgtv.com
@@ -1203,7 +1204,6 @@
 [包含去重] DOMAIN-SUFFIX,xml.showcasead.com                   # 溯源: DOMAIN-SUFFIX,showcasead.com
 [包含去重] DOMAIN-SUFFIX,adapi.shouji.360.cn                  # 溯源: DOMAIN-SUFFIX,shouji.360.cn
 [包含去重] DOMAIN-SUFFIX,jbdch1.appmobile.cn                  # 溯源: DOMAIN-SUFFIX,appmobile.cn
-[包含去重] DOMAIN-SUFFIX,wa.appsflyersdk.com                  # 溯源: DOMAIN-SUFFIX,appsflyersdk.com
 [包含去重] DOMAIN-SUFFIX,metrics.camsoda.com                  # 溯源: DOMAIN-SUFFIX,camsoda.com
 [包含去重] DOMAIN-SUFFIX,dns.chuzushijian.cn                  # 溯源: DOMAIN-SUFFIX,chuzushijian.cn
 [包含去重] DOMAIN-SUFFIX,site2.emarketer.com                  # 溯源: DOMAIN-SUFFIX,emarketer.com
@@ -2082,9 +2082,6 @@
 [包含去重] DOMAIN-SUFFIX,www.tracking.adp.co.uk               # 溯源: DOMAIN-SUFFIX,tracking.adp.co.uk
 [包含去重] DOMAIN-SUFFIX,zlolhl.mediametrics.ru               # 溯源: DOMAIN-SUFFIX,mediametrics.ru
 [包含去重] DOMAIN-SUFFIX,bd-china-1.appmobile.cn              # 溯源: DOMAIN-SUFFIX,appmobile.cn
-[包含去重] DOMAIN-SUFFIX,banner.appsflyersdk.com              # 溯源: DOMAIN-SUFFIX,appsflyersdk.com
-[包含去重] DOMAIN-SUFFIX,fvalid.appsflyersdk.com              # 溯源: DOMAIN-SUFFIX,appsflyersdk.com
-[包含去重] DOMAIN-SUFFIX,websdk.appsflyersdk.com              # 溯源: DOMAIN-SUFFIX,appsflyersdk.com
 [包含去重] DOMAIN-SUFFIX,tr.news.devisdirect.com              # 溯源: DOMAIN-SUFFIX,devisdirect.com
 [包含去重] DOMAIN-SUFFIX,pasta.esfile.duapps.com              # 溯源: DOMAIN-SUFFIX,duapps.com
 [包含去重] DOMAIN-SUFFIX,tr.gplus.espmp-nifr.net              # 溯源: DOMAIN-SUFFIX,espmp-nifr.net
@@ -2836,7 +2833,6 @@
 [包含去重] DOMAIN-SUFFIX,umwatson.events.data.microsoft.com   # 溯源: DOMAIN-SUFFIX,events.data.microsoft.com
 [包含去重] DOMAIN-SUFFIX,www.newsgrupocatalanaoccidente.com   # 溯源: DOMAIN-SUFFIX,newsgrupocatalanaoccidente.com
 [包含去重] DOMAIN-SUFFIX,bj-td-menta-01-callback.advlion.com  # 溯源: DOMAIN-SUFFIX,advlion.com
-[包含去重] DOMAIN-SUFFIX,onelinksmartscript.appsflyersdk.com  # 溯源: DOMAIN-SUFFIX,appsflyersdk.com
 [包含去重] DOMAIN-SUFFIX,tr.publicisdrugstore.espmp-agfr.net  # 溯源: DOMAIN-SUFFIX,espmp-agfr.net
 [包含去重] DOMAIN-SUFFIX,lets.go.haymarketmedicalnetwork.com  # 溯源: DOMAIN-SUFFIX,go.haymarketmedicalnetwork.com
 [包含去重] DOMAIN-SUFFIX,scontent.xx.fbcdn.net.iberostar.com  # 溯源: DOMAIN-SUFFIX,fbcdn.net.iberostar.com
