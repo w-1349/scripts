@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-10 17:32:11
+# 规则合并审计日志 - 2026-06-11 17:56:16
 # ----------------------------------------------------------
-# 最终规则总数: 189262
-# 逻辑精简总数: 3035
+# 最终规则总数: 189637
+# 逻辑精简总数: 3034
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -138,7 +138,6 @@
 [包含去重] DOMAIN-SUFFIX,m.da.mgtv.com                        # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,x.da.mgtv.com                        # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,y.da.mgtv.com                        # 溯源: DOMAIN-SUFFIX,da.mgtv.com
-[包含去重] DOMAIN-SUFFIX,cdn.nuqwe.com                        # 溯源: DOMAIN-SUFFIX,nuqwe.com
 [包含去重] DOMAIN-SUFFIX,news.l.qq.com                        # 溯源: DOMAIN-SUFFIX,l.qq.com
 [包含去重] DOMAIN-SUFFIX,mark.l.qq.com                        # 溯源: DOMAIN-SUFFIX,l.qq.com
 [包含去重] DOMAIN-SUFFIX,t.splicky.com                        # 溯源: DOMAIN-SUFFIX,splicky.com
