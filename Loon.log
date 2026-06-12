@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-11 17:56:16
+# 规则合并审计日志 - 2026-06-12 17:47:22
 # ----------------------------------------------------------
-# 最终规则总数: 189637
-# 逻辑精简总数: 3034
+# 最终规则总数: 189974
+# 逻辑精简总数: 3035
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1769,6 +1769,7 @@
 [包含去重] DOMAIN-SUFFIX,tr.sfr.espmp-aufr.net                # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,analytics.foresee.com                # 溯源: DOMAIN-SUFFIX,foresee.com
 [包含去重] DOMAIN-SUFFIX,event.api.instant.one                # 溯源: DOMAIN-SUFFIX,api.instant.one
+[包含去重] DOMAIN-SUFFIX,einrfh.justanswer.com                # 溯源: DOMAIN-SUFFIX,justanswer.com
 [包含去重] DOMAIN-SUFFIX,log.mediacategory.com                # 溯源: DOMAIN-SUFFIX,mediacategory.com
 [包含去重] DOMAIN-SUFFIX,imgaliyun.da.mgtv.com                # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,etl.xlmc.sec.miui.com                # 溯源: DOMAIN-SUFFIX,xlmc.sec.miui.com
