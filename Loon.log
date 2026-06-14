@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-13 16:40:39
+# 规则合并审计日志 - 2026-06-14 16:55:17
 # ----------------------------------------------------------
-# 最终规则总数: 190411
-# 逻辑精简总数: 3035
+# 最终规则总数: 190710
+# 逻辑精简总数: 3039
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -205,6 +205,7 @@
 [包含去重] DOMAIN-SUFFIX,v2.da.mgtv.com                       # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,ys.da.mgtv.com                       # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,zx.da.mgtv.com                       # 溯源: DOMAIN-SUFFIX,da.mgtv.com
+[包含去重] DOMAIN-SUFFIX,a.omappapi.com                       # 溯源: DOMAIN-SUFFIX,omappapi.com
 [包含去重] DOMAIN-SUFFIX,s3.phluant.com                       # 溯源: DOMAIN-SUFFIX,phluant.com
 [包含去重] DOMAIN-SUFFIX,livec.l.qq.com                       # 溯源: DOMAIN-SUFFIX,l.qq.com
 [包含去重] DOMAIN-SUFFIX,livem.l.qq.com                       # 溯源: DOMAIN-SUFFIX,l.qq.com
@@ -646,6 +647,7 @@
 [包含去重] DOMAIN-SUFFIX,ssp.api.tappx.com                    # 溯源: DOMAIN-SUFFIX,tappx.com
 [包含去重] DOMAIN-SUFFIX,track.totalav.com                    # 溯源: DOMAIN-SUFFIX,totalav.com
 [包含去重] DOMAIN-SUFFIX,dig.ultimedia.com                    # 溯源: DOMAIN-SUFFIX,ultimedia.com
+[包含去重] DOMAIN-SUFFIX,stats.velarium.cc                    # 溯源: DOMAIN-SUFFIX,velarium.cc
 [包含去重] DOMAIN-SUFFIX,pixel.videohub.tv                    # 溯源: DOMAIN-SUFFIX,videohub.tv
 [包含去重] DOMAIN-SUFFIX,adp.atm.youku.com                    # 溯源: DOMAIN-SUFFIX,atm.youku.com
 [包含去重] DOMAIN-SUFFIX,bsv.atm.youku.com                    # 溯源: DOMAIN-SUFFIX,atm.youku.com
@@ -1482,6 +1484,7 @@
 [包含去重] DOMAIN-SUFFIX,dmp.sbermarketing.ru                 # 溯源: DOMAIN-SUFFIX,sbermarketing.ru
 [包含去重] DOMAIN-SUFFIX,dsp-eu.nativeads.com                 # 溯源: DOMAIN-SUFFIX,nativeads.com
 [包含去重] DOMAIN-SUFFIX,event.clientgear.com                 # 溯源: DOMAIN-SUFFIX,clientgear.com
+[包含去重] DOMAIN-SUFFIX,events.brightline.tv                 # 溯源: DOMAIN-SUFFIX,brightline.tv
 [包含去重] DOMAIN-SUFFIX,ext.host-tracker.com                 # 溯源: DOMAIN-SUFFIX,host-tracker.com
 [包含去重] DOMAIN-SUFFIX,fakexa-post.mno.link                 # 溯源: DOMAIN-SUFFIX,mno.link
 [包含去重] DOMAIN-SUFFIX,filter.foremedia.net                 # 溯源: DOMAIN-SUFFIX,foremedia.net
@@ -1769,7 +1772,6 @@
 [包含去重] DOMAIN-SUFFIX,tr.sfr.espmp-aufr.net                # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,analytics.foresee.com                # 溯源: DOMAIN-SUFFIX,foresee.com
 [包含去重] DOMAIN-SUFFIX,event.api.instant.one                # 溯源: DOMAIN-SUFFIX,api.instant.one
-[包含去重] DOMAIN-SUFFIX,einrfh.justanswer.com                # 溯源: DOMAIN-SUFFIX,justanswer.com
 [包含去重] DOMAIN-SUFFIX,log.mediacategory.com                # 溯源: DOMAIN-SUFFIX,mediacategory.com
 [包含去重] DOMAIN-SUFFIX,imgaliyun.da.mgtv.com                # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,etl.xlmc.sec.miui.com                # 溯源: DOMAIN-SUFFIX,xlmc.sec.miui.com
@@ -2029,6 +2031,7 @@
 [包含去重] DOMAIN-SUFFIX,rtb-useast.denakop.com               # 溯源: DOMAIN-SUFFIX,denakop.com
 [包含去重] DOMAIN-SUFFIX,rtb.adventurefeeds.com               # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
 [包含去重] DOMAIN-SUFFIX,sandbox.livejasmin.com               # 溯源: DOMAIN-SUFFIX,livejasmin.com
+[包含去重] DOMAIN-SUFFIX,services.brightline.tv               # 溯源: DOMAIN-SUFFIX,brightline.tv
 [包含去重] DOMAIN-SUFFIX,smetrics.multiview.com               # 溯源: DOMAIN-SUFFIX,multiview.com
 [包含去重] DOMAIN-SUFFIX,ssl-compass.oewabox.at               # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,ssl-uspgvat.oewabox.at               # 溯源: DOMAIN-SUFFIX,oewabox.at
@@ -2100,6 +2103,7 @@
 [包含去重] DOMAIN-SUFFIX,apihorizon.nnmtools.com              # 溯源: DOMAIN-SUFFIX,nnmtools.com
 [包含去重] DOMAIN-SUFFIX,banners.direction-x.com              # 溯源: DOMAIN-SUFFIX,direction-x.com
 [包含去重] DOMAIN-SUFFIX,bigbangads.go2cloud.org              # 溯源: DOMAIN-SUFFIX,go2cloud.org
+[包含去重] DOMAIN-SUFFIX,cdn-media.brightline.tv              # 溯源: DOMAIN-SUFFIX,brightline.tv
 [包含去重] DOMAIN-SUFFIX,cdn.getsmartcontent.com              # 溯源: DOMAIN-SUFFIX,getsmartcontent.com
 [包含去重] DOMAIN-SUFFIX,cdn2.sales-frontier.com              # 溯源: DOMAIN-SUFFIX,sales-frontier.com
 [包含去重] DOMAIN-SUFFIX,cdnhorizon.nnmtools.com              # 溯源: DOMAIN-SUFFIX,nnmtools.com
