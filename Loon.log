@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-14 16:55:17
+# 规则合并审计日志 - 2026-06-15 19:35:47
 # ----------------------------------------------------------
-# 最终规则总数: 190710
-# 逻辑精简总数: 3039
+# 最终规则总数: 191039
+# 逻辑精简总数: 3040
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -341,6 +341,7 @@
 [包含去重] DOMAIN-SUFFIX,ads.mobgold.com                      # 溯源: DOMAIN-SUFFIX,mobgold.com
 [包含去重] DOMAIN-SUFFIX,track.sigmob.cn                      # 溯源: DOMAIN-SUFFIX,sigmob.cn
 [包含去重] DOMAIN-SUFFIX,track.tappx.com                      # 溯源: DOMAIN-SUFFIX,tappx.com
+[包含去重] DOMAIN-SUFFIX,cdn.viowrel.com                      # 溯源: DOMAIN-SUFFIX,viowrel.com
 [包含去重] DOMAIN-SUFFIX,m.atm.youku.com                      # 溯源: DOMAIN-SUFFIX,atm.youku.com
 [包含去重] DOMAIN-SUFFIX,1.allyes.com.cn                      # 溯源: DOMAIN-SUFFIX,allyes.com.cn
 [包含去重] DOMAIN-SUFFIX,a.adsession.com                      # 溯源: DOMAIN-SUFFIX,adsession.com
