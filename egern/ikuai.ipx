@@ -1,9 +1,8 @@
 #!name=爱快净化
-#!desc=移除爱快业务列表页面的 banner 广告
-#!author=Grok 助手
+#!desc=移除爱快业务管理广告
 
 [Script]
-http-response ^https://mini2\.ikuai8\.com/api/v3/business/list requires-body=1,script-path=https://raw.githubusercontent.com/w-1349/scripts/main/js/ikuai.js,timeout=10,tag=爱快去广告
+http-response ^https:\/\/mini2\.ikuai8\.com\/api\/v3\/business\/list script-path=https://raw.githubusercontent.com/w-1349/scripts/main/js/ikuai.js, requires-body=true, timeout=30
 
 [MITM]
-hostname = %APPEND% mini2.ikuai8.com
+hostname = mini2.ikuai8.com
