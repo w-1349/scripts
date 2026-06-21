@@ -1,10 +1,18 @@
-#!name=iKuai推广净化
-#!desc=移除爱快业务管理 Banner 广告
-#!author=w-1349 + ChatGPT
-#!homepage=https://github.com/w-1349/scripts
+name: "爱快净化"
+description: "移除爱快业务列表页面的 banner 广告"
+author: "Grok 助手"
+version: "1.0"
+icon: "shield.lefthalf.fill"
 
-[Script]
-iKuai业务广告净化 = type=http-response,pattern=^https:\/\/mini2\.ikuai8\.com\/api\/v3\/business\/list,script-path=https://raw.githubusercontent.com/w-1349/scripts/main/js/ikuai.js,requires-body=true,timeout=60
+mitm:
+  hostnames:
+    - "mini2.ikuai8.com"
 
-[MITM]
-hostname = %APPEND% mini2.ikuai8.com
+scriptings:
+  - http_response:
+      name: "ikuai_business_remove_ad"
+      match: "^https://mini2\\.ikuai8\\.com/api/v3/business/list"
+      script_path: "https://raw.githubusercontent.com/w-1349/scripts/main/js/ikuai.js"     # 相对路径，推荐这样写
+      timeout: 30
+      body_required: true
+      debug: false
