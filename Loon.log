@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-26 16:41:39
+# 规则合并审计日志 - 2026-06-27 16:18:10
 # ----------------------------------------------------------
-# 最终规则总数: 191432
-# 逻辑精简总数: 3037
+# 最终规则总数: 191748
+# 逻辑精简总数: 3038
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1214,6 +1214,7 @@
 [包含去重] DOMAIN-SUFFIX,webevents.kayzen.io                  # 溯源: DOMAIN-SUFFIX,kayzen.io
 [包含去重] DOMAIN-SUFFIX,rabbit.tg.meitu.com                  # 溯源: DOMAIN-SUFFIX,tg.meitu.com
 [包含去重] DOMAIN-SUFFIX,mobile2.da.mgtv.com                  # 溯源: DOMAIN-SUFFIX,da.mgtv.com
+[包含去重] DOMAIN-SUFFIX,tagger.opecloud.com                  # 溯源: DOMAIN-SUFFIX,opecloud.com
 [包含去重] DOMAIN-SUFFIX,event.toggle.qq.com                  # 溯源: DOMAIN-SUFFIX,toggle.qq.com
 [包含去重] DOMAIN-SUFFIX,tracking.quisma.com                  # 溯源: DOMAIN-SUFFIX,quisma.com
 [包含去重] DOMAIN-SUFFIX,tag.rmp.rakuten.com                  # 溯源: DOMAIN-SUFFIX,rmp.rakuten.com
