@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-06-28 16:35:09
+# 规则合并审计日志 - 2026-06-29 18:12:50
 # ----------------------------------------------------------
-# 最终规则总数: 192102
-# 逻辑精简总数: 3038
+# 最终规则总数: 192103
+# 逻辑精简总数: 3039
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2127,6 +2127,7 @@
 [包含去重] DOMAIN-SUFFIX,metric-api.newrelic.com              # 溯源: DOMAIN-SUFFIX,newrelic.com
 [包含去重] DOMAIN-SUFFIX,metro.uk.intellitxt.com              # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,platform.showcasead.com              # 溯源: DOMAIN-SUFFIX,showcasead.com
+[包含去重] DOMAIN-SUFFIX,prebid.trustedstack.com              # 溯源: DOMAIN-SUFFIX,trustedstack.com
 [包含去重] DOMAIN-SUFFIX,prod-origin.truendo.com              # 溯源: DOMAIN-SUFFIX,truendo.com
 [包含去重] DOMAIN-SUFFIX,protected-by.clarium.io              # 溯源: DOMAIN-SUFFIX,clarium.io
 [包含去重] DOMAIN-SUFFIX,rsvp.heatexperience.com              # 溯源: DOMAIN-SUFFIX,heatexperience.com
