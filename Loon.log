@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-07-02 16:34:54
+# 规则合并审计日志 - 2026-07-03 16:40:07
 # ----------------------------------------------------------
-# 最终规则总数: 186435
-# 逻辑精简总数: 3038
+# 最终规则总数: 186758
+# 逻辑精简总数: 2955
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2415,7 +2415,6 @@
 [包含去重] DOMAIN-SUFFIX,pspcave.uk.intellitxt.com            # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,rtb-uswest.showcasead.com            # 溯源: DOMAIN-SUFFIX,showcasead.com
 [包含去重] DOMAIN-SUFFIX,rtb2-useast.foremedia.net            # 溯源: DOMAIN-SUFFIX,foremedia.net
-[包含去重] DOMAIN-SUFFIX,s.console.adtarget.com.tr            # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,secure.data-ingenuity.com            # 溯源: DOMAIN-SUFFIX,data-ingenuity.com
 [包含去重] DOMAIN-SUFFIX,smallbusiness.adpinfo.com            # 溯源: DOMAIN-SUFFIX,adpinfo.com
 [包含去重] DOMAIN-SUFFIX,smetrics.reedbusiness.net            # 溯源: DOMAIN-SUFFIX,reedbusiness.net
@@ -2533,7 +2532,6 @@
 [包含去重] DOMAIN-SUFFIX,email-smartech.branch.rocks          # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,events-jp.splash-screen.net          # 溯源: DOMAIN-SUFFIX,splash-screen.net
 [包含去重] DOMAIN-SUFFIX,gateguardian.usesfathom.com          # 溯源: DOMAIN-SUFFIX,usesfathom.com
-[包含去重] DOMAIN-SUFFIX,ghb.console.adtarget.com.tr          # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,hpark-iterable.branch.rocks          # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,images.pages.brightedge.com          # 溯源: DOMAIN-SUFFIX,brightedge.com
 [包含去重] DOMAIN-SUFFIX,infospace-val.looksmart.com          # 溯源: DOMAIN-SUFFIX,looksmart.com
@@ -2567,10 +2565,6 @@
 [包含去重] DOMAIN-SUFFIX,tr.livrephoto.espmp-aufr.net         # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,natdetection.onethingpcs.com         # 溯源: DOMAIN-SUFFIX,onethingpcs.com
 [包含去重] DOMAIN-SUFFIX,tracking.searchmarketing.com         # 溯源: DOMAIN-SUFFIX,searchmarketing.com
-[包含去重] DOMAIN-SUFFIX,ads4.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads5.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads7.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads8.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,analytics.contentexchange.me         # 溯源: DOMAIN-SUFFIX,contentexchange.me
 [包含去重] DOMAIN-SUFFIX,aws-api.sail-personalize.com         # 溯源: DOMAIN-SUFFIX,sail-personalize.com
 [包含去重] DOMAIN-SUFFIX,bannerhost.egamingonline.com         # 溯源: DOMAIN-SUFFIX,egamingonline.com
@@ -2601,7 +2595,6 @@
 [包含去重] DOMAIN-SUFFIX,secure.intuition-agile-7.com         # 溯源: DOMAIN-SUFFIX,intuition-agile-7.com
 [包含去重] DOMAIN-SUFFIX,secure.smart-company-365.com         # 溯源: DOMAIN-SUFFIX,smart-company-365.com
 [包含去重] DOMAIN-SUFFIX,splashnews.uk.intellitxt.com         # 溯源: DOMAIN-SUFFIX,intellitxt.com
-[包含去重] DOMAIN-SUFFIX,sync.console.adtarget.com.tr         # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,tpc.googlesyndication-cn.com         # 溯源: DOMAIN-SUFFIX,googlesyndication-cn.com
 [包含去重] DOMAIN-SUFFIX,traffic.prod.cobaltgroup.com         # 溯源: DOMAIN-SUFFIX,cobaltgroup.com
 [包含去重] DOMAIN-SUFFIX,uat.enterprises.proximus.com         # 溯源: DOMAIN-SUFFIX,enterprises.proximus.com
@@ -2623,35 +2616,6 @@
 [包含去重] DOMAIN-SUFFIX,targeting.washpost.nile.works        # 溯源: DOMAIN-SUFFIX,washpost.nile.works
 [包含去重] DOMAIN-SUFFIX,s.metrics.skyandtelescope.com        # 溯源: DOMAIN-SUFFIX,metrics.skyandtelescope.com
 [包含去重] DOMAIN-SUFFIX,bidder.mediams.mb.softbank.jp        # 溯源: DOMAIN-SUFFIX,mediams.mb.softbank.jp
-[包含去重] DOMAIN-SUFFIX,ads10.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads11.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads12.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads13.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads18.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads20.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads24.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads28.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads29.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads30.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads31.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads32.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads36.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads37.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads38.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads40.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads42.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads43.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads44.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads46.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads47.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads48.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads50.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads51.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads54.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads55.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads56.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads58.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads59.console.adtarget.com.tr        # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,akatracking.esearchvision.com        # 溯源: DOMAIN-SUFFIX,esearchvision.com
 [包含去重] DOMAIN-SUFFIX,analytics-script.ad-shield.io        # 溯源: DOMAIN-SUFFIX,ad-shield.io
 [包含去重] DOMAIN-SUFFIX,email.customerio.branch.rocks        # 溯源: DOMAIN-SUFFIX,branch.rocks
@@ -2678,53 +2642,6 @@
 [包含去重] DOMAIN-SUFFIX,lowermybills.actonsoftware.com       # 溯源: DOMAIN-SUFFIX,actonsoftware.com
 [包含去重] DOMAIN-SUFFIX,visitorlando.actonsoftware.com       # 溯源: DOMAIN-SUFFIX,actonsoftware.com
 [包含去重] DOMAIN-SUFFIX,fpssl-monitor-dal.omniture.com       # 溯源: DOMAIN-SUFFIX,omniture.com
-[包含去重] DOMAIN-SUFFIX,ads106.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads108.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads110.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads114.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads115.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads119.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads128.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads129.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads130.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads135.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads136.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads137.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads138.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads139.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads140.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads145.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads146.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads151.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads152.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads153.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads154.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads155.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads156.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads157.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads158.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads159.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads160.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads163.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads201.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads202.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads203.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads206.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads210.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads214.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads215.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads216.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads217.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads218.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads219.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads240.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads241.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads244.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads250.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads256.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads257.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads258.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
-[包含去重] DOMAIN-SUFFIX,ads259.console.adtarget.com.tr       # 溯源: DOMAIN-SUFFIX,adtarget.com.tr
 [包含去重] DOMAIN-SUFFIX,clevertapsendgrid.branch.rocks       # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,contactmusic.uk.intellitxt.com       # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,dev-analytics-cf.bigcrunch.com       # 溯源: DOMAIN-SUFFIX,bigcrunch.com
