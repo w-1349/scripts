@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-07-13 16:36:25
+# 规则合并审计日志 - 2026-07-14 15:29:15
 # ----------------------------------------------------------
-# 最终规则总数: 189197
+# 最终规则总数: 189521
 # 逻辑精简总数: 2956
 # ----------------------------------------------------------
 
@@ -676,6 +676,7 @@
 [包含去重] DOMAIN-SUFFIX,api.share.mob.com                    # 溯源: DOMAIN-SUFFIX,mob.com
 [包含去重] DOMAIN-SUFFIX,apodir.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,app.adjust.net.in                    # 溯源: DOMAIN-SUFFIX,adjust.net.in
+[包含去重] DOMAIN-SUFFIX,app.getsentry.com                    # 溯源: DOMAIN-SUFFIX,getsentry.com
 [包含去重] DOMAIN-SUFFIX,audi4e.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,b1.hentaibaka.one                    # 溯源: DOMAIN-SUFFIX,hentaibaka.one
 [包含去重] DOMAIN-SUFFIX,banks.adpinfo.com                    # 溯源: DOMAIN-SUFFIX,adpinfo.com
@@ -2641,7 +2642,6 @@
 [包含去重] DOMAIN-SUFFIX,www.visionary-business-52.com        # 溯源: DOMAIN-SUFFIX,visionary-business-52.com
 [包含去重] DOMAIN-SUFFIX,lowermybills.actonsoftware.com       # 溯源: DOMAIN-SUFFIX,actonsoftware.com
 [包含去重] DOMAIN-SUFFIX,visitorlando.actonsoftware.com       # 溯源: DOMAIN-SUFFIX,actonsoftware.com
-[包含去重] DOMAIN-SUFFIX,mit.researchlog.dbresearch.com       # 溯源: DOMAIN-SUFFIX,researchlog.dbresearch.com
 [包含去重] DOMAIN-SUFFIX,fpssl-monitor-dal.omniture.com       # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,clevertapsendgrid.branch.rocks       # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,contactmusic.uk.intellitxt.com       # 溯源: DOMAIN-SUFFIX,intellitxt.com
