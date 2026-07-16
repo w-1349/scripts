@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-07-15 15:32:42
+# 规则合并审计日志 - 2026-07-16 15:48:01
 # ----------------------------------------------------------
-# 最终规则总数: 189871
-# 逻辑精简总数: 2956
+# 最终规则总数: 190083
+# 逻辑精简总数: 2963
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1224,6 +1224,9 @@
 [包含去重] DOMAIN-SUFFIX,capture.trackjs.com                  # 溯源: DOMAIN-SUFFIX,trackjs.com
 [包含去重] DOMAIN-SUFFIX,in.treasuredata.com                  # 溯源: DOMAIN-SUFFIX,treasuredata.com
 [包含去重] DOMAIN-SUFFIX,px.srvcs.tumblr.com                  # 溯源: DOMAIN-SUFFIX,srvcs.tumblr.com
+[包含去重] DOMAIN-SUFFIX,adimg.uve.weibo.com                  # 溯源: DOMAIN-SUFFIX,uve.weibo.com
+[包含去重] DOMAIN-SUFFIX,click.uve.weibo.com                  # 溯源: DOMAIN-SUFFIX,uve.weibo.com
+[包含去重] DOMAIN-SUFFIX,wbapp.uve.weibo.com                  # 溯源: DOMAIN-SUFFIX,uve.weibo.com
 [包含去重] DOMAIN-SUFFIX,as.wieistmeineip.de                  # 溯源: DOMAIN-SUFFIX,wieistmeineip.de
 [包含去重] DOMAIN-SUFFIX,yk-ssp.ad.youku.com                  # 溯源: DOMAIN-SUFFIX,ad.youku.com
 [包含去重] DOMAIN-SUFFIX,count.atm.youku.com                  # 溯源: DOMAIN-SUFFIX,atm.youku.com
@@ -1433,6 +1436,7 @@
 [包含去重] DOMAIN-SUFFIX,motu.p4p.sina.com.cn                 # 溯源: DOMAIN-SUFFIX,p4p.sina.com.cn
 [包含去重] DOMAIN-SUFFIX,creative.strpjmp.com                 # 溯源: DOMAIN-SUFFIX,strpjmp.com
 [包含去重] DOMAIN-SUFFIX,cfapi.upstackdata.io                 # 溯源: DOMAIN-SUFFIX,upstackdata.io
+[包含去重] DOMAIN-SUFFIX,sdkapp.uve.weibo.com                 # 溯源: DOMAIN-SUFFIX,uve.weibo.com
 [包含去重] DOMAIN-SUFFIX,analytics.yomedia.vn                 # 溯源: DOMAIN-SUFFIX,yomedia.vn
 [包含去重] DOMAIN-SUFFIX,v2html.atm.youku.com                 # 溯源: DOMAIN-SUFFIX,atm.youku.com
 [包含去重] DOMAIN-SUFFIX,a.deadlinefunnel.com                 # 溯源: DOMAIN-SUFFIX,deadlinefunnel.com
@@ -2091,6 +2095,7 @@
 [包含去重] DOMAIN-SUFFIX,container.pepperjam.com              # 溯源: DOMAIN-SUFFIX,pepperjam.com
 [包含去重] DOMAIN-SUFFIX,scout.us2.salesloft.com              # 溯源: DOMAIN-SUFFIX,salesloft.com
 [包含去重] DOMAIN-SUFFIX,solar.sharpmarketing.eu              # 溯源: DOMAIN-SUFFIX,sharpmarketing.eu
+[包含去重] DOMAIN-SUFFIX,fastimage.uve.weibo.com              # 溯源: DOMAIN-SUFFIX,uve.weibo.com
 [包含去重] DOMAIN-SUFFIX,smetrics.williamhill.es              # 溯源: DOMAIN-SUFFIX,williamhill.es
 [包含去重] DOMAIN-SUFFIX,adpia130611.adpinfo.com              # 溯源: DOMAIN-SUFFIX,adpinfo.com
 [包含去重] DOMAIN-SUFFIX,ads.belointeractive.com              # 溯源: DOMAIN-SUFFIX,belointeractive.com
@@ -2375,6 +2380,7 @@
 [包含去重] DOMAIN-SUFFIX,ads.lemmatechnologies.com            # 溯源: DOMAIN-SUFFIX,lemmatechnologies.com
 [包含去重] DOMAIN-SUFFIX,zxid-api.mobileservice.cn            # 溯源: DOMAIN-SUFFIX,mobileservice.cn
 [包含去重] DOMAIN-SUFFIX,nordics.sharpmarketing.eu            # 溯源: DOMAIN-SUFFIX,sharpmarketing.eu
+[包含去重] DOMAIN-SUFFIX,bootpreload.uve.weibo.com            # 溯源: DOMAIN-SUFFIX,uve.weibo.com
 [包含去重] DOMAIN-SUFFIX,app.m1.adsolutions.yp.com            # 溯源: DOMAIN-SUFFIX,adsolutions.yp.com
 [包含去重] DOMAIN-SUFFIX,13js1lbtbj3.sparkloop.app            # 溯源: DOMAIN-SUFFIX,sparkloop.app
 [包含去重] DOMAIN-SUFFIX,active-email.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
@@ -2566,6 +2572,7 @@
 [包含去重] DOMAIN-SUFFIX,tr.livrephoto.espmp-aufr.net         # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,natdetection.onethingpcs.com         # 溯源: DOMAIN-SUFFIX,onethingpcs.com
 [包含去重] DOMAIN-SUFFIX,tracking.searchmarketing.com         # 溯源: DOMAIN-SUFFIX,searchmarketing.com
+[包含去重] DOMAIN-SUFFIX,datacollection.uve.weibo.com         # 溯源: DOMAIN-SUFFIX,uve.weibo.com
 [包含去重] DOMAIN-SUFFIX,analytics.contentexchange.me         # 溯源: DOMAIN-SUFFIX,contentexchange.me
 [包含去重] DOMAIN-SUFFIX,aws-api.sail-personalize.com         # 溯源: DOMAIN-SUFFIX,sail-personalize.com
 [包含去重] DOMAIN-SUFFIX,bannerhost.egamingonline.com         # 溯源: DOMAIN-SUFFIX,egamingonline.com
