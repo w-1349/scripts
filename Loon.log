@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-07-20 16:28:54
+# 规则合并审计日志 - 2026-07-21 15:58:56
 # ----------------------------------------------------------
-# 最终规则总数: 190917
-# 逻辑精简总数: 2963
+# 最终规则总数: 191223
+# 逻辑精简总数: 2964
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1886,6 +1886,7 @@
 [包含去重] DOMAIN-SUFFIX,secure.shrfbdg004.com                # 溯源: DOMAIN-SUFFIX,shrfbdg004.com
 [包含去重] DOMAIN-SUFFIX,serving.viewtraff.com                # 溯源: DOMAIN-SUFFIX,viewtraff.com
 [包含去重] DOMAIN-SUFFIX,smetrics.onetrust.com                # 溯源: DOMAIN-SUFFIX,onetrust.com
+[包含去重] DOMAIN-SUFFIX,snippet.affilimate.io                # 溯源: DOMAIN-SUFFIX,affilimate.io
 [包含去重] DOMAIN-SUFFIX,stampen.linkpulse.com                # 溯源: DOMAIN-SUFFIX,linkpulse.com
 [包含去重] DOMAIN-SUFFIX,static.livejasmin.com                # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,static.showcasead.com                # 溯源: DOMAIN-SUFFIX,showcasead.com
