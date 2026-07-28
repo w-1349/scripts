@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-07-27 16:58:33
+# 规则合并审计日志 - 2026-07-28 16:06:53
 # ----------------------------------------------------------
-# 最终规则总数: 192962
-# 逻辑精简总数: 2964
+# 最终规则总数: 193227
+# 逻辑精简总数: 2963
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2525,7 +2525,6 @@
 [包含去重] DOMAIN-SUFFIX,tr.actiflip.devisdirect.com          # 溯源: DOMAIN-SUFFIX,devisdirect.com
 [包含去重] DOMAIN-SUFFIX,stg-data.ads.heytapmobi.com          # 溯源: DOMAIN-SUFFIX,ads.heytapmobi.com
 [包含去重] DOMAIN-SUFFIX,nojscontainer.pepperjam.com          # 溯源: DOMAIN-SUFFIX,pepperjam.com
-[包含去重] DOMAIN-SUFFIX,tracker-rec.smart-bdash.com          # 溯源: DOMAIN-SUFFIX,smart-bdash.com
 [包含去重] DOMAIN-SUFFIX,o-sdk.mediation.unity3d.com          # 溯源: DOMAIN-SUFFIX,mediation.unity3d.com
 [包含去重] DOMAIN-SUFFIX,adsatt.abcnews.starwave.com          # 溯源: DOMAIN-SUFFIX,starwave.com
 [包含去重] DOMAIN-SUFFIX,alpha.easy-hit-counters.com          # 溯源: DOMAIN-SUFFIX,easy-hit-counters.com
