@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-08-16 14:03:11
+# 规则合并审计日志 - 2026-08-17 14:21:27
 # ----------------------------------------------------------
-# 最终规则总数: 188941
-# 逻辑精简总数: 2964
+# 最终规则总数: 189226
+# 逻辑精简总数: 2961
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -95,7 +95,6 @@
 [包含去重] DOMAIN-SUFFIX,z2.yunl1.com                         # 溯源: DOMAIN-SUFFIX,yunl1.com
 [包含去重] DOMAIN-SUFFIX,a.fapcat.com                         # 溯源: DOMAIN-SUFFIX,fapcat.com
 [包含去重] DOMAIN-SUFFIX,a.hstrck.com                         # 溯源: DOMAIN-SUFFIX,hstrck.com
-[包含去重] DOMAIN-SUFFIX,a.itsmore.cn                         # 溯源: DOMAIN-SUFFIX,itsmore.cn
 [包含去重] DOMAIN-SUFFIX,a.mabipa.com                         # 溯源: DOMAIN-SUFFIX,mabipa.com
 [包含去重] DOMAIN-SUFFIX,a.plerdy.com                         # 溯源: DOMAIN-SUFFIX,plerdy.com
 [包含去重] DOMAIN-SUFFIX,a.wifi33.com                         # 溯源: DOMAIN-SUFFIX,wifi33.com
@@ -643,7 +642,6 @@
 [包含去重] DOMAIN-SUFFIX,ssp.api.tappx.com                    # 溯源: DOMAIN-SUFFIX,tappx.com
 [包含去重] DOMAIN-SUFFIX,track.totalav.com                    # 溯源: DOMAIN-SUFFIX,totalav.com
 [包含去重] DOMAIN-SUFFIX,dig.ultimedia.com                    # 溯源: DOMAIN-SUFFIX,ultimedia.com
-[包含去重] DOMAIN-SUFFIX,stats.velarium.cc                    # 溯源: DOMAIN-SUFFIX,velarium.cc
 [包含去重] DOMAIN-SUFFIX,pixel.videohub.tv                    # 溯源: DOMAIN-SUFFIX,videohub.tv
 [包含去重] DOMAIN-SUFFIX,adp.atm.youku.com                    # 溯源: DOMAIN-SUFFIX,atm.youku.com
 [包含去重] DOMAIN-SUFFIX,bsv.atm.youku.com                    # 溯源: DOMAIN-SUFFIX,atm.youku.com
@@ -2625,7 +2623,6 @@
 [包含去重] DOMAIN-SUFFIX,targeting.washpost.nile.works        # 溯源: DOMAIN-SUFFIX,washpost.nile.works
 [包含去重] DOMAIN-SUFFIX,s.metrics.skyandtelescope.com        # 溯源: DOMAIN-SUFFIX,metrics.skyandtelescope.com
 [包含去重] DOMAIN-SUFFIX,bidder.mediams.mb.softbank.jp        # 溯源: DOMAIN-SUFFIX,mediams.mb.softbank.jp
-[包含去重] DOMAIN-SUFFIX,akatracking.esearchvision.com        # 溯源: DOMAIN-SUFFIX,esearchvision.com
 [包含去重] DOMAIN-SUFFIX,analytics-script.ad-shield.io        # 溯源: DOMAIN-SUFFIX,ad-shield.io
 [包含去重] DOMAIN-SUFFIX,email.customerio.branch.rocks        # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,mobile-collector.newrelic.com        # 溯源: DOMAIN-SUFFIX,newrelic.com
