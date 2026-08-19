@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-08-18 14:15:44
+# 规则合并审计日志 - 2026-08-19 14:16:31
 # ----------------------------------------------------------
-# 最终规则总数: 209374
-# 逻辑精简总数: 2986
+# 最终规则总数: 209695
+# 逻辑精简总数: 2990
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -358,6 +358,7 @@
 [包含去重] DOMAIN-SUFFIX,c-gtc.getui.net                      # 溯源: DOMAIN-SUFFIX,getui.net
 [包含去重] DOMAIN-SUFFIX,cdn.smlog.co.kr                      # 溯源: DOMAIN-SUFFIX,smlog.co.kr
 [包含去重] DOMAIN-SUFFIX,cdn.xianliao.me                      # 溯源: DOMAIN-SUFFIX,xianliao.me
+[包含去重] DOMAIN-SUFFIX,cdp.customer.io                      # 溯源: DOMAIN-SUFFIX,customer.io
 [包含去重] DOMAIN-SUFFIX,code.acstat.com                      # 溯源: DOMAIN-SUFFIX,acstat.com
 [包含去重] DOMAIN-SUFFIX,cpm.denakop.com                      # 溯源: DOMAIN-SUFFIX,denakop.com
 [包含去重] DOMAIN-SUFFIX,dfe.mic.mob.com                      # 溯源: DOMAIN-SUFFIX,mob.com
@@ -746,6 +747,7 @@
 [包含去重] DOMAIN-SUFFIX,target.mixi.media                    # 溯源: DOMAIN-SUFFIX,mixi.media
 [包含去重] DOMAIN-SUFFIX,tennis.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,track.adoptim.com                    # 溯源: DOMAIN-SUFFIX,adoptim.com
+[包含去重] DOMAIN-SUFFIX,track.customer.io                    # 溯源: DOMAIN-SUFFIX,customer.io
 [包含去重] DOMAIN-SUFFIX,tracking.kdata.fr                    # 溯源: DOMAIN-SUFFIX,kdata.fr
 [包含去重] DOMAIN-SUFFIX,tv.livejasmin.com                    # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,unimed.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
@@ -1074,6 +1076,7 @@
 [包含去重] DOMAIN-SUFFIX,cdn.popupsmart.com                   # 溯源: DOMAIN-SUFFIX,popupsmart.com
 [包含去重] DOMAIN-SUFFIX,cdn.shoplytics.com                   # 溯源: DOMAIN-SUFFIX,shoplytics.com
 [包含去重] DOMAIN-SUFFIX,cdn.stat-track.com                   # 溯源: DOMAIN-SUFFIX,stat-track.com
+[包含去重] DOMAIN-SUFFIX,cdp-eu.customer.io                   # 溯源: DOMAIN-SUFFIX,customer.io
 [包含去重] DOMAIN-SUFFIX,cds10.stn.llnw.net                   # 溯源: DOMAIN-SUFFIX,llnw.net
 [包含去重] DOMAIN-SUFFIX,cds27.ory.llnw.net                   # 溯源: DOMAIN-SUFFIX,llnw.net
 [包含去重] DOMAIN-SUFFIX,cds38.ory.llnw.net                   # 溯源: DOMAIN-SUFFIX,llnw.net
@@ -1909,6 +1912,7 @@
 [包含去重] DOMAIN-SUFFIX,sv-pval.looksmart.com                # 溯源: DOMAIN-SUFFIX,looksmart.com
 [包含去重] DOMAIN-SUFFIX,tour.xxxblackbook.com                # 溯源: DOMAIN-SUFFIX,xxxblackbook.com
 [包含去重] DOMAIN-SUFFIX,tq.adventurefeeds.com                # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
+[包含去重] DOMAIN-SUFFIX,track-sdk.customer.io                # 溯源: DOMAIN-SUFFIX,customer.io
 [包含去重] DOMAIN-SUFFIX,track.gaconnector.com                # 溯源: DOMAIN-SUFFIX,gaconnector.com
 [包含去重] DOMAIN-SUFFIX,tracking.aws.judge.me                # 溯源: DOMAIN-SUFFIX,judge.me
 [包含去重] DOMAIN-SUFFIX,tracking.netvigie.com                # 溯源: DOMAIN-SUFFIX,netvigie.com
