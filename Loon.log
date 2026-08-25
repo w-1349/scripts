@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-08-24 14:25:07
+# 规则合并审计日志 - 2026-08-25 14:17:53
 # ----------------------------------------------------------
-# 最终规则总数: 209617
-# 逻辑精简总数: 2989
+# 最终规则总数: 209842
+# 逻辑精简总数: 2990
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2425,6 +2425,7 @@
 [包含去重] DOMAIN-SUFFIX,email-sender.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,experience.comcastbiz.com            # 溯源: DOMAIN-SUFFIX,comcastbiz.com
 [包含去重] DOMAIN-SUFFIX,expertsender.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
+[包含去重] DOMAIN-SUFFIX,fdb2023dff.dd268fdaa5.com            # 溯源: DOMAIN-SUFFIX,dd268fdaa5.com
 [包含去重] DOMAIN-SUFFIX,ferrago.uk.intellitxt.com            # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,filter.adventurefeeds.com            # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
 [包含去重] DOMAIN-SUFFIX,groups.heatexperience.com            # 溯源: DOMAIN-SUFFIX,heatexperience.com
