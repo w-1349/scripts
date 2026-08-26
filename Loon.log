@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-08-25 14:17:53
+# 规则合并审计日志 - 2026-08-26 14:19:29
 # ----------------------------------------------------------
-# 最终规则总数: 209842
+# 最终规则总数: 209208
 # 逻辑精简总数: 2990
 # ----------------------------------------------------------
 
@@ -1879,6 +1879,7 @@
 [包含去重] DOMAIN-SUFFIX,hermes.allo-media.net                # 溯源: DOMAIN-SUFFIX,allo-media.net
 [包含去重] DOMAIN-SUFFIX,images.intellitxt.com                # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,images.linkwithin.com                # 溯源: DOMAIN-SUFFIX,linkwithin.com
+[包含去重] DOMAIN-SUFFIX,imagesnep.admaster.cc                # 溯源: DOMAIN-SUFFIX,admaster.cc
 [包含去重] DOMAIN-SUFFIX,intranet.bcaeurope.eu                # 溯源: DOMAIN-SUFFIX,bcaeurope.eu
 [包含去重] DOMAIN-SUFFIX,js-agent.newrelic.com                # 溯源: DOMAIN-SUFFIX,newrelic.com
 [包含去重] DOMAIN-SUFFIX,justin.usesfathom.com                # 溯源: DOMAIN-SUFFIX,usesfathom.com
@@ -2425,7 +2426,6 @@
 [包含去重] DOMAIN-SUFFIX,email-sender.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,experience.comcastbiz.com            # 溯源: DOMAIN-SUFFIX,comcastbiz.com
 [包含去重] DOMAIN-SUFFIX,expertsender.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
-[包含去重] DOMAIN-SUFFIX,fdb2023dff.dd268fdaa5.com            # 溯源: DOMAIN-SUFFIX,dd268fdaa5.com
 [包含去重] DOMAIN-SUFFIX,ferrago.uk.intellitxt.com            # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,filter.adventurefeeds.com            # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
 [包含去重] DOMAIN-SUFFIX,groups.heatexperience.com            # 溯源: DOMAIN-SUFFIX,heatexperience.com
