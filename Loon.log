@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-08-28 00:50:23
+# 规则合并审计日志 - 2026-08-29 01:43:13
 # ----------------------------------------------------------
-# 最终规则总数: 209568
-# 逻辑精简总数: 2990
+# 最终规则总数: 209892
+# 逻辑精简总数: 2991
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -697,6 +697,7 @@
 [包含去重] DOMAIN-SUFFIX,doodle.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,dsp.foremedia.net                    # 溯源: DOMAIN-SUFFIX,foremedia.net
 [包含去重] DOMAIN-SUFFIX,dsp.nativeads.com                    # 溯源: DOMAIN-SUFFIX,nativeads.com
+[包含去重] DOMAIN-SUFFIX,e.crashlytics.com                    # 溯源: DOMAIN-SUFFIX,crashlytics.com
 [包含去重] DOMAIN-SUFFIX,event.dengage.com                    # 溯源: DOMAIN-SUFFIX,dengage.com
 [包含去重] DOMAIN-SUFFIX,fanrep.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,fitges.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
