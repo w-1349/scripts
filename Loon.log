@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-08-31 19:51:37
+# 规则合并审计日志 - 2026-09-01 18:29:56
 # ----------------------------------------------------------
-# 最终规则总数: 210788
-# 逻辑精简总数: 2995
+# 最终规则总数: 210435
+# 逻辑精简总数: 2990
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2406,8 +2406,6 @@
 [包含去重] DOMAIN-SUFFIX,bootpreload.uve.weibo.com            # 溯源: DOMAIN-SUFFIX,uve.weibo.com
 [包含去重] DOMAIN-SUFFIX,app.m1.adsolutions.yp.com            # 溯源: DOMAIN-SUFFIX,adsolutions.yp.com
 [包含去重] DOMAIN-SUFFIX,13js1lbtbj3.sparkloop.app            # 溯源: DOMAIN-SUFFIX,sparkloop.app
-[包含去重] DOMAIN-SUFFIX,2a2f01ad50.0e4a4c9e4e.com            # 溯源: DOMAIN-SUFFIX,0e4a4c9e4e.com
-[包含去重] DOMAIN-SUFFIX,3c18ca825f.9f91b59591.com            # 溯源: DOMAIN-SUFFIX,9f91b59591.com
 [包含去重] DOMAIN-SUFFIX,active-email.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,amazon-email.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,analytics-api.klickly.com            # 溯源: DOMAIN-SUFFIX,klickly.com
@@ -2415,7 +2413,6 @@
 [包含去重] DOMAIN-SUFFIX,analytics.supplyframe.com            # 溯源: DOMAIN-SUFFIX,supplyframe.com
 [包含去重] DOMAIN-SUFFIX,api-pixels.easyadsapp.com            # 溯源: DOMAIN-SUFFIX,easyadsapp.com
 [包含去重] DOMAIN-SUFFIX,assets.onedollarstats.com            # 溯源: DOMAIN-SUFFIX,onedollarstats.com
-[包含去重] DOMAIN-SUFFIX,b8033bc28b.05f3b6b187.com            # 溯源: DOMAIN-SUFFIX,05f3b6b187.com
 [包含去重] DOMAIN-SUFFIX,bvoffers-elb.go2cloud.org            # 溯源: DOMAIN-SUFFIX,go2cloud.org
 [包含去重] DOMAIN-SUFFIX,cbanners.virtuagirlhd.com            # 溯源: DOMAIN-SUFFIX,virtuagirlhd.com
 [包含去重] DOMAIN-SUFFIX,clickserver.googleads.com            # 溯源: DOMAIN-SUFFIX,googleads.com
@@ -2423,7 +2420,6 @@
 [包含去重] DOMAIN-SUFFIX,communication.adpinfo.com            # 溯源: DOMAIN-SUFFIX,adpinfo.com
 [包含去重] DOMAIN-SUFFIX,data.netscope.marktest.pt            # 溯源: DOMAIN-SUFFIX,marktest.pt
 [包含去重] DOMAIN-SUFFIX,directoffers.go2cloud.org            # 溯源: DOMAIN-SUFFIX,go2cloud.org
-[包含去重] DOMAIN-SUFFIX,ec59fe9bc4.1338f95c76.com            # 溯源: DOMAIN-SUFFIX,1338f95c76.com
 [包含去重] DOMAIN-SUFFIX,email-appboy.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,email-bronto.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,email-eloqua.branch.rocks            # 溯源: DOMAIN-SUFFIX,branch.rocks
@@ -2455,7 +2451,6 @@
 [包含去重] DOMAIN-SUFFIX,smetrics.reedbusiness.net            # 溯源: DOMAIN-SUFFIX,reedbusiness.net
 [包含去重] DOMAIN-SUFFIX,sms.cf.labanquepostale.fr            # 溯源: DOMAIN-SUFFIX,cf.labanquepostale.fr
 [包含去重] DOMAIN-SUFFIX,static-rtb2.foremedia.net            # 溯源: DOMAIN-SUFFIX,foremedia.net
-[包含去重] DOMAIN-SUFFIX,statistics.crowdynews.com            # 溯源: DOMAIN-SUFFIX,crowdynews.com
 [包含去重] DOMAIN-SUFFIX,streamdiag.livejasmin.com            # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,tg1.premiumimpression.com            # 溯源: DOMAIN-SUFFIX,premiumimpression.com
 [包含去重] DOMAIN-SUFFIX,track.hg.healthgrades.com            # 溯源: DOMAIN-SUFFIX,healthgrades.com
