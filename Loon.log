@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-09-01 18:29:56
+# 规则合并审计日志 - 2026-09-02 17:57:23
 # ----------------------------------------------------------
-# 最终规则总数: 210435
-# 逻辑精简总数: 2990
+# 最终规则总数: 210784
+# 逻辑精简总数: 2991
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -634,6 +634,7 @@
 [包含去重] DOMAIN-SUFFIX,pl.elements.video                    # 溯源: DOMAIN-SUFFIX,elements.video
 [包含去重] DOMAIN-SUFFIX,tr.espmp-agfr.net                    # 溯源: DOMAIN-SUFFIX,espmp-agfr.net
 [包含去重] DOMAIN-SUFFIX,kitchen.juicer.cc                    # 溯源: DOMAIN-SUFFIX,juicer.cc
+[包含去重] DOMAIN-SUFFIX,data.kameleoon.io                    # 溯源: DOMAIN-SUFFIX,kameleoon.io
 [包含去重] DOMAIN-SUFFIX,logger.kataweb.it                    # 溯源: DOMAIN-SUFFIX,kataweb.it
 [包含去重] DOMAIN-SUFFIX,adui.tg.meitu.com                    # 溯源: DOMAIN-SUFFIX,tg.meitu.com
 [包含去重] DOMAIN-SUFFIX,mdc.meitustat.com                    # 溯源: DOMAIN-SUFFIX,meitustat.com
