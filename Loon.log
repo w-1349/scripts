@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-09-03 18:06:46
+# 规则合并审计日志 - 2026-09-04 17:58:05
 # ----------------------------------------------------------
-# 最终规则总数: 210977
-# 逻辑精简总数: 2991
+# 最终规则总数: 211376
+# 逻辑精简总数: 2992
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2596,6 +2596,7 @@
 [包含去重] DOMAIN-SUFFIX,tr.livrephoto.espmp-aufr.net         # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,natdetection.onethingpcs.com         # 溯源: DOMAIN-SUFFIX,onethingpcs.com
 [包含去重] DOMAIN-SUFFIX,tracking.searchmarketing.com         # 溯源: DOMAIN-SUFFIX,searchmarketing.com
+[包含去重] DOMAIN-SUFFIX,record.thepokiespartners.com         # 溯源: DOMAIN-SUFFIX,thepokiespartners.com
 [包含去重] DOMAIN-SUFFIX,datacollection.uve.weibo.com         # 溯源: DOMAIN-SUFFIX,uve.weibo.com
 [包含去重] DOMAIN-SUFFIX,analytics.contentexchange.me         # 溯源: DOMAIN-SUFFIX,contentexchange.me
 [包含去重] DOMAIN-SUFFIX,aws-api.sail-personalize.com         # 溯源: DOMAIN-SUFFIX,sail-personalize.com
