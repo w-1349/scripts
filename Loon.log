@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-09-10 18:03:48
+# 规则合并审计日志 - 2026-09-11 18:01:37
 # ----------------------------------------------------------
-# 最终规则总数: 209496
-# 逻辑精简总数: 2991
+# 最终规则总数: 209898
+# 逻辑精简总数: 2990
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1423,6 +1423,7 @@
 [包含去重] DOMAIN-SUFFIX,tracking.v.tf.360.cn                 # 溯源: DOMAIN-SUFFIX,tf.360.cn
 [包含去重] DOMAIN-SUFFIX,adx-saas.advlion.com                 # 溯源: DOMAIN-SUFFIX,advlion.com
 [包含去重] DOMAIN-SUFFIX,ssl.o.auspost.com.au                 # 溯源: DOMAIN-SUFFIX,o.auspost.com.au
+[包含去重] DOMAIN-SUFFIX,adx-os.bridgeoos.com                 # 溯源: DOMAIN-SUFFIX,bridgeoos.com
 [包含去重] DOMAIN-SUFFIX,xmetrics.camsoda.com                 # 溯源: DOMAIN-SUFFIX,camsoda.com
 [包含去重] DOMAIN-SUFFIX,analytics.cdnstr.com                 # 溯源: DOMAIN-SUFFIX,cdnstr.com
 [包含去重] DOMAIN-SUFFIX,tr.ps.espmp-agfr.net                 # 溯源: DOMAIN-SUFFIX,espmp-agfr.net
@@ -1500,7 +1501,6 @@
 [包含去重] DOMAIN-SUFFIX,dmp.sbermarketing.ru                 # 溯源: DOMAIN-SUFFIX,sbermarketing.ru
 [包含去重] DOMAIN-SUFFIX,dsp-eu.nativeads.com                 # 溯源: DOMAIN-SUFFIX,nativeads.com
 [包含去重] DOMAIN-SUFFIX,event.clientgear.com                 # 溯源: DOMAIN-SUFFIX,clientgear.com
-[包含去重] DOMAIN-SUFFIX,events.brightline.tv                 # 溯源: DOMAIN-SUFFIX,brightline.tv
 [包含去重] DOMAIN-SUFFIX,ext.host-tracker.com                 # 溯源: DOMAIN-SUFFIX,host-tracker.com
 [包含去重] DOMAIN-SUFFIX,fakexa-post.mno.link                 # 溯源: DOMAIN-SUFFIX,mno.link
 [包含去重] DOMAIN-SUFFIX,filter.foremedia.net                 # 溯源: DOMAIN-SUFFIX,foremedia.net
@@ -2054,7 +2054,6 @@
 [包含去重] DOMAIN-SUFFIX,rtb-useast.denakop.com               # 溯源: DOMAIN-SUFFIX,denakop.com
 [包含去重] DOMAIN-SUFFIX,rtb.adventurefeeds.com               # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
 [包含去重] DOMAIN-SUFFIX,sandbox.livejasmin.com               # 溯源: DOMAIN-SUFFIX,livejasmin.com
-[包含去重] DOMAIN-SUFFIX,services.brightline.tv               # 溯源: DOMAIN-SUFFIX,brightline.tv
 [包含去重] DOMAIN-SUFFIX,smetrics.multiview.com               # 溯源: DOMAIN-SUFFIX,multiview.com
 [包含去重] DOMAIN-SUFFIX,ssl-compass.oewabox.at               # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,ssl-uspgvat.oewabox.at               # 溯源: DOMAIN-SUFFIX,oewabox.at
@@ -2128,7 +2127,6 @@
 [包含去重] DOMAIN-SUFFIX,apihorizon.nnmtools.com              # 溯源: DOMAIN-SUFFIX,nnmtools.com
 [包含去重] DOMAIN-SUFFIX,banners.direction-x.com              # 溯源: DOMAIN-SUFFIX,direction-x.com
 [包含去重] DOMAIN-SUFFIX,bigbangads.go2cloud.org              # 溯源: DOMAIN-SUFFIX,go2cloud.org
-[包含去重] DOMAIN-SUFFIX,cdn-media.brightline.tv              # 溯源: DOMAIN-SUFFIX,brightline.tv
 [包含去重] DOMAIN-SUFFIX,cdn.getsmartcontent.com              # 溯源: DOMAIN-SUFFIX,getsmartcontent.com
 [包含去重] DOMAIN-SUFFIX,cdn2.sales-frontier.com              # 溯源: DOMAIN-SUFFIX,sales-frontier.com
 [包含去重] DOMAIN-SUFFIX,cdnhorizon.nnmtools.com              # 溯源: DOMAIN-SUFFIX,nnmtools.com
@@ -2269,6 +2267,7 @@
 [包含去重] DOMAIN-SUFFIX,www.the-lead-tracker.com             # 溯源: DOMAIN-SUFFIX,the-lead-tracker.com
 [包含去重] DOMAIN-SUFFIX,www.trackinvestigate.net             # 溯源: DOMAIN-SUFFIX,trackinvestigate.net
 [包含去重] DOMAIN-SUFFIX,zipservice.adalliance.io             # 溯源: DOMAIN-SUFFIX,adalliance.io
+[包含去重] DOMAIN-SUFFIX,huodong.ios.shouji.360.cn            # 溯源: DOMAIN-SUFFIX,shouji.360.cn
 [包含去重] DOMAIN-SUFFIX,dcinfos-cache.abtasty.com            # 溯源: DOMAIN-SUFFIX,abtasty.com
 [包含去重] DOMAIN-SUFFIX,config.config-factory.com            # 溯源: DOMAIN-SUFFIX,config-factory.com
 [包含去重] DOMAIN-SUFFIX,cdn1.crispadvertising.com            # 溯源: DOMAIN-SUFFIX,crispadvertising.com
