@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-09-16 18:18:54
+# 规则合并审计日志 - 2026-09-17 18:27:52
 # ----------------------------------------------------------
-# 最终规则总数: 211785
-# 逻辑精简总数: 2991
+# 最终规则总数: 211735
+# 逻辑精简总数: 2990
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1456,7 +1456,6 @@
 [包含去重] DOMAIN-SUFFIX,analytics.yomedia.vn                 # 溯源: DOMAIN-SUFFIX,yomedia.vn
 [包含去重] DOMAIN-SUFFIX,v2html.atm.youku.com                 # 溯源: DOMAIN-SUFFIX,atm.youku.com
 [包含去重] DOMAIN-SUFFIX,a.deadlinefunnel.com                 # 溯源: DOMAIN-SUFFIX,deadlinefunnel.com
-[包含去重] DOMAIN-SUFFIX,ad.charltonmedia.com                 # 溯源: DOMAIN-SUFFIX,charltonmedia.com
 [包含去重] DOMAIN-SUFFIX,ads-ios-sdk.ogury.co                 # 溯源: DOMAIN-SUFFIX,ogury.co
 [包含去重] DOMAIN-SUFFIX,ads-rm.looksmart.com                 # 溯源: DOMAIN-SUFFIX,looksmart.com
 [包含去重] DOMAIN-SUFFIX,ae.gsecondscreen.com                 # 溯源: DOMAIN-SUFFIX,gsecondscreen.com
