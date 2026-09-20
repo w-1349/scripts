@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-09-19 17:44:37
+# 规则合并审计日志 - 2026-09-20 18:07:33
 # ----------------------------------------------------------
-# 最终规则总数: 212475
+# 最终规则总数: 212831
 # 逻辑精简总数: 2990
 # ----------------------------------------------------------
 
@@ -1433,6 +1433,7 @@
 [包含去重] DOMAIN-SUFFIX,cookies.leadplace.fr                 # 溯源: DOMAIN-SUFFIX,leadplace.fr
 [包含去重] DOMAIN-SUFFIX,analytics.logsss.com                 # 溯源: DOMAIN-SUFFIX,logsss.com
 [包含去重] DOMAIN-SUFFIX,rabbit.meitustat.com                 # 溯源: DOMAIN-SUFFIX,meitustat.com
+[包含去重] DOMAIN-SUFFIX,apm-rum.inf.miui.com                 # 溯源: DOMAIN-SUFFIX,inf.miui.com
 [包含去重] DOMAIN-SUFFIX,metrics.omniture.com                 # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,count.paycounter.com                 # 溯源: DOMAIN-SUFFIX,paycounter.com
 [包含去重] DOMAIN-SUFFIX,banners.payserve.com                 # 溯源: DOMAIN-SUFFIX,payserve.com
@@ -2067,7 +2068,6 @@
 [包含去重] DOMAIN-SUFFIX,tabmo2018.go2cloud.org               # 溯源: DOMAIN-SUFFIX,go2cloud.org
 [包含去重] DOMAIN-SUFFIX,tb060x.corp.youdao.com               # 溯源: DOMAIN-SUFFIX,corp.youdao.com
 [包含去重] DOMAIN-SUFFIX,tb104x.corp.youdao.com               # 溯源: DOMAIN-SUFFIX,corp.youdao.com
-[包含去重] DOMAIN-SUFFIX,telemetry.transcend.io               # 溯源: DOMAIN-SUFFIX,transcend.io
 [包含去重] DOMAIN-SUFFIX,test-tns-no.tns-cs.net               # 溯源: DOMAIN-SUFFIX,tns-cs.net
 [包含去重] DOMAIN-SUFFIX,track.bannerbridge.net               # 溯源: DOMAIN-SUFFIX,bannerbridge.net
 [包含去重] DOMAIN-SUFFIX,track.flexlinkspro.com               # 溯源: DOMAIN-SUFFIX,flexlinkspro.com
