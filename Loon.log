@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-09-21 19:08:21
+# 规则合并审计日志 - 2026-09-22 18:22:03
 # ----------------------------------------------------------
-# 最终规则总数: 213183
-# 逻辑精简总数: 2990
+# 最终规则总数: 213552
+# 逻辑精简总数: 2992
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -561,6 +561,7 @@
 [包含去重] DOMAIN-SUFFIX,t.cr-nielsen.com                     # 溯源: DOMAIN-SUFFIX,cr-nielsen.com
 [包含去重] DOMAIN-SUFFIX,tag.escalated.io                     # 溯源: DOMAIN-SUFFIX,escalated.io
 [包含去重] DOMAIN-SUFFIX,tags.mlytics.com                     # 溯源: DOMAIN-SUFFIX,mlytics.com
+[包含去重] DOMAIN-SUFFIX,tongji.duote.com                     # 溯源: DOMAIN-SUFFIX,duote.com
 [包含去重] DOMAIN-SUFFIX,track.did-it.com                     # 溯源: DOMAIN-SUFFIX,did-it.com
 [包含去重] DOMAIN-SUFFIX,uncut.oewabox.at                     # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,v2.adsbookie.com                     # 溯源: DOMAIN-SUFFIX,adsbookie.com
@@ -1150,6 +1151,7 @@
 [包含去重] DOMAIN-SUFFIX,tracker.plerdy.com                   # 溯源: DOMAIN-SUFFIX,plerdy.com
 [包含去重] DOMAIN-SUFFIX,tracking.hyros.com                   # 溯源: DOMAIN-SUFFIX,hyros.com
 [包含去重] DOMAIN-SUFFIX,tracking.veoxa.com                   # 溯源: DOMAIN-SUFFIX,veoxa.com
+[包含去重] DOMAIN-SUFFIX,umini.shujupie.com                   # 溯源: DOMAIN-SUFFIX,shujupie.com
 [包含去重] DOMAIN-SUFFIX,us-pub.dengage.com                   # 溯源: DOMAIN-SUFFIX,dengage.com
 [包含去重] DOMAIN-SUFFIX,webprog.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,widgets.jobbio.com                   # 溯源: DOMAIN-SUFFIX,jobbio.com
