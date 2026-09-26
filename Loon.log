@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-09-25 18:35:20
+# 规则合并审计日志 - 2026-09-26 18:18:27
 # ----------------------------------------------------------
-# 最终规则总数: 214537
-# 逻辑精简总数: 2991
+# 最终规则总数: 214889
+# 逻辑精简总数: 2993
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -545,6 +545,7 @@
 [包含去重] DOMAIN-SUFFIX,play.adtonos.com                     # 溯源: DOMAIN-SUFFIX,adtonos.com
 [包含去重] DOMAIN-SUFFIX,receive.wmcdp.io                     # 溯源: DOMAIN-SUFFIX,wmcdp.io
 [包含去重] DOMAIN-SUFFIX,rmcdn.f.2mdn.net                     # 溯源: DOMAIN-SUFFIX,2mdn.net
+[包含去重] DOMAIN-SUFFIX,rtb.viewsense.ai                     # 溯源: DOMAIN-SUFFIX,viewsense.ai
 [包含去重] DOMAIN-SUFFIX,sdk.adtiming.com                     # 溯源: DOMAIN-SUFFIX,adtiming.com
 [包含去重] DOMAIN-SUFFIX,serv.adspeed.com                     # 溯源: DOMAIN-SUFFIX,adspeed.com
 [包含去重] DOMAIN-SUFFIX,sgtm.richads.com                     # 溯源: DOMAIN-SUFFIX,richads.com
@@ -1867,6 +1868,7 @@
 [包含去重] DOMAIN-SUFFIX,cpm.vistarsagency.com                # 溯源: DOMAIN-SUFFIX,vistarsagency.com
 [包含去重] DOMAIN-SUFFIX,crtinf.livejasmin.com                # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,data.thoughtmetric.io                # 溯源: DOMAIN-SUFFIX,thoughtmetric.io
+[包含去重] DOMAIN-SUFFIX,delivery.viewsense.ai                # 溯源: DOMAIN-SUFFIX,viewsense.ai
 [包含去重] DOMAIN-SUFFIX,dispatcher.oewabox.at                # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,display.nativeads.com                # 溯源: DOMAIN-SUFFIX,nativeads.com
 [包含去重] DOMAIN-SUFFIX,email-cm.branch.rocks                # 溯源: DOMAIN-SUFFIX,branch.rocks
