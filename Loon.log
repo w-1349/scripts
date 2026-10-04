@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-03 18:40:05
+# 规则合并审计日志 - 2026-10-04 19:20:29
 # ----------------------------------------------------------
-# 最终规则总数: 209661
-# 逻辑精简总数: 2994
+# 最终规则总数: 209985
+# 逻辑精简总数: 2995
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -86,6 +86,7 @@
 [包含去重] DOMAIN-SUFFIX,vd6.l.qq.com                         # 溯源: DOMAIN-SUFFIX,l.qq.com
 [包含去重] DOMAIN-SUFFIX,imc.l.qq.com                         # 溯源: DOMAIN-SUFFIX,l.qq.com
 [包含去重] DOMAIN-SUFFIX,t.quisma.com                         # 溯源: DOMAIN-SUFFIX,quisma.com
+[包含去重] DOMAIN-SUFFIX,p.sa7eer.com                         # 溯源: DOMAIN-SUFFIX,sa7eer.com
 [包含去重] DOMAIN-SUFFIX,c.sixiuwl.cn                         # 溯源: DOMAIN-SUFFIX,sixiuwl.cn
 [包含去重] DOMAIN-SUFFIX,v.sixiuwl.cn                         # 溯源: DOMAIN-SUFFIX,sixiuwl.cn
 [包含去重] DOMAIN-SUFFIX,a.vserv.mobi                         # 溯源: DOMAIN-SUFFIX,vserv.mobi
