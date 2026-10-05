@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-04 19:20:29
+# 规则合并审计日志 - 2026-10-05 20:42:05
 # ----------------------------------------------------------
-# 最终规则总数: 209985
-# 逻辑精简总数: 2995
+# 最终规则总数: 210286
+# 逻辑精简总数: 2996
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2460,6 +2460,7 @@
 [包含去重] DOMAIN-SUFFIX,tg1.premiumimpression.com            # 溯源: DOMAIN-SUFFIX,premiumimpression.com
 [包含去重] DOMAIN-SUFFIX,track.hg.healthgrades.com            # 溯源: DOMAIN-SUFFIX,healthgrades.com
 [包含去重] DOMAIN-SUFFIX,trackhorizon.nnmtools.com            # 溯源: DOMAIN-SUFFIX,nnmtools.com
+[包含去重] DOMAIN-SUFFIX,tracking.happierleads.com            # 溯源: DOMAIN-SUFFIX,happierleads.com
 [包含去重] DOMAIN-SUFFIX,trk.cf.labanquepostale.fr            # 溯源: DOMAIN-SUFFIX,cf.labanquepostale.fr
 [包含去重] DOMAIN-SUFFIX,wp-log.api.useinsider.com            # 溯源: DOMAIN-SUFFIX,useinsider.com
 [包含去重] DOMAIN-SUFFIX,www.agile-company-247.com            # 溯源: DOMAIN-SUFFIX,agile-company-247.com
