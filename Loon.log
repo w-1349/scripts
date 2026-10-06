@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-05 20:42:05
+# 规则合并审计日志 - 2026-10-06 20:14:21
 # ----------------------------------------------------------
-# 最终规则总数: 210286
-# 逻辑精简总数: 2996
+# 最终规则总数: 210625
+# 逻辑精简总数: 3001
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -258,6 +258,7 @@
 [包含去重] DOMAIN-SUFFIX,hit.acstat.com                       # 溯源: DOMAIN-SUFFIX,acstat.com
 [包含去重] DOMAIN-SUFFIX,hlog.hiido.com                       # 溯源: DOMAIN-SUFFIX,hiido.com
 [包含去重] DOMAIN-SUFFIX,huis.istats.nl                       # 溯源: DOMAIN-SUFFIX,istats.nl
+[包含去重] DOMAIN-SUFFIX,i.singular.net                       # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,j.northbeam.io                       # 溯源: DOMAIN-SUFFIX,northbeam.io
 [包含去重] DOMAIN-SUFFIX,js.verisoul.ai                       # 溯源: DOMAIN-SUFFIX,verisoul.ai
 [包含去重] DOMAIN-SUFFIX,klog.hiido.com                       # 溯源: DOMAIN-SUFFIX,hiido.com
@@ -323,8 +324,6 @@
 [包含去重] DOMAIN-SUFFIX,try.abtasty.com                      # 溯源: DOMAIN-SUFFIX,abtasty.com
 [包含去重] DOMAIN-SUFFIX,match.c8.net.ua                      # 溯源: DOMAIN-SUFFIX,c8.net.ua
 [包含去重] DOMAIN-SUFFIX,bids.concert.io                      # 溯源: DOMAIN-SUFFIX,concert.io
-[包含去重] DOMAIN-SUFFIX,ck.connatix.com                      # 溯源: DOMAIN-SUFFIX,connatix.com
-[包含去重] DOMAIN-SUFFIX,pl.connatix.com                      # 溯源: DOMAIN-SUFFIX,connatix.com
 [包含去重] DOMAIN-SUFFIX,p.cquotient.com                      # 溯源: DOMAIN-SUFFIX,cquotient.com
 [包含去重] DOMAIN-SUFFIX,t.douyaobuy.com                      # 溯源: DOMAIN-SUFFIX,douyaobuy.com
 [包含去重] DOMAIN-SUFFIX,yoke.jyhlo0.com                      # 溯源: DOMAIN-SUFFIX,jyhlo0.com
@@ -463,8 +462,6 @@
 [包含去重] DOMAIN-SUFFIX,aa.birdgesdk.com                     # 溯源: DOMAIN-SUFFIX,birdgesdk.com
 [包含去重] DOMAIN-SUFFIX,blip.bizrate.com                     # 溯源: DOMAIN-SUFFIX,bizrate.com
 [包含去重] DOMAIN-SUFFIX,ctx.citiservi.es                     # 溯源: DOMAIN-SUFFIX,citiservi.es
-[包含去重] DOMAIN-SUFFIX,ins.connatix.com                     # 溯源: DOMAIN-SUFFIX,connatix.com
-[包含去重] DOMAIN-SUFFIX,lit.connatix.com                     # 溯源: DOMAIN-SUFFIX,connatix.com
 [包含去重] DOMAIN-SUFFIX,tt.douyaobuy.com                     # 溯源: DOMAIN-SUFFIX,douyaobuy.com
 [包含去重] DOMAIN-SUFFIX,track.emerse.com                     # 溯源: DOMAIN-SUFFIX,emerse.com
 [包含去重] DOMAIN-SUFFIX,176.net.jumia.ma                     # 溯源: DOMAIN-SUFFIX,net.jumia.ma
@@ -547,6 +544,7 @@
 [包含去重] DOMAIN-SUFFIX,receive.wmcdp.io                     # 溯源: DOMAIN-SUFFIX,wmcdp.io
 [包含去重] DOMAIN-SUFFIX,rmcdn.f.2mdn.net                     # 溯源: DOMAIN-SUFFIX,2mdn.net
 [包含去重] DOMAIN-SUFFIX,rtb.viewsense.ai                     # 溯源: DOMAIN-SUFFIX,viewsense.ai
+[包含去重] DOMAIN-SUFFIX,s2s.singular.net                     # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,sdk.adtiming.com                     # 溯源: DOMAIN-SUFFIX,adtiming.com
 [包含去重] DOMAIN-SUFFIX,serv.adspeed.com                     # 溯源: DOMAIN-SUFFIX,adspeed.com
 [包含去重] DOMAIN-SUFFIX,sgtm.richads.com                     # 溯源: DOMAIN-SUFFIX,richads.com
@@ -631,7 +629,6 @@
 [包含去重] DOMAIN-SUFFIX,v4-lm.adukwai.com                    # 溯源: DOMAIN-SUFFIX,adukwai.com
 [包含去重] DOMAIN-SUFFIX,adx.adwangmai.com                    # 溯源: DOMAIN-SUFFIX,adwangmai.com
 [包含去重] DOMAIN-SUFFIX,ssp.qc.coccoc.com                    # 溯源: DOMAIN-SUFFIX,qc.coccoc.com
-[包含去重] DOMAIN-SUFFIX,capi.connatix.com                    # 溯源: DOMAIN-SUFFIX,connatix.com
 [包含去重] DOMAIN-SUFFIX,pl.elements.video                    # 溯源: DOMAIN-SUFFIX,elements.video
 [包含去重] DOMAIN-SUFFIX,tr.espmp-agfr.net                    # 溯源: DOMAIN-SUFFIX,espmp-agfr.net
 [包含去重] DOMAIN-SUFFIX,gw.foodymange.com                    # 溯源: DOMAIN-SUFFIX,foodymange.com
@@ -741,6 +738,7 @@
 [包含去重] DOMAIN-SUFFIX,rtb.nativeads.com                    # 溯源: DOMAIN-SUFFIX,nativeads.com
 [包含去重] DOMAIN-SUFFIX,s.optidigital.com                    # 溯源: DOMAIN-SUFFIX,optidigital.com
 [包含去重] DOMAIN-SUFFIX,seibli.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
+[包含去重] DOMAIN-SUFFIX,skan.singular.net                    # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,srepdata.bnqt.com                    # 溯源: DOMAIN-SUFFIX,bnqt.com
 [包含去重] DOMAIN-SUFFIX,static.virgul.com                    # 溯源: DOMAIN-SUFFIX,virgul.com
 [包含去重] DOMAIN-SUFFIX,static.wjxcdn.com                    # 溯源: DOMAIN-SUFFIX,wjxcdn.com
@@ -1042,6 +1040,7 @@
 [包含去重] DOMAIN-SUFFIX,tag.mtrcs.samba.tv                   # 溯源: DOMAIN-SUFFIX,mtrcs.samba.tv
 [包含去重] DOMAIN-SUFFIX,c1.statcounter.com                   # 溯源: DOMAIN-SUFFIX,statcounter.com
 [包含去重] DOMAIN-SUFFIX,c2.statcounter.com                   # 溯源: DOMAIN-SUFFIX,statcounter.com
+[包含去重] DOMAIN-SUFFIX,cdn.taboola.com.cn                   # 溯源: DOMAIN-SUFFIX,taboola.com.cn
 [包含去重] DOMAIN-SUFFIX,events.ubembed.com                   # 溯源: DOMAIN-SUFFIX,ubembed.com
 [包含去重] DOMAIN-SUFFIX,media.vivaclix.com                   # 溯源: DOMAIN-SUFFIX,vivaclix.com
 [包含去重] DOMAIN-SUFFIX,html.atm.youku.com                   # 溯源: DOMAIN-SUFFIX,atm.youku.com
@@ -1910,6 +1909,7 @@
 [包含去重] DOMAIN-SUFFIX,secure.mon-com-01.com                # 溯源: DOMAIN-SUFFIX,mon-com-01.com
 [包含去重] DOMAIN-SUFFIX,secure.shrfbdg004.com                # 溯源: DOMAIN-SUFFIX,shrfbdg004.com
 [包含去重] DOMAIN-SUFFIX,serving.viewtraff.com                # 溯源: DOMAIN-SUFFIX,viewtraff.com
+[包含去重] DOMAIN-SUFFIX,skan-s2s.singular.net                # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,snippet.affilimate.io                # 溯源: DOMAIN-SUFFIX,affilimate.io
 [包含去重] DOMAIN-SUFFIX,sst.getambassador.com                # 溯源: DOMAIN-SUFFIX,getambassador.com
 [包含去重] DOMAIN-SUFFIX,stampen.linkpulse.com                # 溯源: DOMAIN-SUFFIX,linkpulse.com
@@ -2059,6 +2059,7 @@
 [包含去重] DOMAIN-SUFFIX,rtb-apac.foremedia.net               # 溯源: DOMAIN-SUFFIX,foremedia.net
 [包含去重] DOMAIN-SUFFIX,rtb-useast.denakop.com               # 溯源: DOMAIN-SUFFIX,denakop.com
 [包含去重] DOMAIN-SUFFIX,rtb.adventurefeeds.com               # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
+[包含去重] DOMAIN-SUFFIX,safetrack.singular.net               # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,sandbox.livejasmin.com               # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,smetrics.multiview.com               # 溯源: DOMAIN-SUFFIX,multiview.com
 [包含去重] DOMAIN-SUFFIX,ssl-compass.oewabox.at               # 溯源: DOMAIN-SUFFIX,oewabox.at
@@ -2163,6 +2164,7 @@
 [包含去重] DOMAIN-SUFFIX,protected-by.clarium.io              # 溯源: DOMAIN-SUFFIX,clarium.io
 [包含去重] DOMAIN-SUFFIX,rsvp.heatexperience.com              # 溯源: DOMAIN-SUFFIX,heatexperience.com
 [包含去重] DOMAIN-SUFFIX,rtg.rubiconredirect.com              # 溯源: DOMAIN-SUFFIX,rubiconredirect.com
+[包含去重] DOMAIN-SUFFIX,sdk-api-v1.singular.net              # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,sdk-monitoring.ogury.co              # 溯源: DOMAIN-SUFFIX,ogury.co
 [包含去重] DOMAIN-SUFFIX,selfservice.adoptim.com              # 溯源: DOMAIN-SUFFIX,adoptim.com
 [包含去重] DOMAIN-SUFFIX,sephora-qa.branch.rocks              # 溯源: DOMAIN-SUFFIX,branch.rocks
@@ -2257,11 +2259,13 @@
 [包含去重] DOMAIN-SUFFIX,server10.opentracker.net             # 溯源: DOMAIN-SUFFIX,opentracker.net
 [包含去重] DOMAIN-SUFFIX,server11.opentracker.net             # 溯源: DOMAIN-SUFFIX,opentracker.net
 [包含去重] DOMAIN-SUFFIX,sifomedia.citypaketet.se             # 溯源: DOMAIN-SUFFIX,citypaketet.se
+[包含去重] DOMAIN-SUFFIX,skadnetwork.singular.net             # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,static.vistarsagency.com             # 溯源: DOMAIN-SUFFIX,vistarsagency.com
 [包含去重] DOMAIN-SUFFIX,te.technical-service.net             # 溯源: DOMAIN-SUFFIX,technical-service.net
 [包含去重] DOMAIN-SUFFIX,telegraf.detmir-stats.ru             # 溯源: DOMAIN-SUFFIX,detmir-stats.ru
 [包含去重] DOMAIN-SUFFIX,tracking.feedperfect.com             # 溯源: DOMAIN-SUFFIX,feedperfect.com
 [包含去重] DOMAIN-SUFFIX,tracking.service.just.nl             # 溯源: DOMAIN-SUFFIX,service.just.nl
+[包含去重] DOMAIN-SUFFIX,web-sdk-cdn.singular.net             # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,www.7-companycompany.com             # 溯源: DOMAIN-SUFFIX,7-companycompany.com
 [包含去重] DOMAIN-SUFFIX,www.business-path-55.com             # 溯源: DOMAIN-SUFFIX,business-path-55.com
 [包含去重] DOMAIN-SUFFIX,www.completatusdatos.com             # 溯源: DOMAIN-SUFFIX,completatusdatos.com
@@ -2525,6 +2529,7 @@
 [包含去重] DOMAIN-SUFFIX,playfuls.uk.intellitxt.com           # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,regionconfig.amplitude.com           # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,rtb-useast-v4.applixir.com           # 溯源: DOMAIN-SUFFIX,applixir.com
+[包含去重] DOMAIN-SUFFIX,safetrack-s2s.singular.net           # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,secure.cloud-ingenuity.com           # 溯源: DOMAIN-SUFFIX,cloud-ingenuity.com
 [包含去重] DOMAIN-SUFFIX,secure.data-insight365.com           # 溯源: DOMAIN-SUFFIX,data-insight365.com
 [包含去重] DOMAIN-SUFFIX,sendpulsetest.branch.rocks           # 溯源: DOMAIN-SUFFIX,branch.rocks
