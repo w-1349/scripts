@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-10-06 20:14:21
+# 规则合并审计日志 - 2026-10-07 20:03:15
 # ----------------------------------------------------------
-# 最终规则总数: 210625
+# 最终规则总数: 210940
 # 逻辑精简总数: 3001
 # ----------------------------------------------------------
 
@@ -130,6 +130,7 @@
 [包含去重] DOMAIN-SUFFIX,green.erne.co                        # 溯源: DOMAIN-SUFFIX,erne.co
 [包含去重] DOMAIN-SUFFIX,f99.gdsoq.com                        # 溯源: DOMAIN-SUFFIX,gdsoq.com
 [包含去重] DOMAIN-SUFFIX,xopf.lhy1.xyz                        # 溯源: DOMAIN-SUFFIX,lhy1.xyz
+[包含去重] DOMAIN-SUFFIX,d.lilstts.com                        # 溯源: DOMAIN-SUFFIX,lilstts.com
 [包含去重] DOMAIN-SUFFIX,ma.logsss.com                        # 溯源: DOMAIN-SUFFIX,logsss.com
 [包含去重] DOMAIN-SUFFIX,px.marchex.io                        # 溯源: DOMAIN-SUFFIX,marchex.io
 [包含去重] DOMAIN-SUFFIX,rw.marchex.io                        # 溯源: DOMAIN-SUFFIX,marchex.io
@@ -2421,7 +2422,6 @@
 [包含去重] DOMAIN-SUFFIX,analytics.alright.network            # 溯源: DOMAIN-SUFFIX,alright.network
 [包含去重] DOMAIN-SUFFIX,analytics.supplyframe.com            # 溯源: DOMAIN-SUFFIX,supplyframe.com
 [包含去重] DOMAIN-SUFFIX,api-pixels.easyadsapp.com            # 溯源: DOMAIN-SUFFIX,easyadsapp.com
-[包含去重] DOMAIN-SUFFIX,assets.onedollarstats.com            # 溯源: DOMAIN-SUFFIX,onedollarstats.com
 [包含去重] DOMAIN-SUFFIX,bvoffers-elb.go2cloud.org            # 溯源: DOMAIN-SUFFIX,go2cloud.org
 [包含去重] DOMAIN-SUFFIX,cbanners.virtuagirlhd.com            # 溯源: DOMAIN-SUFFIX,virtuagirlhd.com
 [包含去重] DOMAIN-SUFFIX,clickserver.googleads.com            # 溯源: DOMAIN-SUFFIX,googleads.com
