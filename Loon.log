@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-07 20:03:15
+# 规则合并审计日志 - 2026-10-08 20:15:27
 # ----------------------------------------------------------
-# 最终规则总数: 210940
-# 逻辑精简总数: 3001
+# 最终规则总数: 211242
+# 逻辑精简总数: 3002
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1800,6 +1800,7 @@
 [包含去重] DOMAIN-SUFFIX,smetrics.omniture.com                # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,client.perimeterx.net                # 溯源: DOMAIN-SUFFIX,perimeterx.net
 [包含去重] DOMAIN-SUFFIX,fst-ec.perimeterx.net                # 溯源: DOMAIN-SUFFIX,perimeterx.net
+[包含去重] DOMAIN-SUFFIX,pixel2.realclever.com                # 溯源: DOMAIN-SUFFIX,realclever.com
 [包含去重] DOMAIN-SUFFIX,seb.sharpmarketing.eu                # 溯源: DOMAIN-SUFFIX,sharpmarketing.eu
 [包含去重] DOMAIN-SUFFIX,hello.staticstuff.net                # 溯源: DOMAIN-SUFFIX,staticstuff.net
 [包含去重] DOMAIN-SUFFIX,creatives.sunmedia.tv                # 溯源: DOMAIN-SUFFIX,sunmedia.tv
