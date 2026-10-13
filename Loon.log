@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-12 21:33:55
+# 规则合并审计日志 - 2026-10-13 20:58:15
 # ----------------------------------------------------------
-# 最终规则总数: 214429
-# 逻辑精简总数: 3008
+# 最终规则总数: 216450
+# 逻辑精简总数: 3009
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1513,7 +1513,6 @@
 [包含去重] DOMAIN-SUFFIX,hanadev.branch.rocks                 # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,health.aonunited.com                 # 溯源: DOMAIN-SUFFIX,aonunited.com
 [包含去重] DOMAIN-SUFFIX,hive.tubetitties.com                 # 溯源: DOMAIN-SUFFIX,tubetitties.com
-[包含去重] DOMAIN-SUFFIX,hoof.absentwhack.com                 # 溯源: DOMAIN-SUFFIX,absentwhack.com
 [包含去重] DOMAIN-SUFFIX,hrm.healthgrades.com                 # 溯源: DOMAIN-SUFFIX,healthgrades.com
 [包含去重] DOMAIN-SUFFIX,imgsct.cookiebot.com                 # 溯源: DOMAIN-SUFFIX,cookiebot.com
 [包含去重] DOMAIN-SUFFIX,interyield.td573.com                 # 溯源: DOMAIN-SUFFIX,td573.com
@@ -2166,6 +2165,7 @@
 [包含去重] DOMAIN-SUFFIX,prebid.trustedstack.com              # 溯源: DOMAIN-SUFFIX,trustedstack.com
 [包含去重] DOMAIN-SUFFIX,prod-origin.truendo.com              # 溯源: DOMAIN-SUFFIX,truendo.com
 [包含去重] DOMAIN-SUFFIX,protected-by.clarium.io              # 溯源: DOMAIN-SUFFIX,clarium.io
+[包含去重] DOMAIN-SUFFIX,push.adventurefeeds.com              # 溯源: DOMAIN-SUFFIX,adventurefeeds.com
 [包含去重] DOMAIN-SUFFIX,rsvp.heatexperience.com              # 溯源: DOMAIN-SUFFIX,heatexperience.com
 [包含去重] DOMAIN-SUFFIX,rtg.rubiconredirect.com              # 溯源: DOMAIN-SUFFIX,rubiconredirect.com
 [包含去重] DOMAIN-SUFFIX,sdk-api-v1.singular.net              # 溯源: DOMAIN-SUFFIX,singular.net
@@ -2559,6 +2559,7 @@
 [包含去重] DOMAIN-SUFFIX,www.visionarycompany52.com           # 溯源: DOMAIN-SUFFIX,visionarycompany52.com
 [包含去重] DOMAIN-SUFFIX,www.websiteexploration.com           # 溯源: DOMAIN-SUFFIX,websiteexploration.com
 [包含去重] DOMAIN-SUFFIX,www.yourplanprovisions.com           # 溯源: DOMAIN-SUFFIX,yourplanprovisions.com
+[包含去重] DOMAIN-SUFFIX,partner.service.belboon.com          # 溯源: DOMAIN-SUFFIX,service.belboon.com
 [包含去重] DOMAIN-SUFFIX,config.content-settings.com          # 溯源: DOMAIN-SUFFIX,content-settings.com
 [包含去重] DOMAIN-SUFFIX,tr.actiflip.devisdirect.com          # 溯源: DOMAIN-SUFFIX,devisdirect.com
 [包含去重] DOMAIN-SUFFIX,stg-data.ads.heytapmobi.com          # 溯源: DOMAIN-SUFFIX,ads.heytapmobi.com
