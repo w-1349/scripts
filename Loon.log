@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-16 18:08:40
+# 规则合并审计日志 - 2026-10-17 17:43:03
 # ----------------------------------------------------------
-# 最终规则总数: 217896
-# 逻辑精简总数: 3009
+# 最终规则总数: 217869
+# 逻辑精简总数: 3010
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -751,6 +751,7 @@
 [包含去重] DOMAIN-SUFFIX,tennis.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,track.adoptim.com                    # 溯源: DOMAIN-SUFFIX,adoptim.com
 [包含去重] DOMAIN-SUFFIX,track.customer.io                    # 溯源: DOMAIN-SUFFIX,customer.io
+[包含去重] DOMAIN-SUFFIX,tracker.mtrtb.com                    # 溯源: DOMAIN-SUFFIX,mtrtb.com
 [包含去重] DOMAIN-SUFFIX,tracking.kdata.fr                    # 溯源: DOMAIN-SUFFIX,kdata.fr
 [包含去重] DOMAIN-SUFFIX,tv.livejasmin.com                    # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,unimed.oewabox.at                    # 溯源: DOMAIN-SUFFIX,oewabox.at
