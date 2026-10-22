@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-21 18:37:12
+# 规则合并审计日志 - 2026-10-22 18:40:28
 # ----------------------------------------------------------
-# 最终规则总数: 222437
-# 逻辑精简总数: 3024
+# 最终规则总数: 222918
+# 逻辑精简总数: 3026
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -317,6 +317,7 @@
 [包含去重] DOMAIN-SUFFIX,www.test92.com                       # 溯源: DOMAIN-SUFFIX,test92.com
 [包含去重] DOMAIN-SUFFIX,www.zarget.com                       # 溯源: DOMAIN-SUFFIX,zarget.com
 [包含去重] DOMAIN-SUFFIX,wxa.wxs.qq.com                       # 溯源: DOMAIN-SUFFIX,wxs.qq.com
+[包含去重] DOMAIN-SUFFIX,x.appbrain.com                       # 溯源: DOMAIN-SUFFIX,appbrain.com
 [包含去重] DOMAIN-SUFFIX,x.clearbit.com                       # 溯源: DOMAIN-SUFFIX,clearbit.com
 [包含去重] DOMAIN-SUFFIX,xlog.hiido.com                       # 溯源: DOMAIN-SUFFIX,hiido.com
 [包含去重] DOMAIN-SUFFIX,ylog.hiido.com                       # 溯源: DOMAIN-SUFFIX,hiido.com
@@ -494,6 +495,7 @@
 [包含去重] DOMAIN-SUFFIX,api.moengage.com                     # 溯源: DOMAIN-SUFFIX,moengage.com
 [包含去重] DOMAIN-SUFFIX,app.adjust.world                     # 溯源: DOMAIN-SUFFIX,adjust.world
 [包含去重] DOMAIN-SUFFIX,arboe.oewabox.at                     # 溯源: DOMAIN-SUFFIX,oewabox.at
+[包含去重] DOMAIN-SUFFIX,atlas.atsptp.com                     # 溯源: DOMAIN-SUFFIX,atsptp.com
 [包含去重] DOMAIN-SUFFIX,b.trueanthem.com                     # 溯源: DOMAIN-SUFFIX,trueanthem.com
 [包含去重] DOMAIN-SUFFIX,babyf.oewabox.at                     # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,bazar.oewabox.at                     # 溯源: DOMAIN-SUFFIX,oewabox.at
