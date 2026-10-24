@@ -1,0 +1,36 @@
+name: 虚拟组网
+description: SSID 为 ROG 时直连指定网段，否则走虚拟组网
+author: 
+
+rules:
+  # SSID=ROG 且目标在 192.168.9.0/24 → DIRECT
+  - and:
+      match:
+        - ssid:
+            match: "ROG"
+        - ip_cidr:
+            match: 192.168.9.0/24
+            no_resolve: true
+      policy: DIRECT
+
+  # 其他情况 192.168.9.0/24 → 虚拟组网
+  - ip_cidr:
+      match: 192.168.9.0/24
+      policy: 虚拟组网
+      no_resolve: true
+
+  # SSID=ROG 且目标在 192.168.54.0/24 → DIRECT
+  - and:
+      match:
+        - ssid:
+            match: "ROG"
+        - ip_cidr:
+            match: 192.168.54.0/24
+            no_resolve: true
+      policy: DIRECT
+
+  # 其他情况 192.168.54.0/24 → 虚拟组网
+  - ip_cidr:
+      match: 192.168.54.0/24
+      policy: 虚拟组网
+      no_resolve: true
