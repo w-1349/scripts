@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-24 17:49:15
+# 规则合并审计日志 - 2026-10-25 18:10:59
 # ----------------------------------------------------------
-# 最终规则总数: 223570
-# 逻辑精简总数: 3026
+# 最终规则总数: 223935
+# 逻辑精简总数: 3019
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -294,6 +294,7 @@
 [包含去重] DOMAIN-SUFFIX,top.oewabox.at                       # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,tr1.admeira.ch                       # 溯源: DOMAIN-SUFFIX,admeira.ch
 [包含去重] DOMAIN-SUFFIX,track.notsy.io                       # 溯源: DOMAIN-SUFFIX,notsy.io
+[包含去重] DOMAIN-SUFFIX,tracker.arc.io                       # 溯源: DOMAIN-SUFFIX,arc.io
 [包含去重] DOMAIN-SUFFIX,trail.53kf.com                       # 溯源: DOMAIN-SUFFIX,53kf.com
 [包含去重] DOMAIN-SUFFIX,u.zhugeapi.net                       # 溯源: DOMAIN-SUFFIX,zhugeapi.net
 [包含去重] DOMAIN-SUFFIX,uk.adpinfo.com                       # 溯源: DOMAIN-SUFFIX,adpinfo.com
@@ -676,7 +677,6 @@
 [包含去重] DOMAIN-SUFFIX,ads.adsbookie.com                    # 溯源: DOMAIN-SUFFIX,adsbookie.com
 [包含去重] DOMAIN-SUFFIX,ads.yap.yahoo.com                    # 溯源: DOMAIN-SUFFIX,yap.yahoo.com
 [包含去重] DOMAIN-SUFFIX,any.realbig.media                    # 溯源: DOMAIN-SUFFIX,realbig.media
-[包含去重] DOMAIN-SUFFIX,api.amplitude.com                    # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,api.clickaine.com                    # 溯源: DOMAIN-SUFFIX,clickaine.com
 [包含去重] DOMAIN-SUFFIX,api.flocktory.com                    # 溯源: DOMAIN-SUFFIX,flocktory.com
 [包含去重] DOMAIN-SUFFIX,api.optnmnstr.com                    # 溯源: DOMAIN-SUFFIX,optnmnstr.com
@@ -690,7 +690,6 @@
 [包含去重] DOMAIN-SUFFIX,beacon.sojern.com                    # 溯源: DOMAIN-SUFFIX,sojern.com
 [包含去重] DOMAIN-SUFFIX,bls.adalliance.io                    # 溯源: DOMAIN-SUFFIX,adalliance.io
 [包含去重] DOMAIN-SUFFIX,bob-a1at.mno.link                    # 溯源: DOMAIN-SUFFIX,mno.link
-[包含去重] DOMAIN-SUFFIX,cdn.amplitude.com                    # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,cdn.onesignal.com                    # 溯源: DOMAIN-SUFFIX,onesignal.com
 [包含去重] DOMAIN-SUFFIX,cdn.pranmcpkx.com                    # 溯源: DOMAIN-SUFFIX,pranmcpkx.com
 [包含去重] DOMAIN-SUFFIX,cdn.retailads.net                    # 溯源: DOMAIN-SUFFIX,retailads.net
@@ -1067,7 +1066,6 @@
 [包含去重] DOMAIN-SUFFIX,affiliate.2mdn.net                   # 溯源: DOMAIN-SUFFIX,2mdn.net
 [包含去重] DOMAIN-SUFFIX,afinder.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,akr.usesfathom.com                   # 溯源: DOMAIN-SUFFIX,usesfathom.com
-[包含去重] DOMAIN-SUFFIX,api2.amplitude.com                   # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,apiv2.moengage.com                   # 溯源: DOMAIN-SUFFIX,moengage.com
 [包含去重] DOMAIN-SUFFIX,apiv3.moengage.com                   # 溯源: DOMAIN-SUFFIX,moengage.com
 [包含去重] DOMAIN-SUFFIX,atvplus.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
@@ -1476,7 +1474,6 @@
 [包含去重] DOMAIN-SUFFIX,altg.widerplanet.com                 # 溯源: DOMAIN-SUFFIX,widerplanet.com
 [包含去重] DOMAIN-SUFFIX,analytics.ahrefs.com                 # 溯源: DOMAIN-SUFFIX,ahrefs.com
 [包含去重] DOMAIN-SUFFIX,analytics.qushad.com                 # 溯源: DOMAIN-SUFFIX,qushad.com
-[包含去重] DOMAIN-SUFFIX,api.eu.amplitude.com                 # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,api.itaoxiaoshuo.com                 # 溯源: DOMAIN-SUFFIX,itaoxiaoshuo.com
 [包含去重] DOMAIN-SUFFIX,apiv2.popupsmart.com                 # 溯源: DOMAIN-SUFFIX,popupsmart.com
 [包含去重] DOMAIN-SUFFIX,apk.shouji.koowo.com                 # 溯源: DOMAIN-SUFFIX,koowo.com
@@ -1824,7 +1821,6 @@
 [包含去重] DOMAIN-SUFFIX,analytics.klickly.com                # 溯源: DOMAIN-SUFFIX,klickly.com
 [包含去重] DOMAIN-SUFFIX,analytics.myfidevs.io                # 溯源: DOMAIN-SUFFIX,myfidevs.io
 [包含去重] DOMAIN-SUFFIX,api.affinesystems.com                # 溯源: DOMAIN-SUFFIX,affinesystems.com
-[包含去重] DOMAIN-SUFFIX,api.lab.amplitude.com                # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,assets.publicgood.com                # 溯源: DOMAIN-SUFFIX,publicgood.com
 [包含去重] DOMAIN-SUFFIX,banners.idolbucks.com                # 溯源: DOMAIN-SUFFIX,idolbucks.com
 [包含去重] DOMAIN-SUFFIX,beacon-1.newrelic.com                # 溯源: DOMAIN-SUFFIX,newrelic.com
@@ -2468,7 +2464,6 @@
 [包含去重] DOMAIN-SUFFIX,pirogad.tophosting101.com            # 溯源: DOMAIN-SUFFIX,tophosting101.com
 [包含去重] DOMAIN-SUFFIX,pixel-us.convertagain.net            # 溯源: DOMAIN-SUFFIX,convertagain.net
 [包含去重] DOMAIN-SUFFIX,pixeltrack.clientgear.com            # 溯源: DOMAIN-SUFFIX,clientgear.com
-[包含去重] DOMAIN-SUFFIX,profile-api.amplitude.com            # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,promotion.partnercash.com            # 溯源: DOMAIN-SUFFIX,partnercash.com
 [包含去重] DOMAIN-SUFFIX,pspcave.uk.intellitxt.com            # 溯源: DOMAIN-SUFFIX,intellitxt.com
 [包含去重] DOMAIN-SUFFIX,rtb-uswest.showcasead.com            # 溯源: DOMAIN-SUFFIX,showcasead.com
@@ -2545,7 +2540,6 @@
 [包含去重] DOMAIN-SUFFIX,nationalpost.adperfect.com           # 溯源: DOMAIN-SUFFIX,adperfect.com
 [包含去重] DOMAIN-SUFFIX,newsletter2.livejasmin.com           # 溯源: DOMAIN-SUFFIX,livejasmin.com
 [包含去重] DOMAIN-SUFFIX,playfuls.uk.intellitxt.com           # 溯源: DOMAIN-SUFFIX,intellitxt.com
-[包含去重] DOMAIN-SUFFIX,regionconfig.amplitude.com           # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,rtb-useast-v4.applixir.com           # 溯源: DOMAIN-SUFFIX,applixir.com
 [包含去重] DOMAIN-SUFFIX,safetrack-s2s.singular.net           # 溯源: DOMAIN-SUFFIX,singular.net
 [包含去重] DOMAIN-SUFFIX,secure.cloud-ingenuity.com           # 溯源: DOMAIN-SUFFIX,cloud-ingenuity.com
@@ -2606,7 +2600,6 @@
 [包含去重] DOMAIN-SUFFIX,secure.7-companycompany.com          # 溯源: DOMAIN-SUFFIX,7-companycompany.com
 [包含去重] DOMAIN-SUFFIX,secure.netscope.marktest.pt          # 溯源: DOMAIN-SUFFIX,marktest.pt
 [包含去重] DOMAIN-SUFFIX,softpedia.uk.intellitxt.com          # 溯源: DOMAIN-SUFFIX,intellitxt.com
-[包含去重] DOMAIN-SUFFIX,sr-client-cfg.amplitude.com          # 溯源: DOMAIN-SUFFIX,amplitude.com
 [包含去重] DOMAIN-SUFFIX,static.audienceinsights.net          # 溯源: DOMAIN-SUFFIX,audienceinsights.net
 [包含去重] DOMAIN-SUFFIX,statm.the-adult-company.com          # 溯源: DOMAIN-SUFFIX,the-adult-company.com
 [包含去重] DOMAIN-SUFFIX,track-events.membrana.media          # 溯源: DOMAIN-SUFFIX,membrana.media
