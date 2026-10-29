@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-10-28 19:40:30
+# 规则合并审计日志 - 2026-10-29 19:48:20
 # ----------------------------------------------------------
-# 最终规则总数: 222222
+# 最终规则总数: 217331
 # 逻辑精简总数: 3027
 # ----------------------------------------------------------
 
@@ -61,7 +61,6 @@
 [包含去重] DOMAIN-SUFFIX,hits.top.lv                          # 溯源: DOMAIN-SUFFIX,top.lv
 [包含去重] DOMAIN-SUFFIX,id.jixie.io                          # 溯源: DOMAIN-SUFFIX,jixie.io
 [包含去重] DOMAIN-SUFFIX,ktu.sv2.biz                          # 溯源: DOMAIN-SUFFIX,sv2.biz
-[包含去重] DOMAIN-SUFFIX,m.hue2b.com                          # 溯源: DOMAIN-SUFFIX,hue2b.com
 [包含去重] DOMAIN-SUFFIX,m1.2mdn.net                          # 溯源: DOMAIN-SUFFIX,2mdn.net
 [包含去重] DOMAIN-SUFFIX,mat.socy.es                          # 溯源: DOMAIN-SUFFIX,socy.es
 [包含去重] DOMAIN-SUFFIX,mg.dt00.net                          # 溯源: DOMAIN-SUFFIX,dt00.net
@@ -339,6 +338,7 @@
 [包含去重] DOMAIN-SUFFIX,web.da.mgtv.com                      # 溯源: DOMAIN-SUFFIX,da.mgtv.com
 [包含去重] DOMAIN-SUFFIX,ads.mobgold.com                      # 溯源: DOMAIN-SUFFIX,mobgold.com
 [包含去重] DOMAIN-SUFFIX,track.tappx.com                      # 溯源: DOMAIN-SUFFIX,tappx.com
+[包含去重] DOMAIN-SUFFIX,mc.webvisor.org                      # 溯源: DOMAIN-SUFFIX,webvisor.org
 [包含去重] DOMAIN-SUFFIX,m.atm.youku.com                      # 溯源: DOMAIN-SUFFIX,atm.youku.com
 [包含去重] DOMAIN-SUFFIX,1.allyes.com.cn                      # 溯源: DOMAIN-SUFFIX,allyes.com.cn
 [包含去重] DOMAIN-SUFFIX,a.adsession.com                      # 溯源: DOMAIN-SUFFIX,adsession.com
