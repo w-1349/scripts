@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-29 19:48:20
+# 规则合并审计日志 - 2026-10-30 19:41:08
 # ----------------------------------------------------------
-# 最终规则总数: 217331
-# 逻辑精简总数: 3027
+# 最终规则总数: 217722
+# 逻辑精简总数: 3028
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -2820,6 +2820,7 @@
 [包含去重] DOMAIN-SUFFIX,scontent.xx.fbcdn.net.iberostar.com  # 溯源: DOMAIN-SUFFIX,fbcdn.net.iberostar.com
 [包含去重] DOMAIN-SUFFIX,datacollector-drru.dt.dbankcloud.ru  # 溯源: DOMAIN-SUFFIX,dt.dbankcloud.ru
 [包含去重] DOMAIN-SUFFIX,eu-mobile.events.data.microsoft.com  # 溯源: DOMAIN-SUFFIX,events.data.microsoft.com
+[包含去重] DOMAIN-SUFFIX,eu-office.events.data.microsoft.com  # 溯源: DOMAIN-SUFFIX,events.data.microsoft.com
 [包含去重] DOMAIN-SUFFIX,japan.secureforms.partnermcafee.com  # 溯源: DOMAIN-SUFFIX,partnermcafee.com
 [包含去重] DOMAIN-SUFFIX,kmwatsonc.events.data.microsoft.com  # 溯源: DOMAIN-SUFFIX,events.data.microsoft.com
 [包含去重] DOMAIN-SUFFIX,majoraccounts.solutions.adpinfo.com  # 溯源: DOMAIN-SUFFIX,adpinfo.com
