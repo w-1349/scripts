@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-10-30 19:41:08
+# 规则合并审计日志 - 2026-10-31 19:15:03
 # ----------------------------------------------------------
-# 最终规则总数: 217722
-# 逻辑精简总数: 3028
+# 最终规则总数: 218099
+# 逻辑精简总数: 3033
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -510,6 +510,7 @@
 [包含去重] DOMAIN-SUFFIX,cdn.lr-ingest.io                     # 溯源: DOMAIN-SUFFIX,lr-ingest.io
 [包含去重] DOMAIN-SUFFIX,cdn.moengage.com                     # 溯源: DOMAIN-SUFFIX,moengage.com
 [包含去重] DOMAIN-SUFFIX,cdn.nativery.com                     # 溯源: DOMAIN-SUFFIX,nativery.com
+[包含去重] DOMAIN-SUFFIX,cdn.snitcher.com                     # 溯源: DOMAIN-SUFFIX,snitcher.com
 [包含去重] DOMAIN-SUFFIX,cdn.yektanet.com                     # 溯源: DOMAIN-SUFFIX,yektanet.com
 [包含去重] DOMAIN-SUFFIX,cdnuz.adviad.com                     # 溯源: DOMAIN-SUFFIX,adviad.com
 [包含去重] DOMAIN-SUFFIX,click.jasmin.com                     # 溯源: DOMAIN-SUFFIX,jasmin.com
@@ -1137,6 +1138,7 @@
 [包含去重] DOMAIN-SUFFIX,panel.bcaeurope.eu                   # 溯源: DOMAIN-SUFFIX,bcaeurope.eu
 [包含去重] DOMAIN-SUFFIX,park.realbig.media                   # 溯源: DOMAIN-SUFFIX,realbig.media
 [包含去重] DOMAIN-SUFFIX,push.getbeamer.com                   # 溯源: DOMAIN-SUFFIX,getbeamer.com
+[包含去重] DOMAIN-SUFFIX,radar.snitcher.com                   # 溯源: DOMAIN-SUFFIX,snitcher.com
 [包含去重] DOMAIN-SUFFIX,radioat.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,risk.aonunited.com                   # 溯源: DOMAIN-SUFFIX,aonunited.com
 [包含去重] DOMAIN-SUFFIX,secure.1-cl0ud.com                   # 溯源: DOMAIN-SUFFIX,1-cl0ud.com
@@ -1227,6 +1229,7 @@
 [包含去重] DOMAIN-SUFFIX,metrics.camsoda.com                  # 溯源: DOMAIN-SUFFIX,camsoda.com
 [包含去重] DOMAIN-SUFFIX,dns.chuzushijian.cn                  # 溯源: DOMAIN-SUFFIX,chuzushijian.cn
 [包含去重] DOMAIN-SUFFIX,site2.emarketer.com                  # 溯源: DOMAIN-SUFFIX,emarketer.com
+[包含去重] DOMAIN-SUFFIX,nexus.ensighten.com                  # 溯源: DOMAIN-SUFFIX,ensighten.com
 [包含去重] DOMAIN-SUFFIX,gateway.foresee.com                  # 溯源: DOMAIN-SUFFIX,foresee.com
 [包含去重] DOMAIN-SUFFIX,g-adnet.hiaiabc.com                  # 溯源: DOMAIN-SUFFIX,hiaiabc.com
 [包含去重] DOMAIN-SUFFIX,m-adnet.hiaiabc.com                  # 溯源: DOMAIN-SUFFIX,hiaiabc.com
@@ -2231,6 +2234,7 @@
 [包含去重] DOMAIN-SUFFIX,metrics.sj1.omniture.com             # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,metrics.sjo.omniture.com             # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,beacon.securestudies.com             # 溯源: DOMAIN-SUFFIX,securestudies.com
+[包含去重] DOMAIN-SUFFIX,cdn-settings.segment.com             # 溯源: DOMAIN-SUFFIX,segment.com
 [包含去重] DOMAIN-SUFFIX,a.smetrics.sovereign.com             # 溯源: DOMAIN-SUFFIX,smetrics.sovereign.com
 [包含去重] DOMAIN-SUFFIX,abtest.mistat.xiaomi.com             # 溯源: DOMAIN-SUFFIX,mistat.xiaomi.com
 [包含去重] DOMAIN-SUFFIX,analytics.yollamedia.com             # 溯源: DOMAIN-SUFFIX,yollamedia.com
@@ -2512,6 +2516,7 @@
 [包含去重] DOMAIN-SUFFIX,api.tw06.xlmc.sec.miui.com           # 溯源: DOMAIN-SUFFIX,xlmc.sec.miui.com
 [包含去重] DOMAIN-SUFFIX,tr-experiments.parsely.com           # 溯源: DOMAIN-SUFFIX,parsely.com
 [包含去重] DOMAIN-SUFFIX,event.collector.scopely.io           # 溯源: DOMAIN-SUFFIX,collector.scopely.io
+[包含去重] DOMAIN-SUFFIX,mobile-service.segment.com           # 溯源: DOMAIN-SUFFIX,segment.com
 [包含去重] DOMAIN-SUFFIX,img.ads.taptapnetworks.com           # 溯源: DOMAIN-SUFFIX,ads.taptapnetworks.com
 [包含去重] DOMAIN-SUFFIX,analytics-cf.bigcrunch.com           # 溯源: DOMAIN-SUFFIX,bigcrunch.com
 [包含去重] DOMAIN-SUFFIX,archsmarter.usesfathom.com           # 溯源: DOMAIN-SUFFIX,usesfathom.com
