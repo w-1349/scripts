@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-11-03 21:01:05
+# 规则合并审计日志 - 2026-11-04 21:17:19
 # ----------------------------------------------------------
-# 最终规则总数: 220424
-# 逻辑精简总数: 3043
+# 最终规则总数: 220676
+# 逻辑精简总数: 3042
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -500,7 +500,6 @@
 [包含去重] DOMAIN-SUFFIX,app.adjust.world                     # 溯源: DOMAIN-SUFFIX,adjust.world
 [包含去重] DOMAIN-SUFFIX,arboe.oewabox.at                     # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,atlas.atsptp.com                     # 溯源: DOMAIN-SUFFIX,atsptp.com
-[包含去重] DOMAIN-SUFFIX,b.trueanthem.com                     # 溯源: DOMAIN-SUFFIX,trueanthem.com
 [包含去重] DOMAIN-SUFFIX,babyf.oewabox.at                     # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,bazar.oewabox.at                     # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,bd1.click.com.cn                     # 溯源: DOMAIN-SUFFIX,click.com.cn
