@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-11-07 19:56:12
+# 规则合并审计日志 - 2026-11-08 20:13:24
 # ----------------------------------------------------------
-# 最终规则总数: 222591
-# 逻辑精简总数: 3045
+# 最终规则总数: 222939
+# 逻辑精简总数: 3043
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -295,7 +295,6 @@
 [包含去重] DOMAIN-SUFFIX,top.oewabox.at                       # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,tr1.admeira.ch                       # 溯源: DOMAIN-SUFFIX,admeira.ch
 [包含去重] DOMAIN-SUFFIX,track.notsy.io                       # 溯源: DOMAIN-SUFFIX,notsy.io
-[包含去重] DOMAIN-SUFFIX,tracker.arc.io                       # 溯源: DOMAIN-SUFFIX,arc.io
 [包含去重] DOMAIN-SUFFIX,trail.53kf.com                       # 溯源: DOMAIN-SUFFIX,53kf.com
 [包含去重] DOMAIN-SUFFIX,u.zhugeapi.net                       # 溯源: DOMAIN-SUFFIX,zhugeapi.net
 [包含去重] DOMAIN-SUFFIX,uk.adpinfo.com                       # 溯源: DOMAIN-SUFFIX,adpinfo.com
@@ -1950,7 +1949,6 @@
 [包含去重] DOMAIN-SUFFIX,track.gaconnector.com                # 溯源: DOMAIN-SUFFIX,gaconnector.com
 [包含去重] DOMAIN-SUFFIX,tracking.aws.judge.me                # 溯源: DOMAIN-SUFFIX,judge.me
 [包含去重] DOMAIN-SUFFIX,tracking.netvigie.com                # 溯源: DOMAIN-SUFFIX,netvigie.com
-[包含去重] DOMAIN-SUFFIX,upsell.alphwidget.com                # 溯源: DOMAIN-SUFFIX,alphwidget.com
 [包含去重] DOMAIN-SUFFIX,vsv-val.looksmart.com                # 溯源: DOMAIN-SUFFIX,looksmart.com
 [包含去重] DOMAIN-SUFFIX,www.200-rockergod.com                # 溯源: DOMAIN-SUFFIX,200-rockergod.com
 [包含去重] DOMAIN-SUFFIX,www.33infra-strat.com                # 溯源: DOMAIN-SUFFIX,33infra-strat.com
