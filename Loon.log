@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-11-10 21:47:28
+# 规则合并审计日志 - 2026-11-11 20:58:36
 # ----------------------------------------------------------
-# 最终规则总数: 223195
+# 最终规则总数: 221307
 # 逻辑精简总数: 3043
 # ----------------------------------------------------------
 
@@ -1168,7 +1168,6 @@
 [包含去重] DOMAIN-SUFFIX,umini.shujupie.com                   # 溯源: DOMAIN-SUFFIX,shujupie.com
 [包含去重] DOMAIN-SUFFIX,us-pub.dengage.com                   # 溯源: DOMAIN-SUFFIX,dengage.com
 [包含去重] DOMAIN-SUFFIX,webprog.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
-[包含去重] DOMAIN-SUFFIX,widgets.jobbio.com                   # 溯源: DOMAIN-SUFFIX,jobbio.com
 [包含去重] DOMAIN-SUFFIX,wienerz.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,willhab.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,wirtvlg.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
@@ -1808,6 +1807,7 @@
 [包含去重] DOMAIN-SUFFIX,stats.guess.tf.360.cn                # 溯源: DOMAIN-SUFFIX,tf.360.cn
 [包含去重] DOMAIN-SUFFIX,power.adhacker.online                # 溯源: DOMAIN-SUFFIX,adhacker.online
 [包含去重] DOMAIN-SUFFIX,s1.cdn-sg.advlion.com                # 溯源: DOMAIN-SUFFIX,advlion.com
+[包含去重] DOMAIN-SUFFIX,tagging.conde.digital                # 溯源: DOMAIN-SUFFIX,conde.digital
 [包含去重] DOMAIN-SUFFIX,tr.gen.espmp-agfr.net                # 溯源: DOMAIN-SUFFIX,espmp-agfr.net
 [包含去重] DOMAIN-SUFFIX,tr.axa.espmp-aufr.net                # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
 [包含去重] DOMAIN-SUFFIX,tr.sfr.espmp-aufr.net                # 溯源: DOMAIN-SUFFIX,espmp-aufr.net
@@ -2078,7 +2078,6 @@
 [包含去重] DOMAIN-SUFFIX,nc004x.corp.youdao.com               # 溯源: DOMAIN-SUFFIX,corp.youdao.com
 [包含去重] DOMAIN-SUFFIX,nc045x.corp.youdao.com               # 溯源: DOMAIN-SUFFIX,corp.youdao.com
 [包含去重] DOMAIN-SUFFIX,orangefr-test.mno.link               # 溯源: DOMAIN-SUFFIX,mno.link
-[包含去重] DOMAIN-SUFFIX,partner-api.jobbio.com               # 溯源: DOMAIN-SUFFIX,jobbio.com
 [包含去重] DOMAIN-SUFFIX,pixel.thoughtmetric.io               # 溯源: DOMAIN-SUFFIX,thoughtmetric.io
 [包含去重] DOMAIN-SUFFIX,qt002x.corp.youdao.com               # 溯源: DOMAIN-SUFFIX,corp.youdao.com
 [包含去重] DOMAIN-SUFFIX,retrieval-bd.duote.com               # 溯源: DOMAIN-SUFFIX,duote.com
@@ -2263,6 +2262,7 @@
 [包含去重] DOMAIN-SUFFIX,csr11.net.asambeauty.com             # 溯源: DOMAIN-SUFFIX,net.asambeauty.com
 [包含去重] DOMAIN-SUFFIX,data.notice.t-mobile.com             # 溯源: DOMAIN-SUFFIX,notice.t-mobile.com
 [包含去重] DOMAIN-SUFFIX,deliver.vkcdnservice.com             # 溯源: DOMAIN-SUFFIX,vkcdnservice.com
+[包含去重] DOMAIN-SUFFIX,dn-analytics.alketech.eu             # 溯源: DOMAIN-SUFFIX,alketech.eu
 [包含去重] DOMAIN-SUFFIX,email-adobe.branch.rocks             # 溯源: DOMAIN-SUFFIX,branch.rocks
 [包含去重] DOMAIN-SUFFIX,events.splash-screen.net             # 溯源: DOMAIN-SUFFIX,splash-screen.net
 [包含去重] DOMAIN-SUFFIX,experience.contextly.com             # 溯源: DOMAIN-SUFFIX,contextly.com
