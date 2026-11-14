@@ -1,6 +1,6 @@
-# 规则合并审计日志 - 2026-11-13 21:27:08
+# 规则合并审计日志 - 2026-11-14 20:31:20
 # ----------------------------------------------------------
-# 最终规则总数: 223629
+# 最终规则总数: 223846
 # 逻辑精简总数: 3043
 # ----------------------------------------------------------
 
@@ -1819,6 +1819,7 @@
 [包含去重] DOMAIN-SUFFIX,smetrics.omniture.com                # 溯源: DOMAIN-SUFFIX,omniture.com
 [包含去重] DOMAIN-SUFFIX,client.perimeterx.net                # 溯源: DOMAIN-SUFFIX,perimeterx.net
 [包含去重] DOMAIN-SUFFIX,fst-ec.perimeterx.net                # 溯源: DOMAIN-SUFFIX,perimeterx.net
+[包含去重] DOMAIN-SUFFIX,pv-track.pxtrkapp.com                # 溯源: DOMAIN-SUFFIX,pxtrkapp.com
 [包含去重] DOMAIN-SUFFIX,pixel2.realclever.com                # 溯源: DOMAIN-SUFFIX,realclever.com
 [包含去重] DOMAIN-SUFFIX,seb.sharpmarketing.eu                # 溯源: DOMAIN-SUFFIX,sharpmarketing.eu
 [包含去重] DOMAIN-SUFFIX,hello.staticstuff.net                # 溯源: DOMAIN-SUFFIX,staticstuff.net
@@ -2691,7 +2692,6 @@
 [包含去重] DOMAIN-SUFFIX,www.solutions.prudential.com         # 溯源: DOMAIN-SUFFIX,solutions.prudential.com
 [包含去重] DOMAIN-SUFFIX,www.venture-enterprising.com         # 溯源: DOMAIN-SUFFIX,venture-enterprising.com
 [包含去重] DOMAIN-SUFFIX,analytics.analytics-egain.com        # 溯源: DOMAIN-SUFFIX,analytics-egain.com
-[包含去重] DOMAIN-SUFFIX,a8.track.entry.dokoyorimo.com        # 溯源: DOMAIN-SUFFIX,track.entry.dokoyorimo.com
 [包含去重] DOMAIN-SUFFIX,marketing.tr.netsalesmedia.pl        # 溯源: DOMAIN-SUFFIX,tr.netsalesmedia.pl
 [包含去重] DOMAIN-SUFFIX,targeting.washpost.nile.works        # 溯源: DOMAIN-SUFFIX,washpost.nile.works
 [包含去重] DOMAIN-SUFFIX,s.metrics.skyandtelescope.com        # 溯源: DOMAIN-SUFFIX,metrics.skyandtelescope.com
