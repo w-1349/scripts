@@ -1,7 +1,7 @@
-# 规则合并审计日志 - 2026-11-27 23:38:30
+# 规则合并审计日志 - 2026-11-28 22:33:49
 # ----------------------------------------------------------
-# 最终规则总数: 228428
-# 逻辑精简总数: 3053
+# 最终规则总数: 228828
+# 逻辑精简总数: 3054
 # ----------------------------------------------------------
 
 [包含去重] DOMAIN-SUFFIX,s.axon.ai                            # 溯源: DOMAIN-SUFFIX,axon.ai
@@ -1175,6 +1175,7 @@
 [包含去重] DOMAIN-SUFFIX,wienerz.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,willhab.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,wirtvlg.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
+[包含去重] DOMAIN-SUFFIX,wkbrs1.tingyun.com                   # 溯源: DOMAIN-SUFFIX,tingyun.com
 [包含去重] DOMAIN-SUFFIX,wohnnet.oewabox.at                   # 溯源: DOMAIN-SUFFIX,oewabox.at
 [包含去重] DOMAIN-SUFFIX,www.143nchrtl3.com                   # 溯源: DOMAIN-SUFFIX,143nchrtl3.com
 [包含去重] DOMAIN-SUFFIX,www.22-trk-srv.com                   # 溯源: DOMAIN-SUFFIX,22-trk-srv.com
